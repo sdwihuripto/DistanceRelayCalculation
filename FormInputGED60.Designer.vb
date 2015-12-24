@@ -76,8 +76,6 @@ Partial Class FormInputGED60
         Me.Label16 = New System.Windows.Forms.Label()
         Me.MVA = New System.Windows.Forms.Label()
         Me.GroupBox6 = New System.Windows.Forms.GroupBox()
-        Me.TextBox28 = New System.Windows.Forms.TextBox()
-        Me.Label13 = New System.Windows.Forms.Label()
         Me.Label29 = New System.Windows.Forms.Label()
         Me.TextBox22 = New System.Windows.Forms.TextBox()
         Me.Label28 = New System.Windows.Forms.Label()
@@ -101,6 +99,14 @@ Partial Class FormInputGED60
         Me.TextBox30 = New System.Windows.Forms.TextBox()
         Me.TextBox31 = New System.Windows.Forms.TextBox()
         Me.cmdCalculate = New System.Windows.Forms.Button()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Me.ComboBox6 = New System.Windows.Forms.ComboBox()
+        Me.Label30 = New System.Windows.Forms.Label()
+        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox3 = New System.Windows.Forms.ComboBox()
+        Me.Label32 = New System.Windows.Forms.Label()
+        Me.Label33 = New System.Windows.Forms.Label()
+        Me.ComboBox4 = New System.Windows.Forms.ComboBox()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox3.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
@@ -662,8 +668,6 @@ Partial Class FormInputGED60
         '
         'GroupBox6
         '
-        Me.GroupBox6.Controls.Add(Me.TextBox28)
-        Me.GroupBox6.Controls.Add(Me.Label13)
         Me.GroupBox6.Controls.Add(Me.Label29)
         Me.GroupBox6.Controls.Add(Me.TextBox22)
         Me.GroupBox6.Controls.Add(Me.Label28)
@@ -678,34 +682,16 @@ Partial Class FormInputGED60
         Me.GroupBox6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox6.Location = New System.Drawing.Point(282, 357)
         Me.GroupBox6.Name = "GroupBox6"
-        Me.GroupBox6.Size = New System.Drawing.Size(262, 125)
+        Me.GroupBox6.Size = New System.Drawing.Size(262, 106)
         Me.GroupBox6.TabIndex = 101
         Me.GroupBox6.TabStop = False
         Me.GroupBox6.Text = "CT, PT, and Relay Parameter"
-        '
-        'TextBox28
-        '
-        Me.TextBox28.Location = New System.Drawing.Point(140, 16)
-        Me.TextBox28.Name = "TextBox28"
-        Me.TextBox28.Size = New System.Drawing.Size(119, 21)
-        Me.TextBox28.TabIndex = 101
-        Me.TextBox28.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'Label13
-        '
-        Me.Label13.AutoSize = True
-        Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label13.Location = New System.Drawing.Point(9, 19)
-        Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(111, 15)
-        Me.Label13.TabIndex = 100
-        Me.Label13.Text = "Transformer Name"
         '
         'Label29
         '
         Me.Label29.AutoSize = True
         Me.Label29.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label29.Location = New System.Drawing.Point(180, 102)
+        Me.Label29.Location = New System.Drawing.Point(180, 78)
         Me.Label29.Name = "Label29"
         Me.Label29.Size = New System.Drawing.Size(14, 15)
         Me.Label29.TabIndex = 98
@@ -713,7 +699,7 @@ Partial Class FormInputGED60
         '
         'TextBox22
         '
-        Me.TextBox22.Location = New System.Drawing.Point(140, 97)
+        Me.TextBox22.Location = New System.Drawing.Point(140, 73)
         Me.TextBox22.Name = "TextBox22"
         Me.TextBox22.Size = New System.Drawing.Size(34, 21)
         Me.TextBox22.TabIndex = 97
@@ -722,7 +708,7 @@ Partial Class FormInputGED60
         '
         Me.Label28.AutoSize = True
         Me.Label28.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label28.Location = New System.Drawing.Point(9, 100)
+        Me.Label28.Location = New System.Drawing.Point(9, 76)
         Me.Label28.Name = "Label28"
         Me.Label28.Size = New System.Drawing.Size(135, 15)
         Me.Label28.TabIndex = 96
@@ -732,7 +718,7 @@ Partial Class FormInputGED60
         '
         Me.Label23.AutoSize = True
         Me.Label23.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.5!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label23.Location = New System.Drawing.Point(180, 72)
+        Me.Label23.Location = New System.Drawing.Point(180, 48)
         Me.Label23.Name = "Label23"
         Me.Label23.Size = New System.Drawing.Size(13, 17)
         Me.Label23.TabIndex = 95
@@ -742,7 +728,7 @@ Partial Class FormInputGED60
         '
         Me.Label11.AutoSize = True
         Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.5!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(180, 43)
+        Me.Label11.Location = New System.Drawing.Point(180, 19)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(13, 17)
         Me.Label11.TabIndex = 94
@@ -750,28 +736,28 @@ Partial Class FormInputGED60
         '
         'TextBox23
         '
-        Me.TextBox23.Location = New System.Drawing.Point(202, 70)
+        Me.TextBox23.Location = New System.Drawing.Point(202, 46)
         Me.TextBox23.Name = "TextBox23"
         Me.TextBox23.Size = New System.Drawing.Size(34, 21)
         Me.TextBox23.TabIndex = 93
         '
         'TextBox24
         '
-        Me.TextBox24.Location = New System.Drawing.Point(202, 42)
+        Me.TextBox24.Location = New System.Drawing.Point(202, 18)
         Me.TextBox24.Name = "TextBox24"
         Me.TextBox24.Size = New System.Drawing.Size(34, 21)
         Me.TextBox24.TabIndex = 92
         '
         'TextBox25
         '
-        Me.TextBox25.Location = New System.Drawing.Point(140, 70)
+        Me.TextBox25.Location = New System.Drawing.Point(140, 46)
         Me.TextBox25.Name = "TextBox25"
         Me.TextBox25.Size = New System.Drawing.Size(34, 21)
         Me.TextBox25.TabIndex = 89
         '
         'TextBox26
         '
-        Me.TextBox26.Location = New System.Drawing.Point(140, 42)
+        Me.TextBox26.Location = New System.Drawing.Point(140, 18)
         Me.TextBox26.Name = "TextBox26"
         Me.TextBox26.Size = New System.Drawing.Size(34, 21)
         Me.TextBox26.TabIndex = 90
@@ -780,7 +766,7 @@ Partial Class FormInputGED60
         '
         Me.Label18.AutoSize = True
         Me.Label18.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label18.Location = New System.Drawing.Point(9, 73)
+        Me.Label18.Location = New System.Drawing.Point(9, 49)
         Me.Label18.Name = "Label18"
         Me.Label18.Size = New System.Drawing.Size(54, 15)
         Me.Label18.TabIndex = 91
@@ -790,7 +776,7 @@ Partial Class FormInputGED60
         '
         Me.Label19.AutoSize = True
         Me.Label19.Font = New System.Drawing.Font("Microsoft Tai Le", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label19.Location = New System.Drawing.Point(9, 47)
+        Me.Label19.Location = New System.Drawing.Point(9, 23)
         Me.Label19.Name = "Label19"
         Me.Label19.Size = New System.Drawing.Size(53, 16)
         Me.Label19.TabIndex = 88
@@ -897,18 +883,106 @@ Partial Class FormInputGED60
         'cmdCalculate
         '
         Me.cmdCalculate.Font = New System.Drawing.Font("Meiryo UI", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cmdCalculate.Location = New System.Drawing.Point(335, 514)
+        Me.cmdCalculate.Location = New System.Drawing.Point(336, 546)
         Me.cmdCalculate.Name = "cmdCalculate"
         Me.cmdCalculate.Size = New System.Drawing.Size(140, 35)
         Me.cmdCalculate.TabIndex = 109
         Me.cmdCalculate.Text = "&Calculate"
         Me.cmdCalculate.UseVisualStyleBackColor = True
         '
+        'Label13
+        '
+        Me.Label13.AutoSize = True
+        Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label13.Location = New System.Drawing.Point(429, 466)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(63, 30)
+        Me.Label13.TabIndex = 111
+        Me.Label13.Text = "Conductor" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Type (L3)"
+        '
+        'ComboBox6
+        '
+        Me.ComboBox6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox6.FormattingEnabled = True
+        Me.ComboBox6.Items.AddRange(New Object() {"1", "2"})
+        Me.ComboBox6.Location = New System.Drawing.Point(504, 469)
+        Me.ComboBox6.Name = "ComboBox6"
+        Me.ComboBox6.Size = New System.Drawing.Size(31, 23)
+        Me.ComboBox6.TabIndex = 110
+        '
+        'Label30
+        '
+        Me.Label30.AutoSize = True
+        Me.Label30.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label30.Location = New System.Drawing.Point(281, 506)
+        Me.Label30.Name = "Label30"
+        Me.Label30.Size = New System.Drawing.Size(63, 30)
+        Me.Label30.TabIndex = 113
+        Me.Label30.Text = "Conductor" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Type (L2)"
+        '
+        'ComboBox1
+        '
+        Me.ComboBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox1.FormattingEnabled = True
+        Me.ComboBox1.Items.AddRange(New Object() {"1", "2"})
+        Me.ComboBox1.Location = New System.Drawing.Point(356, 513)
+        Me.ComboBox1.Name = "ComboBox1"
+        Me.ComboBox1.Size = New System.Drawing.Size(31, 23)
+        Me.ComboBox1.TabIndex = 112
+        '
+        'ComboBox3
+        '
+        Me.ComboBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox3.FormattingEnabled = True
+        Me.ComboBox3.Items.AddRange(New Object() {"1", "2"})
+        Me.ComboBox3.Location = New System.Drawing.Point(504, 514)
+        Me.ComboBox3.Name = "ComboBox3"
+        Me.ComboBox3.Size = New System.Drawing.Size(31, 23)
+        Me.ComboBox3.TabIndex = 112
+        '
+        'Label32
+        '
+        Me.Label32.AutoSize = True
+        Me.Label32.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!)
+        Me.Label32.Location = New System.Drawing.Point(429, 506)
+        Me.Label32.Name = "Label32"
+        Me.Label32.Size = New System.Drawing.Size(63, 30)
+        Me.Label32.TabIndex = 113
+        Me.Label32.Text = "Conductor" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Type (L4)"
+        '
+        'Label33
+        '
+        Me.Label33.AutoSize = True
+        Me.Label33.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label33.Location = New System.Drawing.Point(281, 466)
+        Me.Label33.Name = "Label33"
+        Me.Label33.Size = New System.Drawing.Size(63, 30)
+        Me.Label33.TabIndex = 115
+        Me.Label33.Text = "Conductor" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Type (L1)"
+        '
+        'ComboBox4
+        '
+        Me.ComboBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ComboBox4.FormattingEnabled = True
+        Me.ComboBox4.Items.AddRange(New Object() {"1", "2"})
+        Me.ComboBox4.Location = New System.Drawing.Point(356, 469)
+        Me.ComboBox4.Name = "ComboBox4"
+        Me.ComboBox4.Size = New System.Drawing.Size(31, 23)
+        Me.ComboBox4.TabIndex = 114
+        '
         'FormInputGED60
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(554, 632)
+        Me.Controls.Add(Me.Label33)
+        Me.Controls.Add(Me.ComboBox4)
+        Me.Controls.Add(Me.Label32)
+        Me.Controls.Add(Me.ComboBox3)
+        Me.Controls.Add(Me.Label30)
+        Me.Controls.Add(Me.ComboBox1)
+        Me.Controls.Add(Me.Label13)
+        Me.Controls.Add(Me.ComboBox6)
         Me.Controls.Add(Me.cmdCalculate)
         Me.Controls.Add(Me.TextBox31)
         Me.Controls.Add(Me.Label27)
@@ -1026,8 +1100,6 @@ Partial Class FormInputGED60
     Friend WithEvents Label18 As System.Windows.Forms.Label
     Friend WithEvents Label19 As System.Windows.Forms.Label
     Friend WithEvents TextBox27 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox28 As System.Windows.Forms.TextBox
-    Friend WithEvents Label13 As System.Windows.Forms.Label
     Friend WithEvents PictureBox5 As System.Windows.Forms.PictureBox
     Friend WithEvents Footer2 As System.Windows.Forms.Label
     Friend WithEvents Label14 As System.Windows.Forms.Label
@@ -1040,4 +1112,12 @@ Partial Class FormInputGED60
     Friend WithEvents TextBox30 As System.Windows.Forms.TextBox
     Friend WithEvents TextBox31 As System.Windows.Forms.TextBox
     Friend WithEvents cmdCalculate As System.Windows.Forms.Button
+    Friend WithEvents Label13 As System.Windows.Forms.Label
+    Friend WithEvents ComboBox6 As System.Windows.Forms.ComboBox
+    Friend WithEvents Label30 As System.Windows.Forms.Label
+    Friend WithEvents ComboBox1 As System.Windows.Forms.ComboBox
+    Friend WithEvents ComboBox3 As System.Windows.Forms.ComboBox
+    Friend WithEvents Label32 As System.Windows.Forms.Label
+    Friend WithEvents Label33 As System.Windows.Forms.Label
+    Friend WithEvents ComboBox4 As System.Windows.Forms.ComboBox
 End Class
