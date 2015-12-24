@@ -1,0 +1,13 @@
+c:\users\satriodwih\documents\visual studio 2013\Projects\DistanceRelayCalculation\DistanceRelayCalculation\bin\Debug\DistanceRelayCalculation.exe.config
+c:\users\satriodwih\documents\visual studio 2013\Projects\DistanceRelayCalculation\DistanceRelayCalculation\bin\Debug\DistanceRelayCalculation.exe
+c:\users\satriodwih\documents\visual studio 2013\Projects\DistanceRelayCalculation\DistanceRelayCalculation\bin\Debug\DistanceRelayCalculation.pdb
+c:\users\satriodwih\documents\visual studio 2013\Projects\DistanceRelayCalculation\DistanceRelayCalculation\bin\Debug\DistanceRelayCalculation.xml
+c:\users\satriodwih\documents\visual studio 2013\Projects\DistanceRelayCalculation\DistanceRelayCalculation\obj\Debug\DistanceRelayCalculation.HomePage.resources
+c:\users\satriodwih\documents\visual studio 2013\Projects\DistanceRelayCalculation\DistanceRelayCalculation\obj\Debug\DistanceRelayCalculation.Resources.resources
+c:\users\satriodwih\documents\visual studio 2013\Projects\DistanceRelayCalculation\DistanceRelayCalculation\obj\Debug\DistanceRelayCalculation.vbproj.GenerateResource.Cache
+c:\users\satriodwih\documents\visual studio 2013\Projects\DistanceRelayCalculation\DistanceRelayCalculation\obj\Debug\DistanceRelayCalculation.exe
+c:\users\satriodwih\documents\visual studio 2013\Projects\DistanceRelayCalculation\DistanceRelayCalculation\obj\Debug\DistanceRelayCalculation.xml
+c:\users\satriodwih\documents\visual studio 2013\Projects\DistanceRelayCalculation\DistanceRelayCalculation\obj\Debug\DistanceRelayCalculation.pdb
+c:\users\satriodwih\documents\visual studio 2013\Projects\DistanceRelayCalculation\DistanceRelayCalculation\obj\Debug\DistanceRelayCalculation.FormInputGED60.resources
+c:\users\satriodwih\documents\visual studio 2013\Projects\DistanceRelayCalculation\DistanceRelayCalculation\obj\Debug\DistanceRelayCalculation.FormAddInfo.resources
+c:\users\satriodwih\documents\visual studio 2013\Projects\DistanceRelayCalculation\DistanceRelayCalculation\obj\Debug\DistanceRelayCalculation.FormInputGEL90.resources
