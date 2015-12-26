@@ -69,7 +69,7 @@ Partial Class FormInputGED60
         Me.Label22 = New System.Windows.Forms.Label()
         Me.Label21 = New System.Windows.Forms.Label()
         Me.Label20 = New System.Windows.Forms.Label()
-        Me.impedance = New System.Windows.Forms.TextBox()
+        Me.impedanceBox = New System.Windows.Forms.TextBox()
         Me.voltageLevel = New System.Windows.Forms.TextBox()
         Me.mvaRating = New System.Windows.Forms.TextBox()
         Me.Label17 = New System.Windows.Forms.Label()
@@ -91,9 +91,9 @@ Partial Class FormInputGED60
         Me.Label24 = New System.Windows.Forms.Label()
         Me.Label25 = New System.Windows.Forms.Label()
         Me.Label26 = New System.Windows.Forms.Label()
-        Me.TextBox29 = New System.Windows.Forms.TextBox()
+        Me.iLoadBox = New System.Windows.Forms.TextBox()
         Me.Label27 = New System.Windows.Forms.Label()
-        Me.TextBox30 = New System.Windows.Forms.TextBox()
+        Me.ResistTower = New System.Windows.Forms.TextBox()
         Me.infeed = New System.Windows.Forms.TextBox()
         Me.cmdCalculate = New System.Windows.Forms.Button()
         Me.Label13 = New System.Windows.Forms.Label()
@@ -550,7 +550,7 @@ Partial Class FormInputGED60
         Me.GroupBox5.Controls.Add(Me.Label22)
         Me.GroupBox5.Controls.Add(Me.Label21)
         Me.GroupBox5.Controls.Add(Me.Label20)
-        Me.GroupBox5.Controls.Add(Me.impedance)
+        Me.GroupBox5.Controls.Add(Me.impedanceBox)
         Me.GroupBox5.Controls.Add(Me.voltageLevel)
         Me.GroupBox5.Controls.Add(Me.mvaRating)
         Me.GroupBox5.Controls.Add(Me.Label17)
@@ -612,12 +612,12 @@ Partial Class FormInputGED60
         Me.Label20.TabIndex = 94
         Me.Label20.Text = "MVA"
         '
-        'impedance
+        'impedanceBox
         '
-        Me.impedance.Location = New System.Drawing.Point(131, 100)
-        Me.impedance.Name = "impedance"
-        Me.impedance.Size = New System.Drawing.Size(51, 21)
-        Me.impedance.TabIndex = 93
+        Me.impedanceBox.Location = New System.Drawing.Point(131, 100)
+        Me.impedanceBox.Name = "impedanceBox"
+        Me.impedanceBox.Size = New System.Drawing.Size(51, 21)
+        Me.impedanceBox.TabIndex = 93
         '
         'voltageLevel
         '
@@ -816,12 +816,12 @@ Partial Class FormInputGED60
         Me.Label26.TabIndex = 103
         Me.Label26.Text = "A"
         '
-        'TextBox29
+        'iLoadBox
         '
-        Me.TextBox29.Location = New System.Drawing.Point(184, 540)
-        Me.TextBox29.Name = "TextBox29"
-        Me.TextBox29.Size = New System.Drawing.Size(34, 20)
-        Me.TextBox29.TabIndex = 102
+        Me.iLoadBox.Location = New System.Drawing.Point(184, 540)
+        Me.iLoadBox.Name = "iLoadBox"
+        Me.iLoadBox.Size = New System.Drawing.Size(34, 20)
+        Me.iLoadBox.TabIndex = 102
         '
         'Label27
         '
@@ -833,12 +833,12 @@ Partial Class FormInputGED60
         Me.Label27.TabIndex = 101
         Me.Label27.Text = "Ohm"
         '
-        'TextBox30
+        'ResistTower
         '
-        Me.TextBox30.Location = New System.Drawing.Point(157, 514)
-        Me.TextBox30.Name = "TextBox30"
-        Me.TextBox30.Size = New System.Drawing.Size(61, 20)
-        Me.TextBox30.TabIndex = 100
+        Me.ResistTower.Location = New System.Drawing.Point(157, 514)
+        Me.ResistTower.Name = "ResistTower"
+        Me.ResistTower.Size = New System.Drawing.Size(61, 20)
+        Me.ResistTower.TabIndex = 100
         '
         'infeed
         '
@@ -954,9 +954,9 @@ Partial Class FormInputGED60
         Me.Controls.Add(Me.infeed)
         Me.Controls.Add(Me.Label27)
         Me.Controls.Add(Me.Label26)
-        Me.Controls.Add(Me.TextBox30)
+        Me.Controls.Add(Me.ResistTower)
         Me.Controls.Add(Me.Label25)
-        Me.Controls.Add(Me.TextBox29)
+        Me.Controls.Add(Me.iLoadBox)
         Me.Controls.Add(Me.Label24)
         Me.Controls.Add(Me.Label15)
         Me.Controls.Add(Me.PictureBox5)
@@ -1048,7 +1048,7 @@ Partial Class FormInputGED60
     Friend WithEvents Label22 As System.Windows.Forms.Label
     Friend WithEvents Label21 As System.Windows.Forms.Label
     Friend WithEvents Label20 As System.Windows.Forms.Label
-    Friend WithEvents impedance As System.Windows.Forms.TextBox
+    Friend WithEvents impedanceBox As System.Windows.Forms.TextBox
     Friend WithEvents voltageLevel As System.Windows.Forms.TextBox
     Friend WithEvents mvaRating As System.Windows.Forms.TextBox
     Friend WithEvents Label17 As System.Windows.Forms.Label
@@ -1071,9 +1071,9 @@ Partial Class FormInputGED60
     Friend WithEvents Label24 As System.Windows.Forms.Label
     Friend WithEvents Label25 As System.Windows.Forms.Label
     Friend WithEvents Label26 As System.Windows.Forms.Label
-    Friend WithEvents TextBox29 As System.Windows.Forms.TextBox
+    Friend WithEvents iLoadBox As System.Windows.Forms.TextBox
     Friend WithEvents Label27 As System.Windows.Forms.Label
-    Friend WithEvents TextBox30 As System.Windows.Forms.TextBox
+    Friend WithEvents ResistTower As System.Windows.Forms.TextBox
     Friend WithEvents infeed As System.Windows.Forms.TextBox
     Friend WithEvents cmdCalculate As System.Windows.Forms.Button
     Friend WithEvents Label13 As System.Windows.Forms.Label
