@@ -41,23 +41,23 @@ Partial Class FormInputGED60
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.txtPanjangL2 = New System.Windows.Forms.TextBox()
         Me.TextBox7 = New System.Windows.Forms.TextBox()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
+        Me.txtReaktansiL2 = New System.Windows.Forms.TextBox()
         Me.TextBox8 = New System.Windows.Forms.TextBox()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
+        Me.txtResistansiL2 = New System.Windows.Forms.TextBox()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
-        Me.TextBox9 = New System.Windows.Forms.TextBox()
+        Me.txtPanjangL3 = New System.Windows.Forms.TextBox()
         Me.TextBox12 = New System.Windows.Forms.TextBox()
         Me.TextBox10 = New System.Windows.Forms.TextBox()
-        Me.TextBox13 = New System.Windows.Forms.TextBox()
-        Me.TextBox11 = New System.Windows.Forms.TextBox()
+        Me.txtResistansiL3 = New System.Windows.Forms.TextBox()
+        Me.txtReaktansiL3 = New System.Windows.Forms.TextBox()
         Me.GroupBox4 = New System.Windows.Forms.GroupBox()
-        Me.TextBox14 = New System.Windows.Forms.TextBox()
+        Me.txtPanjangL4 = New System.Windows.Forms.TextBox()
         Me.TextBox17 = New System.Windows.Forms.TextBox()
         Me.TextBox15 = New System.Windows.Forms.TextBox()
-        Me.TextBox18 = New System.Windows.Forms.TextBox()
-        Me.TextBox16 = New System.Windows.Forms.TextBox()
+        Me.txtResistansiL4 = New System.Windows.Forms.TextBox()
+        Me.txtReaktansiL4 = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.AddBtn1 = New System.Windows.Forms.Button()
         Me.AddBtn2 = New System.Windows.Forms.Button()
@@ -69,22 +69,19 @@ Partial Class FormInputGED60
         Me.Label22 = New System.Windows.Forms.Label()
         Me.Label21 = New System.Windows.Forms.Label()
         Me.Label20 = New System.Windows.Forms.Label()
-        Me.TextBox19 = New System.Windows.Forms.TextBox()
-        Me.TextBox20 = New System.Windows.Forms.TextBox()
-        Me.TextBox21 = New System.Windows.Forms.TextBox()
+        Me.impedanceBox = New System.Windows.Forms.TextBox()
+        Me.voltageLevel = New System.Windows.Forms.TextBox()
+        Me.mvaRating = New System.Windows.Forms.TextBox()
         Me.Label17 = New System.Windows.Forms.Label()
         Me.Label16 = New System.Windows.Forms.Label()
         Me.MVA = New System.Windows.Forms.Label()
         Me.GroupBox6 = New System.Windows.Forms.GroupBox()
-        Me.Label29 = New System.Windows.Forms.Label()
-        Me.TextBox22 = New System.Windows.Forms.TextBox()
-        Me.Label28 = New System.Windows.Forms.Label()
         Me.Label23 = New System.Windows.Forms.Label()
         Me.Label11 = New System.Windows.Forms.Label()
-        Me.TextBox23 = New System.Windows.Forms.TextBox()
-        Me.TextBox24 = New System.Windows.Forms.TextBox()
-        Me.TextBox25 = New System.Windows.Forms.TextBox()
-        Me.TextBox26 = New System.Windows.Forms.TextBox()
+        Me.PTs = New System.Windows.Forms.TextBox()
+        Me.CTs = New System.Windows.Forms.TextBox()
+        Me.PTp = New System.Windows.Forms.TextBox()
+        Me.CTp = New System.Windows.Forms.TextBox()
         Me.Label18 = New System.Windows.Forms.Label()
         Me.Label19 = New System.Windows.Forms.Label()
         Me.PictureBox5 = New System.Windows.Forms.PictureBox()
@@ -94,10 +91,10 @@ Partial Class FormInputGED60
         Me.Label24 = New System.Windows.Forms.Label()
         Me.Label25 = New System.Windows.Forms.Label()
         Me.Label26 = New System.Windows.Forms.Label()
-        Me.TextBox29 = New System.Windows.Forms.TextBox()
+        Me.iLoadBox = New System.Windows.Forms.TextBox()
         Me.Label27 = New System.Windows.Forms.Label()
-        Me.TextBox30 = New System.Windows.Forms.TextBox()
-        Me.TextBox31 = New System.Windows.Forms.TextBox()
+        Me.ResistTower = New System.Windows.Forms.TextBox()
+        Me.infeed = New System.Windows.Forms.TextBox()
         Me.cmdCalculate = New System.Windows.Forms.Button()
         Me.Label13 = New System.Windows.Forms.Label()
         Me.ComboBox6 = New System.Windows.Forms.ComboBox()
@@ -246,9 +243,9 @@ Partial Class FormInputGED60
         'txtPanjangL1
         '
         Me.txtPanjangL1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPanjangL1.Location = New System.Drawing.Point(7, 156)
+        Me.txtPanjangL1.Location = New System.Drawing.Point(8, 129)
         Me.txtPanjangL1.Name = "txtPanjangL1"
-        Me.txtPanjangL1.Size = New System.Drawing.Size(118, 21)
+        Me.txtPanjangL1.Size = New System.Drawing.Size(116, 21)
         Me.txtPanjangL1.TabIndex = 98
         Me.txtPanjangL1.Text = "Length (Km)"
         Me.txtPanjangL1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -256,10 +253,10 @@ Partial Class FormInputGED60
         'txtReaktansiL1
         '
         Me.txtReaktansiL1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtReaktansiL1.Location = New System.Drawing.Point(5, 129)
+        Me.txtReaktansiL1.Location = New System.Drawing.Point(8, 102)
         Me.txtReaktansiL1.Name = "txtReaktansiL1"
         Me.txtReaktansiL1.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal
-        Me.txtReaktansiL1.Size = New System.Drawing.Size(120, 21)
+        Me.txtReaktansiL1.Size = New System.Drawing.Size(116, 21)
         Me.txtReaktansiL1.TabIndex = 97
         Me.txtReaktansiL1.Text = "Reactance (Ohm/Km)"
         Me.txtReaktansiL1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -267,10 +264,10 @@ Partial Class FormInputGED60
         'TextBox3
         '
         Me.TextBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox3.Location = New System.Drawing.Point(7, 75)
+        Me.TextBox3.Location = New System.Drawing.Point(8, 156)
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal
-        Me.TextBox3.Size = New System.Drawing.Size(118, 21)
+        Me.TextBox3.Size = New System.Drawing.Size(116, 21)
         Me.TextBox3.TabIndex = 96
         Me.TextBox3.Text = "CCC (A)"
         Me.TextBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -278,19 +275,19 @@ Partial Class FormInputGED60
         'txtResistansiL1
         '
         Me.txtResistansiL1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtResistansiL1.Location = New System.Drawing.Point(6, 102)
+        Me.txtResistansiL1.Location = New System.Drawing.Point(8, 75)
         Me.txtResistansiL1.Name = "txtResistansiL1"
         Me.txtResistansiL1.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal
-        Me.txtResistansiL1.Size = New System.Drawing.Size(119, 21)
+        Me.txtResistansiL1.Size = New System.Drawing.Size(116, 21)
         Me.txtResistansiL1.TabIndex = 96
         Me.txtResistansiL1.Text = "Resistance (Ohm/Km)"
         Me.txtResistansiL1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(6, 48)
+        Me.TextBox2.Location = New System.Drawing.Point(8, 48)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(119, 21)
+        Me.TextBox2.Size = New System.Drawing.Size(116, 21)
         Me.TextBox2.TabIndex = 1
         Me.TextBox2.Text = "To Substantion"
         Me.TextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -299,18 +296,18 @@ Partial Class FormInputGED60
         '
         Me.TextBox1.Location = New System.Drawing.Point(7, 21)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(119, 21)
+        Me.TextBox1.Size = New System.Drawing.Size(117, 21)
         Me.TextBox1.TabIndex = 0
         Me.TextBox1.Text = "From Substantion"
         Me.TextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'GroupBox1
         '
-        Me.GroupBox1.Controls.Add(Me.TextBox4)
+        Me.GroupBox1.Controls.Add(Me.txtPanjangL2)
         Me.GroupBox1.Controls.Add(Me.TextBox7)
-        Me.GroupBox1.Controls.Add(Me.TextBox5)
+        Me.GroupBox1.Controls.Add(Me.txtReaktansiL2)
         Me.GroupBox1.Controls.Add(Me.TextBox8)
-        Me.GroupBox1.Controls.Add(Me.TextBox6)
+        Me.GroupBox1.Controls.Add(Me.txtResistansiL2)
         Me.GroupBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox1.Location = New System.Drawing.Point(140, 132)
         Me.GroupBox1.Name = "GroupBox1"
@@ -319,63 +316,63 @@ Partial Class FormInputGED60
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Line Parameter (L2)"
         '
-        'TextBox4
+        'txtPanjangL2
         '
-        Me.TextBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox4.Location = New System.Drawing.Point(7, 129)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(118, 21)
-        Me.TextBox4.TabIndex = 103
-        Me.TextBox4.Text = "Length (Km)"
-        Me.TextBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.txtPanjangL2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtPanjangL2.Location = New System.Drawing.Point(7, 129)
+        Me.txtPanjangL2.Name = "txtPanjangL2"
+        Me.txtPanjangL2.Size = New System.Drawing.Size(118, 21)
+        Me.txtPanjangL2.TabIndex = 103
+        Me.txtPanjangL2.Text = "Length (Km)"
+        Me.txtPanjangL2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox7
         '
-        Me.TextBox7.Location = New System.Drawing.Point(6, 48)
+        Me.TextBox7.Location = New System.Drawing.Point(7, 48)
         Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(119, 21)
+        Me.TextBox7.Size = New System.Drawing.Size(118, 21)
         Me.TextBox7.TabIndex = 100
         Me.TextBox7.Text = "To Substantion"
         Me.TextBox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox5
+        'txtReaktansiL2
         '
-        Me.TextBox5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox5.Location = New System.Drawing.Point(5, 102)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal
-        Me.TextBox5.Size = New System.Drawing.Size(120, 21)
-        Me.TextBox5.TabIndex = 102
-        Me.TextBox5.Text = "Reactance (Ohm)"
-        Me.TextBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.txtReaktansiL2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtReaktansiL2.Location = New System.Drawing.Point(7, 102)
+        Me.txtReaktansiL2.Name = "txtReaktansiL2"
+        Me.txtReaktansiL2.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal
+        Me.txtReaktansiL2.Size = New System.Drawing.Size(118, 21)
+        Me.txtReaktansiL2.TabIndex = 102
+        Me.txtReaktansiL2.Text = "Reactance (Ohm)"
+        Me.txtReaktansiL2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox8
         '
         Me.TextBox8.Location = New System.Drawing.Point(7, 21)
         Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.Size = New System.Drawing.Size(119, 21)
+        Me.TextBox8.Size = New System.Drawing.Size(118, 21)
         Me.TextBox8.TabIndex = 99
         Me.TextBox8.Text = "From Substantion"
         Me.TextBox8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox6
+        'txtResistansiL2
         '
-        Me.TextBox6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox6.Location = New System.Drawing.Point(6, 75)
-        Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal
-        Me.TextBox6.Size = New System.Drawing.Size(119, 21)
-        Me.TextBox6.TabIndex = 101
-        Me.TextBox6.Text = "Resistance (Ohm)"
-        Me.TextBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.txtResistansiL2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtResistansiL2.Location = New System.Drawing.Point(7, 75)
+        Me.txtResistansiL2.Name = "txtResistansiL2"
+        Me.txtResistansiL2.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal
+        Me.txtResistansiL2.Size = New System.Drawing.Size(118, 21)
+        Me.txtResistansiL2.TabIndex = 101
+        Me.txtResistansiL2.Text = "Resistance (Ohm)"
+        Me.txtResistansiL2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'GroupBox2
         '
-        Me.GroupBox2.Controls.Add(Me.TextBox9)
+        Me.GroupBox2.Controls.Add(Me.txtPanjangL3)
         Me.GroupBox2.Controls.Add(Me.TextBox12)
         Me.GroupBox2.Controls.Add(Me.TextBox10)
-        Me.GroupBox2.Controls.Add(Me.TextBox13)
-        Me.GroupBox2.Controls.Add(Me.TextBox11)
+        Me.GroupBox2.Controls.Add(Me.txtResistansiL3)
+        Me.GroupBox2.Controls.Add(Me.txtReaktansiL3)
         Me.GroupBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox2.Location = New System.Drawing.Point(278, 132)
         Me.GroupBox2.Name = "GroupBox2"
@@ -384,63 +381,63 @@ Partial Class FormInputGED60
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Line Parameter (L3)"
         '
-        'TextBox9
+        'txtPanjangL3
         '
-        Me.TextBox9.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox9.Location = New System.Drawing.Point(6, 129)
-        Me.TextBox9.Name = "TextBox9"
-        Me.TextBox9.Size = New System.Drawing.Size(118, 21)
-        Me.TextBox9.TabIndex = 108
-        Me.TextBox9.Text = "Length (Km)"
-        Me.TextBox9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.txtPanjangL3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtPanjangL3.Location = New System.Drawing.Point(6, 129)
+        Me.txtPanjangL3.Name = "txtPanjangL3"
+        Me.txtPanjangL3.Size = New System.Drawing.Size(118, 21)
+        Me.txtPanjangL3.TabIndex = 108
+        Me.txtPanjangL3.Text = "Length (Km)"
+        Me.txtPanjangL3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox12
         '
         Me.TextBox12.Location = New System.Drawing.Point(6, 21)
         Me.TextBox12.Name = "TextBox12"
-        Me.TextBox12.Size = New System.Drawing.Size(119, 21)
+        Me.TextBox12.Size = New System.Drawing.Size(118, 21)
         Me.TextBox12.TabIndex = 104
         Me.TextBox12.Text = "From Substantion"
         Me.TextBox12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox10
         '
-        Me.TextBox10.Location = New System.Drawing.Point(5, 48)
+        Me.TextBox10.Location = New System.Drawing.Point(6, 48)
         Me.TextBox10.Name = "TextBox10"
-        Me.TextBox10.Size = New System.Drawing.Size(119, 21)
+        Me.TextBox10.Size = New System.Drawing.Size(118, 21)
         Me.TextBox10.TabIndex = 105
         Me.TextBox10.Text = "To Substantion"
         Me.TextBox10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox13
+        'txtResistansiL3
         '
-        Me.TextBox13.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox13.Location = New System.Drawing.Point(5, 75)
-        Me.TextBox13.Name = "TextBox13"
-        Me.TextBox13.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal
-        Me.TextBox13.Size = New System.Drawing.Size(119, 21)
-        Me.TextBox13.TabIndex = 106
-        Me.TextBox13.Text = "Resistance (Ohm)"
-        Me.TextBox13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.txtResistansiL3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtResistansiL3.Location = New System.Drawing.Point(6, 75)
+        Me.txtResistansiL3.Name = "txtResistansiL3"
+        Me.txtResistansiL3.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal
+        Me.txtResistansiL3.Size = New System.Drawing.Size(118, 21)
+        Me.txtResistansiL3.TabIndex = 106
+        Me.txtResistansiL3.Text = "Resistance (Ohm)"
+        Me.txtResistansiL3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox11
+        'txtReaktansiL3
         '
-        Me.TextBox11.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox11.Location = New System.Drawing.Point(4, 102)
-        Me.TextBox11.Name = "TextBox11"
-        Me.TextBox11.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal
-        Me.TextBox11.Size = New System.Drawing.Size(120, 21)
-        Me.TextBox11.TabIndex = 107
-        Me.TextBox11.Text = "Reactance (Ohm)"
-        Me.TextBox11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.txtReaktansiL3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtReaktansiL3.Location = New System.Drawing.Point(6, 102)
+        Me.txtReaktansiL3.Name = "txtReaktansiL3"
+        Me.txtReaktansiL3.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal
+        Me.txtReaktansiL3.Size = New System.Drawing.Size(118, 21)
+        Me.txtReaktansiL3.TabIndex = 107
+        Me.txtReaktansiL3.Text = "Reactance (Ohm)"
+        Me.txtReaktansiL3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'GroupBox4
         '
-        Me.GroupBox4.Controls.Add(Me.TextBox14)
+        Me.GroupBox4.Controls.Add(Me.txtPanjangL4)
         Me.GroupBox4.Controls.Add(Me.TextBox17)
         Me.GroupBox4.Controls.Add(Me.TextBox15)
-        Me.GroupBox4.Controls.Add(Me.TextBox18)
-        Me.GroupBox4.Controls.Add(Me.TextBox16)
+        Me.GroupBox4.Controls.Add(Me.txtResistansiL4)
+        Me.GroupBox4.Controls.Add(Me.txtReaktansiL4)
         Me.GroupBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox4.Location = New System.Drawing.Point(416, 132)
         Me.GroupBox4.Name = "GroupBox4"
@@ -449,55 +446,55 @@ Partial Class FormInputGED60
         Me.GroupBox4.TabStop = False
         Me.GroupBox4.Text = "Line Parameter (L4)"
         '
-        'TextBox14
+        'txtPanjangL4
         '
-        Me.TextBox14.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox14.Location = New System.Drawing.Point(6, 129)
-        Me.TextBox14.Name = "TextBox14"
-        Me.TextBox14.Size = New System.Drawing.Size(118, 21)
-        Me.TextBox14.TabIndex = 113
-        Me.TextBox14.Text = "Length (Km)"
-        Me.TextBox14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.txtPanjangL4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtPanjangL4.Location = New System.Drawing.Point(6, 129)
+        Me.txtPanjangL4.Name = "txtPanjangL4"
+        Me.txtPanjangL4.Size = New System.Drawing.Size(118, 21)
+        Me.txtPanjangL4.TabIndex = 113
+        Me.txtPanjangL4.Text = "Length (Km)"
+        Me.txtPanjangL4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox17
         '
         Me.TextBox17.Location = New System.Drawing.Point(6, 21)
         Me.TextBox17.Name = "TextBox17"
-        Me.TextBox17.Size = New System.Drawing.Size(119, 21)
+        Me.TextBox17.Size = New System.Drawing.Size(118, 21)
         Me.TextBox17.TabIndex = 109
         Me.TextBox17.Text = "From Substantion"
         Me.TextBox17.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox15
         '
-        Me.TextBox15.Location = New System.Drawing.Point(5, 48)
+        Me.TextBox15.Location = New System.Drawing.Point(6, 48)
         Me.TextBox15.Name = "TextBox15"
-        Me.TextBox15.Size = New System.Drawing.Size(119, 21)
+        Me.TextBox15.Size = New System.Drawing.Size(118, 21)
         Me.TextBox15.TabIndex = 110
         Me.TextBox15.Text = "To Substantion"
         Me.TextBox15.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox18
+        'txtResistansiL4
         '
-        Me.TextBox18.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox18.Location = New System.Drawing.Point(5, 75)
-        Me.TextBox18.Name = "TextBox18"
-        Me.TextBox18.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal
-        Me.TextBox18.Size = New System.Drawing.Size(119, 21)
-        Me.TextBox18.TabIndex = 111
-        Me.TextBox18.Text = "Resistance (Ohm)"
-        Me.TextBox18.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.txtResistansiL4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtResistansiL4.Location = New System.Drawing.Point(6, 75)
+        Me.txtResistansiL4.Name = "txtResistansiL4"
+        Me.txtResistansiL4.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal
+        Me.txtResistansiL4.Size = New System.Drawing.Size(118, 21)
+        Me.txtResistansiL4.TabIndex = 111
+        Me.txtResistansiL4.Text = "Resistance (Ohm)"
+        Me.txtResistansiL4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox16
+        'txtReaktansiL4
         '
-        Me.TextBox16.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox16.Location = New System.Drawing.Point(4, 102)
-        Me.TextBox16.Name = "TextBox16"
-        Me.TextBox16.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal
-        Me.TextBox16.Size = New System.Drawing.Size(120, 21)
-        Me.TextBox16.TabIndex = 112
-        Me.TextBox16.Text = "Reactance (Ohm)"
-        Me.TextBox16.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.txtReaktansiL4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtReaktansiL4.Location = New System.Drawing.Point(6, 102)
+        Me.txtReaktansiL4.Name = "txtReaktansiL4"
+        Me.txtReaktansiL4.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal
+        Me.txtReaktansiL4.Size = New System.Drawing.Size(118, 21)
+        Me.txtReaktansiL4.TabIndex = 112
+        Me.txtReaktansiL4.Text = "Reactance (Ohm)"
+        Me.txtReaktansiL4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label1
         '
@@ -553,9 +550,9 @@ Partial Class FormInputGED60
         Me.GroupBox5.Controls.Add(Me.Label22)
         Me.GroupBox5.Controls.Add(Me.Label21)
         Me.GroupBox5.Controls.Add(Me.Label20)
-        Me.GroupBox5.Controls.Add(Me.TextBox19)
-        Me.GroupBox5.Controls.Add(Me.TextBox20)
-        Me.GroupBox5.Controls.Add(Me.TextBox21)
+        Me.GroupBox5.Controls.Add(Me.impedanceBox)
+        Me.GroupBox5.Controls.Add(Me.voltageLevel)
+        Me.GroupBox5.Controls.Add(Me.mvaRating)
         Me.GroupBox5.Controls.Add(Me.Label17)
         Me.GroupBox5.Controls.Add(Me.Label16)
         Me.GroupBox5.Controls.Add(Me.MVA)
@@ -615,26 +612,26 @@ Partial Class FormInputGED60
         Me.Label20.TabIndex = 94
         Me.Label20.Text = "MVA"
         '
-        'TextBox19
+        'impedanceBox
         '
-        Me.TextBox19.Location = New System.Drawing.Point(131, 100)
-        Me.TextBox19.Name = "TextBox19"
-        Me.TextBox19.Size = New System.Drawing.Size(51, 21)
-        Me.TextBox19.TabIndex = 93
+        Me.impedanceBox.Location = New System.Drawing.Point(131, 100)
+        Me.impedanceBox.Name = "impedanceBox"
+        Me.impedanceBox.Size = New System.Drawing.Size(51, 21)
+        Me.impedanceBox.TabIndex = 93
         '
-        'TextBox20
+        'voltageLevel
         '
-        Me.TextBox20.Location = New System.Drawing.Point(131, 73)
-        Me.TextBox20.Name = "TextBox20"
-        Me.TextBox20.Size = New System.Drawing.Size(51, 21)
-        Me.TextBox20.TabIndex = 92
+        Me.voltageLevel.Location = New System.Drawing.Point(131, 73)
+        Me.voltageLevel.Name = "voltageLevel"
+        Me.voltageLevel.Size = New System.Drawing.Size(51, 21)
+        Me.voltageLevel.TabIndex = 92
         '
-        'TextBox21
+        'mvaRating
         '
-        Me.TextBox21.Location = New System.Drawing.Point(131, 46)
-        Me.TextBox21.Name = "TextBox21"
-        Me.TextBox21.Size = New System.Drawing.Size(51, 21)
-        Me.TextBox21.TabIndex = 91
+        Me.mvaRating.Location = New System.Drawing.Point(131, 46)
+        Me.mvaRating.Name = "mvaRating"
+        Me.mvaRating.Size = New System.Drawing.Size(51, 21)
+        Me.mvaRating.TabIndex = 91
         '
         'Label17
         '
@@ -668,51 +665,21 @@ Partial Class FormInputGED60
         '
         'GroupBox6
         '
-        Me.GroupBox6.Controls.Add(Me.Label29)
-        Me.GroupBox6.Controls.Add(Me.TextBox22)
-        Me.GroupBox6.Controls.Add(Me.Label28)
         Me.GroupBox6.Controls.Add(Me.Label23)
         Me.GroupBox6.Controls.Add(Me.Label11)
-        Me.GroupBox6.Controls.Add(Me.TextBox23)
-        Me.GroupBox6.Controls.Add(Me.TextBox24)
-        Me.GroupBox6.Controls.Add(Me.TextBox25)
-        Me.GroupBox6.Controls.Add(Me.TextBox26)
+        Me.GroupBox6.Controls.Add(Me.PTs)
+        Me.GroupBox6.Controls.Add(Me.CTs)
+        Me.GroupBox6.Controls.Add(Me.PTp)
+        Me.GroupBox6.Controls.Add(Me.CTp)
         Me.GroupBox6.Controls.Add(Me.Label18)
         Me.GroupBox6.Controls.Add(Me.Label19)
         Me.GroupBox6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox6.Location = New System.Drawing.Point(282, 357)
         Me.GroupBox6.Name = "GroupBox6"
-        Me.GroupBox6.Size = New System.Drawing.Size(262, 106)
+        Me.GroupBox6.Size = New System.Drawing.Size(262, 89)
         Me.GroupBox6.TabIndex = 101
         Me.GroupBox6.TabStop = False
         Me.GroupBox6.Text = "CT, PT, and Relay Parameter"
-        '
-        'Label29
-        '
-        Me.Label29.AutoSize = True
-        Me.Label29.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label29.Location = New System.Drawing.Point(180, 78)
-        Me.Label29.Name = "Label29"
-        Me.Label29.Size = New System.Drawing.Size(14, 15)
-        Me.Label29.TabIndex = 98
-        Me.Label29.Text = "A"
-        '
-        'TextBox22
-        '
-        Me.TextBox22.Location = New System.Drawing.Point(140, 73)
-        Me.TextBox22.Name = "TextBox22"
-        Me.TextBox22.Size = New System.Drawing.Size(34, 21)
-        Me.TextBox22.TabIndex = 97
-        '
-        'Label28
-        '
-        Me.Label28.AutoSize = True
-        Me.Label28.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label28.Location = New System.Drawing.Point(9, 76)
-        Me.Label28.Name = "Label28"
-        Me.Label28.Size = New System.Drawing.Size(135, 15)
-        Me.Label28.TabIndex = 96
-        Me.Label28.Text = "Relay Nom. Current (In)"
         '
         'Label23
         '
@@ -734,33 +701,33 @@ Partial Class FormInputGED60
         Me.Label11.TabIndex = 94
         Me.Label11.Text = "/"
         '
-        'TextBox23
+        'PTs
         '
-        Me.TextBox23.Location = New System.Drawing.Point(202, 46)
-        Me.TextBox23.Name = "TextBox23"
-        Me.TextBox23.Size = New System.Drawing.Size(34, 21)
-        Me.TextBox23.TabIndex = 93
+        Me.PTs.Location = New System.Drawing.Point(202, 46)
+        Me.PTs.Name = "PTs"
+        Me.PTs.Size = New System.Drawing.Size(34, 21)
+        Me.PTs.TabIndex = 93
         '
-        'TextBox24
+        'CTs
         '
-        Me.TextBox24.Location = New System.Drawing.Point(202, 18)
-        Me.TextBox24.Name = "TextBox24"
-        Me.TextBox24.Size = New System.Drawing.Size(34, 21)
-        Me.TextBox24.TabIndex = 92
+        Me.CTs.Location = New System.Drawing.Point(202, 18)
+        Me.CTs.Name = "CTs"
+        Me.CTs.Size = New System.Drawing.Size(34, 21)
+        Me.CTs.TabIndex = 92
         '
-        'TextBox25
+        'PTp
         '
-        Me.TextBox25.Location = New System.Drawing.Point(140, 46)
-        Me.TextBox25.Name = "TextBox25"
-        Me.TextBox25.Size = New System.Drawing.Size(34, 21)
-        Me.TextBox25.TabIndex = 89
+        Me.PTp.Location = New System.Drawing.Point(140, 46)
+        Me.PTp.Name = "PTp"
+        Me.PTp.Size = New System.Drawing.Size(34, 21)
+        Me.PTp.TabIndex = 89
         '
-        'TextBox26
+        'CTp
         '
-        Me.TextBox26.Location = New System.Drawing.Point(140, 18)
-        Me.TextBox26.Name = "TextBox26"
-        Me.TextBox26.Size = New System.Drawing.Size(34, 21)
-        Me.TextBox26.TabIndex = 90
+        Me.CTp.Location = New System.Drawing.Point(140, 18)
+        Me.CTp.Name = "CTp"
+        Me.CTp.Size = New System.Drawing.Size(34, 21)
+        Me.CTp.TabIndex = 90
         '
         'Label18
         '
@@ -795,20 +762,20 @@ Partial Class FormInputGED60
         'Footer2
         '
         Me.Footer2.AutoSize = True
-        Me.Footer2.Font = New System.Drawing.Font("Meiryo UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Footer2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Footer2.Location = New System.Drawing.Point(54, 604)
         Me.Footer2.Name = "Footer2"
-        Me.Footer2.Size = New System.Drawing.Size(282, 15)
+        Me.Footer2.Size = New System.Drawing.Size(286, 15)
         Me.Footer2.TabIndex = 103
         Me.Footer2.Text = "AREA PELAKSANA PEMELIHARAAN BOGOR"
         '
         'Label14
         '
         Me.Label14.AutoSize = True
-        Me.Label14.Font = New System.Drawing.Font("Meiryo UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label14.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label14.Location = New System.Drawing.Point(54, 585)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(235, 15)
+        Me.Label14.Size = New System.Drawing.Size(241, 15)
         Me.Label14.TabIndex = 102
         Me.Label14.Text = "PT. PLN (PERSERO) P3B JAWA BALI"
         '
@@ -849,12 +816,12 @@ Partial Class FormInputGED60
         Me.Label26.TabIndex = 103
         Me.Label26.Text = "A"
         '
-        'TextBox29
+        'iLoadBox
         '
-        Me.TextBox29.Location = New System.Drawing.Point(184, 540)
-        Me.TextBox29.Name = "TextBox29"
-        Me.TextBox29.Size = New System.Drawing.Size(34, 20)
-        Me.TextBox29.TabIndex = 102
+        Me.iLoadBox.Location = New System.Drawing.Point(184, 540)
+        Me.iLoadBox.Name = "iLoadBox"
+        Me.iLoadBox.Size = New System.Drawing.Size(34, 20)
+        Me.iLoadBox.TabIndex = 102
         '
         'Label27
         '
@@ -866,23 +833,23 @@ Partial Class FormInputGED60
         Me.Label27.TabIndex = 101
         Me.Label27.Text = "Ohm"
         '
-        'TextBox30
+        'ResistTower
         '
-        Me.TextBox30.Location = New System.Drawing.Point(157, 514)
-        Me.TextBox30.Name = "TextBox30"
-        Me.TextBox30.Size = New System.Drawing.Size(61, 20)
-        Me.TextBox30.TabIndex = 100
+        Me.ResistTower.Location = New System.Drawing.Point(157, 514)
+        Me.ResistTower.Name = "ResistTower"
+        Me.ResistTower.Size = New System.Drawing.Size(61, 20)
+        Me.ResistTower.TabIndex = 100
         '
-        'TextBox31
+        'infeed
         '
-        Me.TextBox31.Location = New System.Drawing.Point(157, 488)
-        Me.TextBox31.Name = "TextBox31"
-        Me.TextBox31.Size = New System.Drawing.Size(61, 20)
-        Me.TextBox31.TabIndex = 108
+        Me.infeed.Location = New System.Drawing.Point(157, 488)
+        Me.infeed.Name = "infeed"
+        Me.infeed.Size = New System.Drawing.Size(61, 20)
+        Me.infeed.TabIndex = 108
         '
         'cmdCalculate
         '
-        Me.cmdCalculate.Font = New System.Drawing.Font("Meiryo UI", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cmdCalculate.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmdCalculate.Location = New System.Drawing.Point(336, 546)
         Me.cmdCalculate.Name = "cmdCalculate"
         Me.cmdCalculate.Size = New System.Drawing.Size(140, 35)
@@ -894,7 +861,7 @@ Partial Class FormInputGED60
         '
         Me.Label13.AutoSize = True
         Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label13.Location = New System.Drawing.Point(429, 466)
+        Me.Label13.Location = New System.Drawing.Point(429, 459)
         Me.Label13.Name = "Label13"
         Me.Label13.Size = New System.Drawing.Size(63, 30)
         Me.Label13.TabIndex = 111
@@ -905,7 +872,7 @@ Partial Class FormInputGED60
         Me.ComboBox6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox6.FormattingEnabled = True
         Me.ComboBox6.Items.AddRange(New Object() {"1", "2"})
-        Me.ComboBox6.Location = New System.Drawing.Point(504, 469)
+        Me.ComboBox6.Location = New System.Drawing.Point(504, 462)
         Me.ComboBox6.Name = "ComboBox6"
         Me.ComboBox6.Size = New System.Drawing.Size(31, 23)
         Me.ComboBox6.TabIndex = 110
@@ -914,7 +881,7 @@ Partial Class FormInputGED60
         '
         Me.Label30.AutoSize = True
         Me.Label30.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label30.Location = New System.Drawing.Point(281, 506)
+        Me.Label30.Location = New System.Drawing.Point(281, 499)
         Me.Label30.Name = "Label30"
         Me.Label30.Size = New System.Drawing.Size(63, 30)
         Me.Label30.TabIndex = 113
@@ -925,7 +892,7 @@ Partial Class FormInputGED60
         Me.ComboBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox1.FormattingEnabled = True
         Me.ComboBox1.Items.AddRange(New Object() {"1", "2"})
-        Me.ComboBox1.Location = New System.Drawing.Point(356, 513)
+        Me.ComboBox1.Location = New System.Drawing.Point(356, 506)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(31, 23)
         Me.ComboBox1.TabIndex = 112
@@ -935,7 +902,7 @@ Partial Class FormInputGED60
         Me.ComboBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox3.FormattingEnabled = True
         Me.ComboBox3.Items.AddRange(New Object() {"1", "2"})
-        Me.ComboBox3.Location = New System.Drawing.Point(504, 514)
+        Me.ComboBox3.Location = New System.Drawing.Point(504, 507)
         Me.ComboBox3.Name = "ComboBox3"
         Me.ComboBox3.Size = New System.Drawing.Size(31, 23)
         Me.ComboBox3.TabIndex = 112
@@ -944,7 +911,7 @@ Partial Class FormInputGED60
         '
         Me.Label32.AutoSize = True
         Me.Label32.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!)
-        Me.Label32.Location = New System.Drawing.Point(429, 506)
+        Me.Label32.Location = New System.Drawing.Point(429, 499)
         Me.Label32.Name = "Label32"
         Me.Label32.Size = New System.Drawing.Size(63, 30)
         Me.Label32.TabIndex = 113
@@ -954,7 +921,7 @@ Partial Class FormInputGED60
         '
         Me.Label33.AutoSize = True
         Me.Label33.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label33.Location = New System.Drawing.Point(281, 466)
+        Me.Label33.Location = New System.Drawing.Point(281, 459)
         Me.Label33.Name = "Label33"
         Me.Label33.Size = New System.Drawing.Size(63, 30)
         Me.Label33.TabIndex = 115
@@ -965,7 +932,7 @@ Partial Class FormInputGED60
         Me.ComboBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox4.FormattingEnabled = True
         Me.ComboBox4.Items.AddRange(New Object() {"1", "2"})
-        Me.ComboBox4.Location = New System.Drawing.Point(356, 469)
+        Me.ComboBox4.Location = New System.Drawing.Point(356, 462)
         Me.ComboBox4.Name = "ComboBox4"
         Me.ComboBox4.Size = New System.Drawing.Size(31, 23)
         Me.ComboBox4.TabIndex = 114
@@ -984,12 +951,12 @@ Partial Class FormInputGED60
         Me.Controls.Add(Me.Label13)
         Me.Controls.Add(Me.ComboBox6)
         Me.Controls.Add(Me.cmdCalculate)
-        Me.Controls.Add(Me.TextBox31)
+        Me.Controls.Add(Me.infeed)
         Me.Controls.Add(Me.Label27)
         Me.Controls.Add(Me.Label26)
-        Me.Controls.Add(Me.TextBox30)
+        Me.Controls.Add(Me.ResistTower)
         Me.Controls.Add(Me.Label25)
-        Me.Controls.Add(Me.TextBox29)
+        Me.Controls.Add(Me.iLoadBox)
         Me.Controls.Add(Me.Label24)
         Me.Controls.Add(Me.Label15)
         Me.Controls.Add(Me.PictureBox5)
@@ -1057,21 +1024,21 @@ Partial Class FormInputGED60
     Friend WithEvents txtReaktansiL1 As System.Windows.Forms.TextBox
     Friend WithEvents txtResistansiL1 As System.Windows.Forms.TextBox
     Friend WithEvents txtPanjangL1 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox4 As System.Windows.Forms.TextBox
+    Friend WithEvents txtPanjangL2 As System.Windows.Forms.TextBox
     Friend WithEvents TextBox7 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox5 As System.Windows.Forms.TextBox
+    Friend WithEvents txtReaktansiL2 As System.Windows.Forms.TextBox
     Friend WithEvents TextBox8 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox6 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox9 As System.Windows.Forms.TextBox
+    Friend WithEvents txtResistansiL2 As System.Windows.Forms.TextBox
+    Friend WithEvents txtPanjangL3 As System.Windows.Forms.TextBox
     Friend WithEvents TextBox12 As System.Windows.Forms.TextBox
     Friend WithEvents TextBox10 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox13 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox11 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox14 As System.Windows.Forms.TextBox
+    Friend WithEvents txtResistansiL3 As System.Windows.Forms.TextBox
+    Friend WithEvents txtReaktansiL3 As System.Windows.Forms.TextBox
+    Friend WithEvents txtPanjangL4 As System.Windows.Forms.TextBox
     Friend WithEvents TextBox17 As System.Windows.Forms.TextBox
     Friend WithEvents TextBox15 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox18 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox16 As System.Windows.Forms.TextBox
+    Friend WithEvents txtResistansiL4 As System.Windows.Forms.TextBox
+    Friend WithEvents txtReaktansiL4 As System.Windows.Forms.TextBox
     Friend WithEvents AddBtn1 As System.Windows.Forms.Button
     Friend WithEvents AddBtn2 As System.Windows.Forms.Button
     Friend WithEvents AddBtn3 As System.Windows.Forms.Button
@@ -1081,22 +1048,19 @@ Partial Class FormInputGED60
     Friend WithEvents Label22 As System.Windows.Forms.Label
     Friend WithEvents Label21 As System.Windows.Forms.Label
     Friend WithEvents Label20 As System.Windows.Forms.Label
-    Friend WithEvents TextBox19 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox20 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox21 As System.Windows.Forms.TextBox
+    Friend WithEvents impedanceBox As System.Windows.Forms.TextBox
+    Friend WithEvents voltageLevel As System.Windows.Forms.TextBox
+    Friend WithEvents mvaRating As System.Windows.Forms.TextBox
     Friend WithEvents Label17 As System.Windows.Forms.Label
     Friend WithEvents Label16 As System.Windows.Forms.Label
     Friend WithEvents MVA As System.Windows.Forms.Label
     Friend WithEvents GroupBox6 As System.Windows.Forms.GroupBox
-    Friend WithEvents Label29 As System.Windows.Forms.Label
-    Friend WithEvents TextBox22 As System.Windows.Forms.TextBox
-    Friend WithEvents Label28 As System.Windows.Forms.Label
     Friend WithEvents Label23 As System.Windows.Forms.Label
     Friend WithEvents Label11 As System.Windows.Forms.Label
-    Friend WithEvents TextBox23 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox24 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox25 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox26 As System.Windows.Forms.TextBox
+    Friend WithEvents PTs As System.Windows.Forms.TextBox
+    Friend WithEvents CTs As System.Windows.Forms.TextBox
+    Friend WithEvents PTp As System.Windows.Forms.TextBox
+    Friend WithEvents CTp As System.Windows.Forms.TextBox
     Friend WithEvents Label18 As System.Windows.Forms.Label
     Friend WithEvents Label19 As System.Windows.Forms.Label
     Friend WithEvents TextBox27 As System.Windows.Forms.TextBox
@@ -1107,10 +1071,10 @@ Partial Class FormInputGED60
     Friend WithEvents Label24 As System.Windows.Forms.Label
     Friend WithEvents Label25 As System.Windows.Forms.Label
     Friend WithEvents Label26 As System.Windows.Forms.Label
-    Friend WithEvents TextBox29 As System.Windows.Forms.TextBox
+    Friend WithEvents iLoadBox As System.Windows.Forms.TextBox
     Friend WithEvents Label27 As System.Windows.Forms.Label
-    Friend WithEvents TextBox30 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox31 As System.Windows.Forms.TextBox
+    Friend WithEvents ResistTower As System.Windows.Forms.TextBox
+    Friend WithEvents infeed As System.Windows.Forms.TextBox
     Friend WithEvents cmdCalculate As System.Windows.Forms.Button
     Friend WithEvents Label13 As System.Windows.Forms.Label
     Friend WithEvents ComboBox6 As System.Windows.Forms.ComboBox
