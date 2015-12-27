@@ -385,7 +385,7 @@
 
                                                                     ' OPEN RESULT PAGE
                                                                     Dim resultPage As New ResultPage(Z1SAbs, ThetaPH1, Z1SgAbs, ThetaPH10, KoAbs, ThetaphKo, BLD, ThetaBLD, Z2SAbs, Z2SgAbs, Z2SAbs, Z3SgAbs, FORBL, INN, OUT)
-                                                                    resultPage.ShowDialog()
+                                                                    FormOutputGED60.ShowDialog()
                                                                 End If
                                                             End If
                                                         End If
