@@ -134,11 +134,17 @@
     <EmbeddedResource Include="FormAddInfo.resx">
       <DependentUpon>FormAddInfo.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormInputAlstom.resx">
+      <DependentUpon>FormInputAlstom.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormInputGED60.resx">
       <DependentUpon>FormInputGED60.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormInputGEL90.resx">
       <DependentUpon>FormInputGEL90.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormInputSiemens.resx">
+      <DependentUpon>FormInputSiemens.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HomePage.resx">
       <DependentUpon>HomePage.vb</DependentUpon>
