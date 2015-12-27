@@ -869,7 +869,7 @@ Partial Class FormInputGED60
         Me.Label33.Location = New System.Drawing.Point(291, 455)
         Me.Label33.Name = "Label33"
         Me.Label33.Size = New System.Drawing.Size(63, 30)
-        Me.Label33.TabIndex = 115
+        Me.Label33.TabIndex = 122
         Me.Label33.Text = "Conductor" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Type (L1)"
         '
         'ComboBox4
@@ -880,7 +880,7 @@ Partial Class FormInputGED60
         Me.ComboBox4.Location = New System.Drawing.Point(381, 462)
         Me.ComboBox4.Name = "ComboBox4"
         Me.ComboBox4.Size = New System.Drawing.Size(31, 23)
-        Me.ComboBox4.TabIndex = 122
+        Me.ComboBox4.TabIndex = 125
         '
         'FormInputGED60
         '

@@ -28,3 +28,5 @@ C:\Users\Jouvy Alif Pradewo\Documents\OJT\DistanceRelayCalculation\obj\Debug\Dis
 C:\Users\satriodwih\Documents\Visual Studio 2013\Projects\DistanceRelayCalculation\DistanceRelayCalculation\obj\Debug\DistanceRelayCalculation.ResultPage.resources
 C:\Users\satriodwih\Documents\Visual Studio 2013\Projects\DistanceRelayCalculation\DistanceRelayCalculation\obj\Debug\DistanceRelayCalculation.FormInputSiemens.resources
 C:\Users\satriodwih\Documents\Visual Studio 2013\Projects\DistanceRelayCalculation\DistanceRelayCalculation\obj\Debug\DistanceRelayCalculation.FormInputAlstom.resources
+C:\Users\satriodwih\Documents\Visual Studio 2013\Projects\DistanceRelayCalculation\DistanceRelayCalculation\obj\Debug\DistanceRelayCalculation.vbproj.ResolveComReference.cache
+C:\Users\satriodwih\Documents\Visual Studio 2013\Projects\DistanceRelayCalculation\DistanceRelayCalculation\obj\Debug\DistanceRelayCalculation.FormOutputGED60.resources
