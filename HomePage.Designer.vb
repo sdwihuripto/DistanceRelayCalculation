@@ -178,7 +178,9 @@ Partial Class HomePage
         Me.Controls.Add(Me.DistanceRelay)
         Me.Controls.Add(Me.MainLabelHome)
         Me.Controls.Add(Me.MenuStrip1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
         Me.MainMenuStrip = Me.MenuStrip1
+        Me.MinimizeBox = False
         Me.Name = "HomePage"
         Me.Text = "Distance Relay Setting Calculation"
         Me.MenuStrip1.ResumeLayout(False)
