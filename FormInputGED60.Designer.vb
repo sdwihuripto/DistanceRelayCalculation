@@ -97,8 +97,6 @@ Partial Class FormInputGED60
         Me.infeed = New System.Windows.Forms.TextBox()
         Me.cmdCalculate = New System.Windows.Forms.Button()
         Me.Label32 = New System.Windows.Forms.Label()
-        Me.Label33 = New System.Windows.Forms.Label()
-        Me.ComboBox4 = New System.Windows.Forms.ComboBox()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox3.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
@@ -862,33 +860,11 @@ Partial Class FormInputGED60
         Me.Label32.TabIndex = 113
         Me.Label32.Text = "Conductor" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Type (L4)"
         '
-        'Label33
-        '
-        Me.Label33.AutoSize = True
-        Me.Label33.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label33.Location = New System.Drawing.Point(291, 455)
-        Me.Label33.Name = "Label33"
-        Me.Label33.Size = New System.Drawing.Size(63, 30)
-        Me.Label33.TabIndex = 122
-        Me.Label33.Text = "Conductor" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Type (L1)"
-        '
-        'ComboBox4
-        '
-        Me.ComboBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox4.FormattingEnabled = True
-        Me.ComboBox4.Items.AddRange(New Object() {"1", "2"})
-        Me.ComboBox4.Location = New System.Drawing.Point(381, 462)
-        Me.ComboBox4.Name = "ComboBox4"
-        Me.ComboBox4.Size = New System.Drawing.Size(31, 23)
-        Me.ComboBox4.TabIndex = 125
-        '
         'FormInputGED60
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(554, 632)
-        Me.Controls.Add(Me.Label33)
-        Me.Controls.Add(Me.ComboBox4)
+        Me.ClientSize = New System.Drawing.Size(554, 631)
         Me.Controls.Add(Me.cmdCalculate)
         Me.Controls.Add(Me.infeed)
         Me.Controls.Add(Me.Label27)
@@ -1020,6 +996,4 @@ Partial Class FormInputGED60
     Friend WithEvents PTp As System.Windows.Forms.TextBox
     Friend WithEvents CTp As System.Windows.Forms.TextBox
     Friend WithEvents Label32 As System.Windows.Forms.Label
-    Friend WithEvents Label33 As System.Windows.Forms.Label
-    Friend WithEvents ComboBox4 As System.Windows.Forms.ComboBox
 End Class
