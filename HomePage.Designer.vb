@@ -73,18 +73,18 @@ Partial Class HomePage
         'AboutToolStripMenuItem
         '
         Me.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem"
-        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(116, 22)
+        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(115, 22)
         Me.AboutToolStripMenuItem.Text = "About"
         '
         'HowToToolStripMenuItem
         '
         Me.HowToToolStripMenuItem.Name = "HowToToolStripMenuItem"
-        Me.HowToToolStripMenuItem.Size = New System.Drawing.Size(116, 22)
+        Me.HowToToolStripMenuItem.Size = New System.Drawing.Size(115, 22)
         Me.HowToToolStripMenuItem.Text = "How To"
         '
         'PickDistanceButton
         '
-        Me.PickDistanceButton.Font = New System.Drawing.Font("Meiryo UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.PickDistanceButton.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.PickDistanceButton.Location = New System.Drawing.Point(310, 134)
         Me.PickDistanceButton.Name = "PickDistanceButton"
         Me.PickDistanceButton.Size = New System.Drawing.Size(115, 36)
@@ -94,9 +94,9 @@ Partial Class HomePage
         '
         'DistanceRelay
         '
-        Me.DistanceRelay.Font = New System.Drawing.Font("Meiryo UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DistanceRelay.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DistanceRelay.FormattingEnabled = True
-        Me.DistanceRelay.Items.AddRange(New Object() {"GE D60", "GE L90", "Siemens 7SA522", "ALSTOM MiCOM P442"})
+        Me.DistanceRelay.Items.AddRange(New Object() {"GE D60", "Siemens 7SA522", "ALSTOM MiCOM P442"})
         Me.DistanceRelay.Location = New System.Drawing.Point(12, 139)
         Me.DistanceRelay.Name = "DistanceRelay"
         Me.DistanceRelay.Size = New System.Drawing.Size(279, 28)
@@ -146,20 +146,20 @@ Partial Class HomePage
         'Footer2
         '
         Me.Footer2.AutoSize = True
-        Me.Footer2.Font = New System.Drawing.Font("Meiryo UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Footer2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Footer2.Location = New System.Drawing.Point(58, 422)
         Me.Footer2.Name = "Footer2"
-        Me.Footer2.Size = New System.Drawing.Size(282, 15)
+        Me.Footer2.Size = New System.Drawing.Size(286, 15)
         Me.Footer2.TabIndex = 31
         Me.Footer2.Text = "AREA PELAKSANA PEMELIHARAAN BOGOR"
         '
         'Footer1
         '
         Me.Footer1.AutoSize = True
-        Me.Footer1.Font = New System.Drawing.Font("Meiryo UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Footer1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Footer1.Location = New System.Drawing.Point(58, 403)
         Me.Footer1.Name = "Footer1"
-        Me.Footer1.Size = New System.Drawing.Size(235, 15)
+        Me.Footer1.Size = New System.Drawing.Size(241, 15)
         Me.Footer1.TabIndex = 30
         Me.Footer1.Text = "PT. PLN (PERSERO) P3B JAWA BALI"
         '
