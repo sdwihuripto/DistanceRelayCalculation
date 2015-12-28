@@ -14,9 +14,6 @@
             If DistanceRelay.SelectedItem = "GE D60" Then
                 FormInputGED60.ShowDialog()
             End If
-            If DistanceRelay.SelectedItem = "GE L90" Then
-                FormInputGEL90.ShowDialog()
-            End If
             If DistanceRelay.SelectedItem = "Siemens 7SA522" Then
                 FormInputSiemens.ShowDialog()
             End If

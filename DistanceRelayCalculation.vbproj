@@ -89,12 +89,6 @@
     <Compile Include="FormInputSiemens.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormInputGEL90.Designer.vb">
-      <DependentUpon>FormInputGEL90.vb</DependentUpon>
-    </Compile>
-    <Compile Include="FormInputGEL90.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="FormInputGED60.Designer.vb">
       <DependentUpon>FormInputGED60.vb</DependentUpon>
     </Compile>
@@ -139,9 +133,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormInputGED60.resx">
       <DependentUpon>FormInputGED60.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormInputGEL90.resx">
-      <DependentUpon>FormInputGEL90.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormInputSiemens.resx">
       <DependentUpon>FormInputSiemens.vb</DependentUpon>
