@@ -157,6 +157,9 @@
                                                                     End With
                                                                 Else
                                                                     iLoadBox.BackColor = Color.White
+                                                                    Dim GIA As String = FromL1.Text
+                                                                    Dim GIB As String = ToL1.Text
+
                                                                     Dim RL1 As Double = Double.Parse(txtResistansiL1.Text) * Double.Parse(txtPanjangL1.Text)
                                                                     Dim RL2 As Double = Double.Parse(txtResistansiL2.Text) * Double.Parse(txtPanjangL2.Text)
                                                                     Dim RL3 As Double = Double.Parse(txtResistansiL3.Text) * Double.Parse(txtPanjangL3.Text)
@@ -189,33 +192,33 @@
 
                                                                     Dim ThetaPH1 As Double
 
-                                                                    If ComboBox4.SelectedIndex = 0 Then
-                                                                        ZL1Abs = Math.Sqrt(Math.Pow(RL1, 2) + Math.Pow(XL1, 2))
-                                                                        ZL2Abs = Math.Sqrt(Math.Pow(RL2, 2) + Math.Pow(XL2, 2))
-                                                                        ZL3Abs = Math.Sqrt(Math.Pow(RL3, 2) + Math.Pow(XL3, 2))
-                                                                        ZL4Abs = Math.Sqrt(Math.Pow(RL4, 2) + Math.Pow(XL4, 2))
+                                                                    'If ComboBox4.SelectedIndex = 0 Then
+                                                                    ZL1Abs = Math.Sqrt(Math.Pow(RL1, 2) + Math.Pow(XL1, 2))
+                                                                    ZL2Abs = Math.Sqrt(Math.Pow(RL2, 2) + Math.Pow(XL2, 2))
+                                                                    ZL3Abs = Math.Sqrt(Math.Pow(RL3, 2) + Math.Pow(XL3, 2))
+                                                                    ZL4Abs = Math.Sqrt(Math.Pow(RL4, 2) + Math.Pow(XL4, 2))
 
-                                                                        ThetaPH1 = Math.Atan(XL1 / RL1) * (180 / Math.PI)
-                                                                        ' THIS IS THE OUTPUT
+                                                                    ThetaPH1 = Math.Atan(XL1 / RL1) * (180 / Math.PI)
+                                                                    ' THIS IS THE OUTPUT
 
-                                                                        RL10 = (Double.Parse(txtResistansiL1.Text) + 0.15) * Double.Parse(txtPanjangL1.Text)
-                                                                        RL20 = (Double.Parse(txtResistansiL2.Text) + 0.15) * Double.Parse(txtPanjangL2.Text)
-                                                                        RL30 = (Double.Parse(txtResistansiL3.Text) + 0.15) * Double.Parse(txtPanjangL3.Text)
-                                                                        RL40 = (Double.Parse(txtResistansiL4.Text) + 0.15) * Double.Parse(txtPanjangL4.Text)
+                                                                    RL10 = (Double.Parse(txtResistansiL1.Text) + 0.15) * Double.Parse(txtPanjangL1.Text)
+                                                                    RL20 = (Double.Parse(txtResistansiL2.Text) + 0.15) * Double.Parse(txtPanjangL2.Text)
+                                                                    RL30 = (Double.Parse(txtResistansiL3.Text) + 0.15) * Double.Parse(txtPanjangL3.Text)
+                                                                    RL40 = (Double.Parse(txtResistansiL4.Text) + 0.15) * Double.Parse(txtPanjangL4.Text)
 
-                                                                        XL10 = 3 * Double.Parse(txtReaktansiL1.Text) * Double.Parse(txtPanjangL1.Text)
-                                                                        XL20 = 3 * Double.Parse(txtReaktansiL2.Text) * Double.Parse(txtPanjangL2.Text)
-                                                                        XL30 = 3 * Double.Parse(txtReaktansiL3.Text) * Double.Parse(txtPanjangL3.Text)
-                                                                        XL40 = 3 * Double.Parse(txtReaktansiL4.Text) * Double.Parse(txtPanjangL4.Text)
+                                                                    XL10 = 3 * Double.Parse(txtReaktansiL1.Text) * Double.Parse(txtPanjangL1.Text)
+                                                                    XL20 = 3 * Double.Parse(txtReaktansiL2.Text) * Double.Parse(txtPanjangL2.Text)
+                                                                    XL30 = 3 * Double.Parse(txtReaktansiL3.Text) * Double.Parse(txtPanjangL3.Text)
+                                                                    XL40 = 3 * Double.Parse(txtReaktansiL4.Text) * Double.Parse(txtPanjangL4.Text)
 
-                                                                        ZL10 = Math.Sqrt(Math.Pow(RL10, 2) + Math.Pow(XL10, 2))
-                                                                        ZL20 = Math.Sqrt(Math.Pow(RL20, 2) + Math.Pow(XL20, 2))
-                                                                        ZL30 = Math.Sqrt(Math.Pow(RL30, 2) + Math.Pow(XL30, 2))
-                                                                        ZL40 = Math.Sqrt(Math.Pow(RL40, 2) + Math.Pow(XL40, 2))
-                                                                    ElseIf ComboBox4.SelectedIndex = 1 Then
+                                                                    ZL10 = Math.Sqrt(Math.Pow(RL10, 2) + Math.Pow(XL10, 2))
+                                                                    ZL20 = Math.Sqrt(Math.Pow(RL20, 2) + Math.Pow(XL20, 2))
+                                                                    ZL30 = Math.Sqrt(Math.Pow(RL30, 2) + Math.Pow(XL30, 2))
+                                                                    ZL40 = Math.Sqrt(Math.Pow(RL40, 2) + Math.Pow(XL40, 2))
+                                                                    'ElseIf ComboBox4.SelectedIndex = 1 Then
 
 
-                                                                    End If
+                                                                    ' End If
 
                                                                     Dim MVA As Double = Double.Parse(mvaRating.Text)
                                                                     Dim kV As Double = Double.Parse(voltageLevel.Text)
@@ -384,8 +387,16 @@
                                                                     My.Application.Log.WriteEntry("OUT: " & OUT)
 
                                                                     ' OPEN RESULT PAGE
-                                                                    Dim resultPage As New ResultPage(Z1SAbs, ThetaPH1, Z1SgAbs, ThetaPH10, KoAbs, ThetaphKo, BLD, ThetaBLD, Z2SAbs, Z2SgAbs, Z2SAbs, Z3SgAbs, FORBL, INN, OUT)
-                                                                    FormOutputGED60.ShowDialog()
+                                                                    Dim resultPage As New FormOutputGED60(GIA, GIB, CTp.Text, CTs.Text, PTp.Text, PTs.Text, ZL1Abs, ZL10, txtPanjangL1.Text,
+                                                                                                          Z1SAbs, ThetaPH1, Tk1ph, ThetaPH1,
+                                                                                                          Z1SgAbs, ThetaPH10, Tk1g, KoAbs, ThetaphKo, BLD, ThetaBLD, BLD, ThetaBLD,
+                                                                                                          Z2SAbs, ThetaPH1, Tk2ph, ThetaPH1,
+                                                                                                          Z2SgAbs, ThetaPH10, Tk2g, KoAbs, ThetaphKo, BLD, ThetaBLD, BLD, ThetaBLD,
+                                                                                                          Z3SAbs, ThetaPH1, Tk3ph, ThetaPH1,
+                                                                                                          Z3SgAbs, ThetaPH10, Tk3g, KoAbs, ThetaphKo, BLD, ThetaBLD, BLD, ThetaBLD,
+                                                                                                          FORBL, INN, OUT, Td)
+
+                                                                    resultPage.ShowDialog()
                                                                 End If
                                                             End If
                                                         End If

@@ -47,6 +47,10 @@ Partial Class FormOutputGED60
         Me.Label15 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
+        Me.Label42 = New System.Windows.Forms.Label()
+        Me.Label70 = New System.Windows.Forms.Label()
+        Me.Label71 = New System.Windows.Forms.Label()
+        Me.Label72 = New System.Windows.Forms.Label()
         Me.Label33 = New System.Windows.Forms.Label()
         Me.Label64 = New System.Windows.Forms.Label()
         Me.Label65 = New System.Windows.Forms.Label()
@@ -89,10 +93,155 @@ Partial Class FormOutputGED60
         Me.Out2B = New System.Windows.Forms.Label()
         Me.Out2C = New System.Windows.Forms.Label()
         Me.TabPage3 = New System.Windows.Forms.TabPage()
+        Me.Label44 = New System.Windows.Forms.Label()
+        Me.Label89 = New System.Windows.Forms.Label()
+        Me.Label63 = New System.Windows.Forms.Label()
+        Me.Label88 = New System.Windows.Forms.Label()
+        Me.Label66 = New System.Windows.Forms.Label()
+        Me.Label87 = New System.Windows.Forms.Label()
+        Me.Label68 = New System.Windows.Forms.Label()
+        Me.Label86 = New System.Windows.Forms.Label()
+        Me.Label73 = New System.Windows.Forms.Label()
+        Me.Label85 = New System.Windows.Forms.Label()
+        Me.Label74 = New System.Windows.Forms.Label()
+        Me.Label84 = New System.Windows.Forms.Label()
+        Me.Label75 = New System.Windows.Forms.Label()
+        Me.Out3A = New System.Windows.Forms.Label()
+        Me.Label76 = New System.Windows.Forms.Label()
+        Me.Label82 = New System.Windows.Forms.Label()
+        Me.Label77 = New System.Windows.Forms.Label()
+        Me.Label81 = New System.Windows.Forms.Label()
+        Me.Out3D = New System.Windows.Forms.Label()
+        Me.Out3B = New System.Windows.Forms.Label()
+        Me.Out3C = New System.Windows.Forms.Label()
         Me.TabPage4 = New System.Windows.Forms.TabPage()
+        Me.Label78 = New System.Windows.Forms.Label()
+        Me.Label109 = New System.Windows.Forms.Label()
+        Me.Label79 = New System.Windows.Forms.Label()
+        Me.Out4C = New System.Windows.Forms.Label()
+        Me.Label80 = New System.Windows.Forms.Label()
+        Me.Out4B = New System.Windows.Forms.Label()
+        Me.Label83 = New System.Windows.Forms.Label()
+        Me.Label128 = New System.Windows.Forms.Label()
+        Me.Label90 = New System.Windows.Forms.Label()
+        Me.Label127 = New System.Windows.Forms.Label()
+        Me.Label91 = New System.Windows.Forms.Label()
+        Me.Label126 = New System.Windows.Forms.Label()
+        Me.Label92 = New System.Windows.Forms.Label()
+        Me.Label125 = New System.Windows.Forms.Label()
+        Me.Out4I = New System.Windows.Forms.Label()
+        Me.Out4A = New System.Windows.Forms.Label()
+        Me.Label94 = New System.Windows.Forms.Label()
+        Me.Label123 = New System.Windows.Forms.Label()
+        Me.Out4H = New System.Windows.Forms.Label()
+        Me.Label122 = New System.Windows.Forms.Label()
+        Me.Label96 = New System.Windows.Forms.Label()
+        Me.Label121 = New System.Windows.Forms.Label()
+        Me.Label97 = New System.Windows.Forms.Label()
+        Me.Label120 = New System.Windows.Forms.Label()
+        Me.Label98 = New System.Windows.Forms.Label()
+        Me.Label119 = New System.Windows.Forms.Label()
+        Me.Out4G = New System.Windows.Forms.Label()
+        Me.Label118 = New System.Windows.Forms.Label()
+        Me.Label100 = New System.Windows.Forms.Label()
+        Me.Label117 = New System.Windows.Forms.Label()
+        Me.Out4F = New System.Windows.Forms.Label()
+        Me.Out4D = New System.Windows.Forms.Label()
+        Me.Label102 = New System.Windows.Forms.Label()
+        Me.Label115 = New System.Windows.Forms.Label()
+        Me.Label103 = New System.Windows.Forms.Label()
+        Me.Out4E = New System.Windows.Forms.Label()
+        Me.Label104 = New System.Windows.Forms.Label()
+        Me.Label113 = New System.Windows.Forms.Label()
+        Me.Label105 = New System.Windows.Forms.Label()
+        Me.Label112 = New System.Windows.Forms.Label()
+        Me.Label106 = New System.Windows.Forms.Label()
+        Me.Label111 = New System.Windows.Forms.Label()
+        Me.Label107 = New System.Windows.Forms.Label()
+        Me.Label110 = New System.Windows.Forms.Label()
+        Me.Label108 = New System.Windows.Forms.Label()
         Me.TabPage5 = New System.Windows.Forms.TabPage()
+        Me.Label93 = New System.Windows.Forms.Label()
+        Me.Label95 = New System.Windows.Forms.Label()
+        Me.Out5C = New System.Windows.Forms.Label()
+        Me.Label99 = New System.Windows.Forms.Label()
+        Me.Out5B = New System.Windows.Forms.Label()
+        Me.Label101 = New System.Windows.Forms.Label()
+        Me.Out5D = New System.Windows.Forms.Label()
+        Me.Label114 = New System.Windows.Forms.Label()
+        Me.Label139 = New System.Windows.Forms.Label()
+        Me.Label116 = New System.Windows.Forms.Label()
+        Me.Label138 = New System.Windows.Forms.Label()
+        Me.Label124 = New System.Windows.Forms.Label()
+        Me.Label137 = New System.Windows.Forms.Label()
+        Me.Label129 = New System.Windows.Forms.Label()
+        Me.Label136 = New System.Windows.Forms.Label()
+        Me.Label130 = New System.Windows.Forms.Label()
+        Me.Out5A = New System.Windows.Forms.Label()
+        Me.Label131 = New System.Windows.Forms.Label()
+        Me.Label134 = New System.Windows.Forms.Label()
+        Me.Label132 = New System.Windows.Forms.Label()
+        Me.Label133 = New System.Windows.Forms.Label()
         Me.TabPage6 = New System.Windows.Forms.TabPage()
+        Me.Label135 = New System.Windows.Forms.Label()
+        Me.Label140 = New System.Windows.Forms.Label()
+        Me.Label183 = New System.Windows.Forms.Label()
+        Me.Label141 = New System.Windows.Forms.Label()
+        Me.Label182 = New System.Windows.Forms.Label()
+        Me.Out6C = New System.Windows.Forms.Label()
+        Me.Label181 = New System.Windows.Forms.Label()
+        Me.Label143 = New System.Windows.Forms.Label()
+        Me.Label180 = New System.Windows.Forms.Label()
+        Me.Out6B = New System.Windows.Forms.Label()
+        Me.Label179 = New System.Windows.Forms.Label()
+        Me.Label145 = New System.Windows.Forms.Label()
+        Me.Label178 = New System.Windows.Forms.Label()
+        Me.Label146 = New System.Windows.Forms.Label()
+        Me.Label177 = New System.Windows.Forms.Label()
+        Me.Label147 = New System.Windows.Forms.Label()
+        Me.Label176 = New System.Windows.Forms.Label()
+        Me.Label148 = New System.Windows.Forms.Label()
+        Me.Label175 = New System.Windows.Forms.Label()
+        Me.Label149 = New System.Windows.Forms.Label()
+        Me.Out6E = New System.Windows.Forms.Label()
+        Me.Label150 = New System.Windows.Forms.Label()
+        Me.Label173 = New System.Windows.Forms.Label()
+        Me.Label151 = New System.Windows.Forms.Label()
+        Me.Label172 = New System.Windows.Forms.Label()
+        Me.Label152 = New System.Windows.Forms.Label()
+        Me.Label171 = New System.Windows.Forms.Label()
+        Me.Out6I = New System.Windows.Forms.Label()
+        Me.Out6D = New System.Windows.Forms.Label()
+        Me.Out6A = New System.Windows.Forms.Label()
+        Me.Out6F = New System.Windows.Forms.Label()
+        Me.Label155 = New System.Windows.Forms.Label()
+        Me.Label168 = New System.Windows.Forms.Label()
+        Me.Label156 = New System.Windows.Forms.Label()
+        Me.Label167 = New System.Windows.Forms.Label()
+        Me.Out6H = New System.Windows.Forms.Label()
+        Me.Label166 = New System.Windows.Forms.Label()
+        Me.Label158 = New System.Windows.Forms.Label()
+        Me.Out6G = New System.Windows.Forms.Label()
+        Me.Label159 = New System.Windows.Forms.Label()
+        Me.Label164 = New System.Windows.Forms.Label()
+        Me.Label160 = New System.Windows.Forms.Label()
+        Me.Label163 = New System.Windows.Forms.Label()
+        Me.Label161 = New System.Windows.Forms.Label()
+        Me.Label162 = New System.Windows.Forms.Label()
         Me.TabPage7 = New System.Windows.Forms.TabPage()
+        Me.Label185 = New System.Windows.Forms.Label()
+        Me.Out7D = New System.Windows.Forms.Label()
+        Me.Label187 = New System.Windows.Forms.Label()
+        Me.Label170 = New System.Windows.Forms.Label()
+        Me.Out7C = New System.Windows.Forms.Label()
+        Me.Label184 = New System.Windows.Forms.Label()
+        Me.Label157 = New System.Windows.Forms.Label()
+        Me.Out7B = New System.Windows.Forms.Label()
+        Me.Label169 = New System.Windows.Forms.Label()
+        Me.Label144 = New System.Windows.Forms.Label()
+        Me.Label142 = New System.Windows.Forms.Label()
+        Me.Out7A = New System.Windows.Forms.Label()
+        Me.Label154 = New System.Windows.Forms.Label()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.OutSum9 = New System.Windows.Forms.Label()
@@ -118,155 +267,7 @@ Partial Class FormOutputGED60
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.Label42 = New System.Windows.Forms.Label()
-        Me.Label70 = New System.Windows.Forms.Label()
-        Me.Label71 = New System.Windows.Forms.Label()
-        Me.Label72 = New System.Windows.Forms.Label()
-        Me.Label44 = New System.Windows.Forms.Label()
-        Me.Label63 = New System.Windows.Forms.Label()
-        Me.Label66 = New System.Windows.Forms.Label()
-        Me.Label68 = New System.Windows.Forms.Label()
-        Me.Label73 = New System.Windows.Forms.Label()
-        Me.Label74 = New System.Windows.Forms.Label()
-        Me.Label75 = New System.Windows.Forms.Label()
-        Me.Label76 = New System.Windows.Forms.Label()
-        Me.Label77 = New System.Windows.Forms.Label()
-        Me.Out3D = New System.Windows.Forms.Label()
-        Me.Out3C = New System.Windows.Forms.Label()
-        Me.Out3B = New System.Windows.Forms.Label()
-        Me.Label81 = New System.Windows.Forms.Label()
-        Me.Label82 = New System.Windows.Forms.Label()
-        Me.Out3A = New System.Windows.Forms.Label()
-        Me.Label84 = New System.Windows.Forms.Label()
-        Me.Label85 = New System.Windows.Forms.Label()
-        Me.Label86 = New System.Windows.Forms.Label()
-        Me.Label87 = New System.Windows.Forms.Label()
-        Me.Label88 = New System.Windows.Forms.Label()
-        Me.Label89 = New System.Windows.Forms.Label()
-        Me.Label78 = New System.Windows.Forms.Label()
-        Me.Label79 = New System.Windows.Forms.Label()
-        Me.Label80 = New System.Windows.Forms.Label()
-        Me.Label83 = New System.Windows.Forms.Label()
-        Me.Label90 = New System.Windows.Forms.Label()
-        Me.Label91 = New System.Windows.Forms.Label()
-        Me.Label92 = New System.Windows.Forms.Label()
-        Me.Out4I = New System.Windows.Forms.Label()
-        Me.Label94 = New System.Windows.Forms.Label()
-        Me.Out4H = New System.Windows.Forms.Label()
-        Me.Label96 = New System.Windows.Forms.Label()
-        Me.Label97 = New System.Windows.Forms.Label()
-        Me.Label98 = New System.Windows.Forms.Label()
-        Me.Out4G = New System.Windows.Forms.Label()
-        Me.Label100 = New System.Windows.Forms.Label()
-        Me.Out4F = New System.Windows.Forms.Label()
-        Me.Label102 = New System.Windows.Forms.Label()
-        Me.Label103 = New System.Windows.Forms.Label()
-        Me.Label104 = New System.Windows.Forms.Label()
-        Me.Label105 = New System.Windows.Forms.Label()
-        Me.Label106 = New System.Windows.Forms.Label()
-        Me.Label107 = New System.Windows.Forms.Label()
-        Me.Label108 = New System.Windows.Forms.Label()
-        Me.Label109 = New System.Windows.Forms.Label()
-        Me.Label110 = New System.Windows.Forms.Label()
-        Me.Label111 = New System.Windows.Forms.Label()
-        Me.Label112 = New System.Windows.Forms.Label()
-        Me.Label113 = New System.Windows.Forms.Label()
-        Me.Out4E = New System.Windows.Forms.Label()
-        Me.Label115 = New System.Windows.Forms.Label()
-        Me.Out4D = New System.Windows.Forms.Label()
-        Me.Label117 = New System.Windows.Forms.Label()
-        Me.Label118 = New System.Windows.Forms.Label()
-        Me.Label119 = New System.Windows.Forms.Label()
-        Me.Label120 = New System.Windows.Forms.Label()
-        Me.Label121 = New System.Windows.Forms.Label()
-        Me.Label122 = New System.Windows.Forms.Label()
-        Me.Label123 = New System.Windows.Forms.Label()
-        Me.Out4A = New System.Windows.Forms.Label()
-        Me.Label125 = New System.Windows.Forms.Label()
-        Me.Label126 = New System.Windows.Forms.Label()
-        Me.Label127 = New System.Windows.Forms.Label()
-        Me.Label128 = New System.Windows.Forms.Label()
-        Me.Out4B = New System.Windows.Forms.Label()
-        Me.Out4C = New System.Windows.Forms.Label()
-        Me.Label93 = New System.Windows.Forms.Label()
-        Me.Label95 = New System.Windows.Forms.Label()
-        Me.Label99 = New System.Windows.Forms.Label()
-        Me.Label101 = New System.Windows.Forms.Label()
-        Me.Label114 = New System.Windows.Forms.Label()
-        Me.Label116 = New System.Windows.Forms.Label()
-        Me.Label124 = New System.Windows.Forms.Label()
-        Me.Label129 = New System.Windows.Forms.Label()
-        Me.Label130 = New System.Windows.Forms.Label()
-        Me.Label131 = New System.Windows.Forms.Label()
-        Me.Label132 = New System.Windows.Forms.Label()
-        Me.Label133 = New System.Windows.Forms.Label()
-        Me.Label134 = New System.Windows.Forms.Label()
-        Me.Out5A = New System.Windows.Forms.Label()
-        Me.Label136 = New System.Windows.Forms.Label()
-        Me.Label137 = New System.Windows.Forms.Label()
-        Me.Label138 = New System.Windows.Forms.Label()
-        Me.Label139 = New System.Windows.Forms.Label()
-        Me.Out5D = New System.Windows.Forms.Label()
-        Me.Out5B = New System.Windows.Forms.Label()
-        Me.Out5C = New System.Windows.Forms.Label()
-        Me.Label135 = New System.Windows.Forms.Label()
-        Me.Label140 = New System.Windows.Forms.Label()
-        Me.Label141 = New System.Windows.Forms.Label()
-        Me.Out6C = New System.Windows.Forms.Label()
-        Me.Label143 = New System.Windows.Forms.Label()
-        Me.Out6B = New System.Windows.Forms.Label()
-        Me.Label145 = New System.Windows.Forms.Label()
-        Me.Label146 = New System.Windows.Forms.Label()
-        Me.Label147 = New System.Windows.Forms.Label()
-        Me.Label148 = New System.Windows.Forms.Label()
-        Me.Label149 = New System.Windows.Forms.Label()
-        Me.Label150 = New System.Windows.Forms.Label()
-        Me.Label151 = New System.Windows.Forms.Label()
-        Me.Label152 = New System.Windows.Forms.Label()
-        Me.Out6I = New System.Windows.Forms.Label()
-        Me.Out6A = New System.Windows.Forms.Label()
-        Me.Label155 = New System.Windows.Forms.Label()
-        Me.Label156 = New System.Windows.Forms.Label()
-        Me.Out6H = New System.Windows.Forms.Label()
-        Me.Label158 = New System.Windows.Forms.Label()
-        Me.Label159 = New System.Windows.Forms.Label()
-        Me.Label160 = New System.Windows.Forms.Label()
-        Me.Label161 = New System.Windows.Forms.Label()
-        Me.Label162 = New System.Windows.Forms.Label()
-        Me.Label163 = New System.Windows.Forms.Label()
-        Me.Label164 = New System.Windows.Forms.Label()
-        Me.Out6G = New System.Windows.Forms.Label()
-        Me.Label166 = New System.Windows.Forms.Label()
-        Me.Label167 = New System.Windows.Forms.Label()
-        Me.Label168 = New System.Windows.Forms.Label()
-        Me.Out6F = New System.Windows.Forms.Label()
-        Me.Out6D = New System.Windows.Forms.Label()
-        Me.Label171 = New System.Windows.Forms.Label()
-        Me.Label172 = New System.Windows.Forms.Label()
-        Me.Label173 = New System.Windows.Forms.Label()
-        Me.Out6E = New System.Windows.Forms.Label()
-        Me.Label175 = New System.Windows.Forms.Label()
-        Me.Label176 = New System.Windows.Forms.Label()
-        Me.Label177 = New System.Windows.Forms.Label()
-        Me.Label178 = New System.Windows.Forms.Label()
-        Me.Label179 = New System.Windows.Forms.Label()
-        Me.Label180 = New System.Windows.Forms.Label()
-        Me.Label181 = New System.Windows.Forms.Label()
-        Me.Label182 = New System.Windows.Forms.Label()
-        Me.Label183 = New System.Windows.Forms.Label()
-        Me.Label142 = New System.Windows.Forms.Label()
-        Me.Label144 = New System.Windows.Forms.Label()
-        Me.Out7A = New System.Windows.Forms.Label()
-        Me.Label154 = New System.Windows.Forms.Label()
-        Me.Label157 = New System.Windows.Forms.Label()
-        Me.Out7B = New System.Windows.Forms.Label()
-        Me.Label169 = New System.Windows.Forms.Label()
-        Me.Label170 = New System.Windows.Forms.Label()
-        Me.Out7C = New System.Windows.Forms.Label()
-        Me.Label184 = New System.Windows.Forms.Label()
-        Me.Label185 = New System.Windows.Forms.Label()
-        Me.Out7D = New System.Windows.Forms.Label()
-        Me.Label187 = New System.Windows.Forms.Label()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         Me.TabPage2.SuspendLayout()
@@ -594,6 +595,46 @@ Partial Class FormOutputGED60
         Me.TabPage2.TabIndex = 1
         Me.TabPage2.Text = "Output2"
         Me.TabPage2.UseVisualStyleBackColor = True
+        '
+        'Label42
+        '
+        Me.Label42.AutoSize = True
+        Me.Label42.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label42.Location = New System.Drawing.Point(440, 225)
+        Me.Label42.Name = "Label42"
+        Me.Label42.Size = New System.Drawing.Size(94, 13)
+        Me.Label42.TabIndex = 85
+        Me.Label42.Text = "75        Degree"
+        '
+        'Label70
+        '
+        Me.Label70.AutoSize = True
+        Me.Label70.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label70.Location = New System.Drawing.Point(288, 225)
+        Me.Label70.Name = "Label70"
+        Me.Label70.Size = New System.Drawing.Size(101, 13)
+        Me.Label70.TabIndex = 84
+        Me.Label70.Text = "DIR COMPLIMIT"
+        '
+        'Label71
+        '
+        Me.Label71.AutoSize = True
+        Me.Label71.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label71.Location = New System.Drawing.Point(440, 202)
+        Me.Label71.Name = "Label71"
+        Me.Label71.Size = New System.Drawing.Size(94, 13)
+        Me.Label71.TabIndex = 83
+        Me.Label71.Text = "75        Degree"
+        '
+        'Label72
+        '
+        Me.Label72.AutoSize = True
+        Me.Label72.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label72.Location = New System.Drawing.Point(288, 202)
+        Me.Label72.Name = "Label72"
+        Me.Label72.Size = New System.Drawing.Size(58, 13)
+        Me.Label72.TabIndex = 82
+        Me.Label72.Text = "DIR RCA"
         '
         'Label33
         '
@@ -1027,6 +1068,212 @@ Partial Class FormOutputGED60
         Me.TabPage3.Text = "Output3"
         Me.TabPage3.UseVisualStyleBackColor = True
         '
+        'Label44
+        '
+        Me.Label44.AutoSize = True
+        Me.Label44.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label44.Location = New System.Drawing.Point(481, 39)
+        Me.Label44.Name = "Label44"
+        Me.Label44.Size = New System.Drawing.Size(48, 13)
+        Me.Label44.TabIndex = 65
+        Me.Label44.Text = "Degree"
+        '
+        'Label89
+        '
+        Me.Label89.AutoSize = True
+        Me.Label89.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label89.Location = New System.Drawing.Point(180, 3)
+        Me.Label89.Name = "Label89"
+        Me.Label89.Size = New System.Drawing.Size(194, 18)
+        Me.Label89.TabIndex = 45
+        Me.Label89.Text = "Phase Distance Z2 MHO"
+        '
+        'Label63
+        '
+        Me.Label63.AutoSize = True
+        Me.Label63.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label63.Location = New System.Drawing.Point(305, 39)
+        Me.Label63.Name = "Label63"
+        Me.Label63.Size = New System.Drawing.Size(32, 13)
+        Me.Label63.TabIndex = 64
+        Me.Label63.Text = "RCA"
+        '
+        'Label88
+        '
+        Me.Label88.AutoSize = True
+        Me.Label88.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label88.Location = New System.Drawing.Point(6, 39)
+        Me.Label88.Name = "Label88"
+        Me.Label88.Size = New System.Drawing.Size(104, 13)
+        Me.Label88.TabIndex = 48
+        Me.Label88.Text = "Ph Dis Z2 Reach"
+        '
+        'Label66
+        '
+        Me.Label66.AutoSize = True
+        Me.Label66.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label66.Location = New System.Drawing.Point(435, 133)
+        Me.Label66.Name = "Label66"
+        Me.Label66.Size = New System.Drawing.Size(94, 13)
+        Me.Label66.TabIndex = 63
+        Me.Label66.Text = "90        Degree"
+        '
+        'Label87
+        '
+        Me.Label87.AutoSize = True
+        Me.Label87.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label87.Location = New System.Drawing.Point(6, 71)
+        Me.Label87.Name = "Label87"
+        Me.Label87.Size = New System.Drawing.Size(118, 13)
+        Me.Label87.TabIndex = 49
+        Me.Label87.Text = "Ph Dis Z2 Direction"
+        '
+        'Label68
+        '
+        Me.Label68.AutoSize = True
+        Me.Label68.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label68.Location = New System.Drawing.Point(305, 133)
+        Me.Label68.Name = "Label68"
+        Me.Label68.Size = New System.Drawing.Size(101, 13)
+        Me.Label68.TabIndex = 62
+        Me.Label68.Text = "DIR COMPLIMIT"
+        '
+        'Label86
+        '
+        Me.Label86.AutoSize = True
+        Me.Label86.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label86.Location = New System.Drawing.Point(6, 102)
+        Me.Label86.Name = "Label86"
+        Me.Label86.Size = New System.Drawing.Size(128, 13)
+        Me.Label86.TabIndex = 50
+        Me.Label86.Text = "Ph Dis Z2 Comp Limit"
+        '
+        'Label73
+        '
+        Me.Label73.AutoSize = True
+        Me.Label73.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label73.Location = New System.Drawing.Point(435, 102)
+        Me.Label73.Name = "Label73"
+        Me.Label73.Size = New System.Drawing.Size(94, 13)
+        Me.Label73.TabIndex = 61
+        Me.Label73.Text = "80        Degree"
+        '
+        'Label85
+        '
+        Me.Label85.AutoSize = True
+        Me.Label85.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label85.Location = New System.Drawing.Point(6, 133)
+        Me.Label85.Name = "Label85"
+        Me.Label85.Size = New System.Drawing.Size(99, 13)
+        Me.Label85.TabIndex = 51
+        Me.Label85.Text = "Ph Dis Z2 Delay"
+        '
+        'Label74
+        '
+        Me.Label74.AutoSize = True
+        Me.Label74.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label74.Location = New System.Drawing.Point(305, 102)
+        Me.Label74.Name = "Label74"
+        Me.Label74.Size = New System.Drawing.Size(58, 13)
+        Me.Label74.TabIndex = 60
+        Me.Label74.Text = "DIR RCA"
+        '
+        'Label84
+        '
+        Me.Label84.AutoSize = True
+        Me.Label84.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label84.Location = New System.Drawing.Point(6, 165)
+        Me.Label84.Name = "Label84"
+        Me.Label84.Size = New System.Drawing.Size(96, 13)
+        Me.Label84.TabIndex = 52
+        Me.Label84.Text = "Ph Dis Z2 Supv"
+        '
+        'Label75
+        '
+        Me.Label75.AutoSize = True
+        Me.Label75.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label75.Location = New System.Drawing.Point(435, 71)
+        Me.Label75.Name = "Label75"
+        Me.Label75.Size = New System.Drawing.Size(94, 13)
+        Me.Label75.TabIndex = 59
+        Me.Label75.Text = "90        Degree"
+        '
+        'Out3A
+        '
+        Me.Out3A.AutoSize = True
+        Me.Out3A.Location = New System.Drawing.Point(140, 39)
+        Me.Out3A.Name = "Out3A"
+        Me.Out3A.Size = New System.Drawing.Size(37, 13)
+        Me.Out3A.TabIndex = 46
+        Me.Out3A.Text = "Out3A"
+        '
+        'Label76
+        '
+        Me.Label76.AutoSize = True
+        Me.Label76.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label76.Location = New System.Drawing.Point(305, 71)
+        Me.Label76.Name = "Label76"
+        Me.Label76.Size = New System.Drawing.Size(75, 13)
+        Me.Label76.TabIndex = 58
+        Me.Label76.Text = "COMPLIMIT"
+        '
+        'Label82
+        '
+        Me.Label82.AutoSize = True
+        Me.Label82.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label82.Location = New System.Drawing.Point(183, 39)
+        Me.Label82.Name = "Label82"
+        Me.Label82.Size = New System.Drawing.Size(32, 13)
+        Me.Label82.TabIndex = 47
+        Me.Label82.Text = "Ohm"
+        '
+        'Label77
+        '
+        Me.Label77.AutoSize = True
+        Me.Label77.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label77.Location = New System.Drawing.Point(136, 165)
+        Me.Label77.Name = "Label77"
+        Me.Label77.Size = New System.Drawing.Size(72, 13)
+        Me.Label77.TabIndex = 57
+        Me.Label77.Text = "1.2        Pu"
+        '
+        'Label81
+        '
+        Me.Label81.AutoSize = True
+        Me.Label81.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label81.Location = New System.Drawing.Point(136, 71)
+        Me.Label81.Name = "Label81"
+        Me.Label81.Size = New System.Drawing.Size(70, 13)
+        Me.Label81.TabIndex = 53
+        Me.Label81.Text = "FORWARD"
+        '
+        'Out3D
+        '
+        Me.Out3D.AutoSize = True
+        Me.Out3D.Location = New System.Drawing.Point(414, 39)
+        Me.Out3D.Name = "Out3D"
+        Me.Out3D.Size = New System.Drawing.Size(38, 13)
+        Me.Out3D.TabIndex = 56
+        Me.Out3D.Text = "Out3D"
+        '
+        'Out3B
+        '
+        Me.Out3B.AutoSize = True
+        Me.Out3B.Location = New System.Drawing.Point(140, 102)
+        Me.Out3B.Name = "Out3B"
+        Me.Out3B.Size = New System.Drawing.Size(37, 13)
+        Me.Out3B.TabIndex = 54
+        Me.Out3B.Text = "Out3B"
+        '
+        'Out3C
+        '
+        Me.Out3C.AutoSize = True
+        Me.Out3C.Location = New System.Drawing.Point(140, 133)
+        Me.Out3C.Name = "Out3C"
+        Me.Out3C.Size = New System.Drawing.Size(37, 13)
+        Me.Out3C.TabIndex = 55
+        Me.Out3C.Text = "Out3C"
+        '
         'TabPage4
         '
         Me.TabPage4.Controls.Add(Me.Label78)
@@ -1082,6 +1329,447 @@ Partial Class FormOutputGED60
         Me.TabPage4.Text = "Output4"
         Me.TabPage4.UseVisualStyleBackColor = True
         '
+        'Label78
+        '
+        Me.Label78.AutoSize = True
+        Me.Label78.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label78.Location = New System.Drawing.Point(440, 225)
+        Me.Label78.Name = "Label78"
+        Me.Label78.Size = New System.Drawing.Size(94, 13)
+        Me.Label78.TabIndex = 130
+        Me.Label78.Text = "75        Degree"
+        '
+        'Label109
+        '
+        Me.Label109.AutoSize = True
+        Me.Label109.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label109.Location = New System.Drawing.Point(163, 3)
+        Me.Label109.Name = "Label109"
+        Me.Label109.Size = New System.Drawing.Size(211, 18)
+        Me.Label109.TabIndex = 86
+        Me.Label109.Text = "Ground Distance Z2 QUAD"
+        '
+        'Label79
+        '
+        Me.Label79.AutoSize = True
+        Me.Label79.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label79.Location = New System.Drawing.Point(288, 225)
+        Me.Label79.Name = "Label79"
+        Me.Label79.Size = New System.Drawing.Size(101, 13)
+        Me.Label79.TabIndex = 129
+        Me.Label79.Text = "DIR COMPLIMIT"
+        '
+        'Out4C
+        '
+        Me.Out4C.AutoSize = True
+        Me.Out4C.Location = New System.Drawing.Point(140, 108)
+        Me.Out4C.Name = "Out4C"
+        Me.Out4C.Size = New System.Drawing.Size(37, 13)
+        Me.Out4C.TabIndex = 96
+        Me.Out4C.Text = "Out4C"
+        '
+        'Label80
+        '
+        Me.Label80.AutoSize = True
+        Me.Label80.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label80.Location = New System.Drawing.Point(440, 202)
+        Me.Label80.Name = "Label80"
+        Me.Label80.Size = New System.Drawing.Size(94, 13)
+        Me.Label80.TabIndex = 128
+        Me.Label80.Text = "75        Degree"
+        '
+        'Out4B
+        '
+        Me.Out4B.AutoSize = True
+        Me.Out4B.Location = New System.Drawing.Point(140, 84)
+        Me.Out4B.Name = "Out4B"
+        Me.Out4B.Size = New System.Drawing.Size(37, 13)
+        Me.Out4B.TabIndex = 95
+        Me.Out4B.Text = "Out4B"
+        '
+        'Label83
+        '
+        Me.Label83.AutoSize = True
+        Me.Label83.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label83.Location = New System.Drawing.Point(288, 202)
+        Me.Label83.Name = "Label83"
+        Me.Label83.Size = New System.Drawing.Size(58, 13)
+        Me.Label83.TabIndex = 127
+        Me.Label83.Text = "DIR RCA"
+        '
+        'Label128
+        '
+        Me.Label128.AutoSize = True
+        Me.Label128.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label128.Location = New System.Drawing.Point(136, 62)
+        Me.Label128.Name = "Label128"
+        Me.Label128.Size = New System.Drawing.Size(70, 13)
+        Me.Label128.TabIndex = 94
+        Me.Label128.Text = "FORWARD"
+        '
+        'Label90
+        '
+        Me.Label90.AutoSize = True
+        Me.Label90.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label90.Location = New System.Drawing.Point(440, 125)
+        Me.Label90.Name = "Label90"
+        Me.Label90.Size = New System.Drawing.Size(94, 13)
+        Me.Label90.TabIndex = 126
+        Me.Label90.Text = "75        Degree"
+        '
+        'Label127
+        '
+        Me.Label127.AutoSize = True
+        Me.Label127.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label127.Location = New System.Drawing.Point(136, 133)
+        Me.Label127.Name = "Label127"
+        Me.Label127.Size = New System.Drawing.Size(68, 13)
+        Me.Label127.TabIndex = 97
+        Me.Label127.Text = "0.2       Pu"
+        '
+        'Label91
+        '
+        Me.Label91.AutoSize = True
+        Me.Label91.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label91.Location = New System.Drawing.Point(486, 107)
+        Me.Label91.Name = "Label91"
+        Me.Label91.Size = New System.Drawing.Size(48, 13)
+        Me.Label91.TabIndex = 125
+        Me.Label91.Text = "Degree"
+        '
+        'Label126
+        '
+        Me.Label126.AutoSize = True
+        Me.Label126.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label126.Location = New System.Drawing.Point(197, 39)
+        Me.Label126.Name = "Label126"
+        Me.Label126.Size = New System.Drawing.Size(32, 13)
+        Me.Label126.TabIndex = 88
+        Me.Label126.Text = "Ohm"
+        '
+        'Label92
+        '
+        Me.Label92.AutoSize = True
+        Me.Label92.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label92.Location = New System.Drawing.Point(288, 107)
+        Me.Label92.Name = "Label92"
+        Me.Label92.Size = New System.Drawing.Size(108, 13)
+        Me.Label92.TabIndex = 123
+        Me.Label92.Text = "Left Blinder Angle"
+        '
+        'Label125
+        '
+        Me.Label125.AutoSize = True
+        Me.Label125.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label125.Location = New System.Drawing.Point(288, 147)
+        Me.Label125.Name = "Label125"
+        Me.Label125.Size = New System.Drawing.Size(75, 13)
+        Me.Label125.TabIndex = 99
+        Me.Label125.Text = "COMPLIMIT"
+        '
+        'Out4I
+        '
+        Me.Out4I.AutoSize = True
+        Me.Out4I.Location = New System.Drawing.Point(435, 107)
+        Me.Out4I.Name = "Out4I"
+        Me.Out4I.Size = New System.Drawing.Size(33, 13)
+        Me.Out4I.TabIndex = 124
+        Me.Out4I.Text = "Out4I"
+        '
+        'Out4A
+        '
+        Me.Out4A.AutoSize = True
+        Me.Out4A.Location = New System.Drawing.Point(140, 39)
+        Me.Out4A.Name = "Out4A"
+        Me.Out4A.Size = New System.Drawing.Size(37, 13)
+        Me.Out4A.TabIndex = 87
+        Me.Out4A.Text = "Out4A"
+        '
+        'Label94
+        '
+        Me.Label94.AutoSize = True
+        Me.Label94.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label94.Location = New System.Drawing.Point(288, 84)
+        Me.Label94.Name = "Label94"
+        Me.Label94.Size = New System.Drawing.Size(135, 13)
+        Me.Label94.TabIndex = 122
+        Me.Label94.Text = "Left Blinder Magnitude"
+        '
+        'Label123
+        '
+        Me.Label123.AutoSize = True
+        Me.Label123.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label123.Location = New System.Drawing.Point(440, 143)
+        Me.Label123.Name = "Label123"
+        Me.Label123.Size = New System.Drawing.Size(94, 13)
+        Me.Label123.TabIndex = 100
+        Me.Label123.Text = "90        Degree"
+        '
+        'Out4H
+        '
+        Me.Out4H.AutoSize = True
+        Me.Out4H.Location = New System.Drawing.Point(435, 84)
+        Me.Out4H.Name = "Out4H"
+        Me.Out4H.Size = New System.Drawing.Size(38, 13)
+        Me.Out4H.TabIndex = 120
+        Me.Out4H.Text = "Out4H"
+        '
+        'Label122
+        '
+        Me.Label122.AutoSize = True
+        Me.Label122.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label122.Location = New System.Drawing.Point(6, 133)
+        Me.Label122.Name = "Label122"
+        Me.Label122.Size = New System.Drawing.Size(104, 13)
+        Me.Label122.TabIndex = 93
+        Me.Label122.Text = "Gnd Dis Z2 Supv"
+        '
+        'Label96
+        '
+        Me.Label96.AutoSize = True
+        Me.Label96.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label96.Location = New System.Drawing.Point(486, 84)
+        Me.Label96.Name = "Label96"
+        Me.Label96.Size = New System.Drawing.Size(32, 13)
+        Me.Label96.TabIndex = 121
+        Me.Label96.Text = "Ohm"
+        '
+        'Label121
+        '
+        Me.Label121.AutoSize = True
+        Me.Label121.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label121.Location = New System.Drawing.Point(288, 166)
+        Me.Label121.Name = "Label121"
+        Me.Label121.Size = New System.Drawing.Size(58, 13)
+        Me.Label121.TabIndex = 102
+        Me.Label121.Text = "DIR RCA"
+        '
+        'Label97
+        '
+        Me.Label97.AutoSize = True
+        Me.Label97.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label97.Location = New System.Drawing.Point(486, 62)
+        Me.Label97.Name = "Label97"
+        Me.Label97.Size = New System.Drawing.Size(48, 13)
+        Me.Label97.TabIndex = 119
+        Me.Label97.Text = "Degree"
+        '
+        'Label120
+        '
+        Me.Label120.AutoSize = True
+        Me.Label120.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label120.Location = New System.Drawing.Point(6, 108)
+        Me.Label120.Name = "Label120"
+        Me.Label120.Size = New System.Drawing.Size(107, 13)
+        Me.Label120.TabIndex = 92
+        Me.Label120.Text = "Gnd Dis Z2 Delay"
+        '
+        'Label98
+        '
+        Me.Label98.AutoSize = True
+        Me.Label98.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label98.Location = New System.Drawing.Point(288, 62)
+        Me.Label98.Name = "Label98"
+        Me.Label98.Size = New System.Drawing.Size(116, 13)
+        Me.Label98.TabIndex = 117
+        Me.Label98.Text = "Right Blinder Angle"
+        '
+        'Label119
+        '
+        Me.Label119.AutoSize = True
+        Me.Label119.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label119.Location = New System.Drawing.Point(440, 166)
+        Me.Label119.Name = "Label119"
+        Me.Label119.Size = New System.Drawing.Size(94, 13)
+        Me.Label119.TabIndex = 104
+        Me.Label119.Text = "45        Degree"
+        '
+        'Out4G
+        '
+        Me.Out4G.AutoSize = True
+        Me.Out4G.Location = New System.Drawing.Point(435, 62)
+        Me.Out4G.Name = "Out4G"
+        Me.Out4G.Size = New System.Drawing.Size(38, 13)
+        Me.Out4G.TabIndex = 118
+        Me.Out4G.Text = "Out4G"
+        '
+        'Label118
+        '
+        Me.Label118.AutoSize = True
+        Me.Label118.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label118.Location = New System.Drawing.Point(6, 84)
+        Me.Label118.Name = "Label118"
+        Me.Label118.Size = New System.Drawing.Size(136, 13)
+        Me.Label118.TabIndex = 91
+        Me.Label118.Text = "Gnd Dis Z2 Comp Limit"
+        '
+        'Label100
+        '
+        Me.Label100.AutoSize = True
+        Me.Label100.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label100.Location = New System.Drawing.Point(288, 39)
+        Me.Label100.Name = "Label100"
+        Me.Label100.Size = New System.Drawing.Size(143, 13)
+        Me.Label100.TabIndex = 116
+        Me.Label100.Text = "Right Blinder Magnitude"
+        '
+        'Label117
+        '
+        Me.Label117.AutoSize = True
+        Me.Label117.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label117.Location = New System.Drawing.Point(288, 185)
+        Me.Label117.Name = "Label117"
+        Me.Label117.Size = New System.Drawing.Size(101, 13)
+        Me.Label117.TabIndex = 106
+        Me.Label117.Text = "DIR COMPLIMIT"
+        '
+        'Out4F
+        '
+        Me.Out4F.AutoSize = True
+        Me.Out4F.Location = New System.Drawing.Point(435, 39)
+        Me.Out4F.Name = "Out4F"
+        Me.Out4F.Size = New System.Drawing.Size(36, 13)
+        Me.Out4F.TabIndex = 114
+        Me.Out4F.Text = "Out4F"
+        '
+        'Out4D
+        '
+        Me.Out4D.AutoSize = True
+        Me.Out4D.Location = New System.Drawing.Point(140, 152)
+        Me.Out4D.Name = "Out4D"
+        Me.Out4D.Size = New System.Drawing.Size(38, 13)
+        Me.Out4D.TabIndex = 109
+        Me.Out4D.Text = "Out4D"
+        '
+        'Label102
+        '
+        Me.Label102.AutoSize = True
+        Me.Label102.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label102.Location = New System.Drawing.Point(486, 39)
+        Me.Label102.Name = "Label102"
+        Me.Label102.Size = New System.Drawing.Size(32, 13)
+        Me.Label102.TabIndex = 115
+        Me.Label102.Text = "Ohm"
+        '
+        'Label115
+        '
+        Me.Label115.AutoSize = True
+        Me.Label115.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label115.Location = New System.Drawing.Point(6, 62)
+        Me.Label115.Name = "Label115"
+        Me.Label115.Size = New System.Drawing.Size(112, 13)
+        Me.Label115.TabIndex = 90
+        Me.Label115.Text = "Gnd Dis Z2 Reach"
+        '
+        'Label103
+        '
+        Me.Label103.AutoSize = True
+        Me.Label103.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label103.Location = New System.Drawing.Point(136, 198)
+        Me.Label103.Name = "Label103"
+        Me.Label103.Size = New System.Drawing.Size(14, 13)
+        Me.Label103.TabIndex = 113
+        Me.Label103.Text = "0"
+        '
+        'Out4E
+        '
+        Me.Out4E.AutoSize = True
+        Me.Out4E.Location = New System.Drawing.Point(140, 174)
+        Me.Out4E.Name = "Out4E"
+        Me.Out4E.Size = New System.Drawing.Size(37, 13)
+        Me.Out4E.TabIndex = 107
+        Me.Out4E.Text = "Out4E"
+        '
+        'Label104
+        '
+        Me.Label104.AutoSize = True
+        Me.Label104.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label104.Location = New System.Drawing.Point(136, 223)
+        Me.Label104.Name = "Label104"
+        Me.Label104.Size = New System.Drawing.Size(111, 13)
+        Me.Label104.TabIndex = 112
+        Me.Label104.Text = "0              Degree"
+        '
+        'Label113
+        '
+        Me.Label113.AutoSize = True
+        Me.Label113.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label113.Location = New System.Drawing.Point(440, 185)
+        Me.Label113.Name = "Label113"
+        Me.Label113.Size = New System.Drawing.Size(94, 13)
+        Me.Label113.TabIndex = 108
+        Me.Label113.Text = "60        Degree"
+        '
+        'Label105
+        '
+        Me.Label105.AutoSize = True
+        Me.Label105.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label105.Location = New System.Drawing.Point(197, 174)
+        Me.Label105.Name = "Label105"
+        Me.Label105.Size = New System.Drawing.Size(48, 13)
+        Me.Label105.TabIndex = 111
+        Me.Label105.Text = "Degree"
+        '
+        'Label112
+        '
+        Me.Label112.AutoSize = True
+        Me.Label112.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label112.Location = New System.Drawing.Point(6, 39)
+        Me.Label112.Name = "Label112"
+        Me.Label112.Size = New System.Drawing.Size(112, 13)
+        Me.Label112.TabIndex = 89
+        Me.Label112.Text = "Gnd Dis Z2 Reach"
+        '
+        'Label106
+        '
+        Me.Label106.AutoSize = True
+        Me.Label106.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label106.Location = New System.Drawing.Point(6, 152)
+        Me.Label106.Name = "Label106"
+        Me.Label106.Size = New System.Drawing.Size(71, 13)
+        Me.Label106.TabIndex = 98
+        Me.Label106.Text = "Z0/Z1 Mag"
+        '
+        'Label111
+        '
+        Me.Label111.AutoSize = True
+        Me.Label111.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label111.Location = New System.Drawing.Point(288, 125)
+        Me.Label111.Name = "Label111"
+        Me.Label111.Size = New System.Drawing.Size(32, 13)
+        Me.Label111.TabIndex = 110
+        Me.Label111.Text = "RCA"
+        '
+        'Label107
+        '
+        Me.Label107.AutoSize = True
+        Me.Label107.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label107.Location = New System.Drawing.Point(6, 174)
+        Me.Label107.Name = "Label107"
+        Me.Label107.Size = New System.Drawing.Size(69, 13)
+        Me.Label107.TabIndex = 101
+        Me.Label107.Text = "Z0/Z1 Ang"
+        '
+        'Label110
+        '
+        Me.Label110.AutoSize = True
+        Me.Label110.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label110.Location = New System.Drawing.Point(6, 223)
+        Me.Label110.Name = "Label110"
+        Me.Label110.Size = New System.Drawing.Size(79, 13)
+        Me.Label110.TabIndex = 105
+        Me.Label110.Text = "Z0M/Z1 Ang"
+        '
+        'Label108
+        '
+        Me.Label108.AutoSize = True
+        Me.Label108.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label108.Location = New System.Drawing.Point(6, 198)
+        Me.Label108.Name = "Label108"
+        Me.Label108.Size = New System.Drawing.Size(79, 13)
+        Me.Label108.TabIndex = 103
+        Me.Label108.Text = "Z0M/Z1 Ang"
+        '
         'TabPage5
         '
         Me.TabPage5.Controls.Add(Me.Label93)
@@ -1112,6 +1800,212 @@ Partial Class FormOutputGED60
         Me.TabPage5.TabIndex = 0
         Me.TabPage5.Text = "Output5"
         Me.TabPage5.UseVisualStyleBackColor = True
+        '
+        'Label93
+        '
+        Me.Label93.AutoSize = True
+        Me.Label93.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label93.Location = New System.Drawing.Point(481, 39)
+        Me.Label93.Name = "Label93"
+        Me.Label93.Size = New System.Drawing.Size(48, 13)
+        Me.Label93.TabIndex = 86
+        Me.Label93.Text = "Degree"
+        '
+        'Label95
+        '
+        Me.Label95.AutoSize = True
+        Me.Label95.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label95.Location = New System.Drawing.Point(180, 3)
+        Me.Label95.Name = "Label95"
+        Me.Label95.Size = New System.Drawing.Size(194, 18)
+        Me.Label95.TabIndex = 66
+        Me.Label95.Text = "Phase Distance Z3 MHO"
+        '
+        'Out5C
+        '
+        Me.Out5C.AutoSize = True
+        Me.Out5C.Location = New System.Drawing.Point(140, 133)
+        Me.Out5C.Name = "Out5C"
+        Me.Out5C.Size = New System.Drawing.Size(37, 13)
+        Me.Out5C.TabIndex = 76
+        Me.Out5C.Text = "Out5C"
+        '
+        'Label99
+        '
+        Me.Label99.AutoSize = True
+        Me.Label99.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label99.Location = New System.Drawing.Point(305, 39)
+        Me.Label99.Name = "Label99"
+        Me.Label99.Size = New System.Drawing.Size(32, 13)
+        Me.Label99.TabIndex = 85
+        Me.Label99.Text = "RCA"
+        '
+        'Out5B
+        '
+        Me.Out5B.AutoSize = True
+        Me.Out5B.Location = New System.Drawing.Point(140, 102)
+        Me.Out5B.Name = "Out5B"
+        Me.Out5B.Size = New System.Drawing.Size(37, 13)
+        Me.Out5B.TabIndex = 75
+        Me.Out5B.Text = "Out5B"
+        '
+        'Label101
+        '
+        Me.Label101.AutoSize = True
+        Me.Label101.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label101.Location = New System.Drawing.Point(6, 39)
+        Me.Label101.Name = "Label101"
+        Me.Label101.Size = New System.Drawing.Size(104, 13)
+        Me.Label101.TabIndex = 69
+        Me.Label101.Text = "Ph Dis Z3 Reach"
+        '
+        'Out5D
+        '
+        Me.Out5D.AutoSize = True
+        Me.Out5D.Location = New System.Drawing.Point(414, 39)
+        Me.Out5D.Name = "Out5D"
+        Me.Out5D.Size = New System.Drawing.Size(38, 13)
+        Me.Out5D.TabIndex = 77
+        Me.Out5D.Text = "Out5D"
+        '
+        'Label114
+        '
+        Me.Label114.AutoSize = True
+        Me.Label114.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label114.Location = New System.Drawing.Point(435, 133)
+        Me.Label114.Name = "Label114"
+        Me.Label114.Size = New System.Drawing.Size(94, 13)
+        Me.Label114.TabIndex = 84
+        Me.Label114.Text = "90        Degree"
+        '
+        'Label139
+        '
+        Me.Label139.AutoSize = True
+        Me.Label139.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label139.Location = New System.Drawing.Point(136, 71)
+        Me.Label139.Name = "Label139"
+        Me.Label139.Size = New System.Drawing.Size(70, 13)
+        Me.Label139.TabIndex = 74
+        Me.Label139.Text = "FORWARD"
+        '
+        'Label116
+        '
+        Me.Label116.AutoSize = True
+        Me.Label116.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label116.Location = New System.Drawing.Point(6, 71)
+        Me.Label116.Name = "Label116"
+        Me.Label116.Size = New System.Drawing.Size(118, 13)
+        Me.Label116.TabIndex = 70
+        Me.Label116.Text = "Ph Dis Z3 Direction"
+        '
+        'Label138
+        '
+        Me.Label138.AutoSize = True
+        Me.Label138.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label138.Location = New System.Drawing.Point(136, 165)
+        Me.Label138.Name = "Label138"
+        Me.Label138.Size = New System.Drawing.Size(72, 13)
+        Me.Label138.TabIndex = 78
+        Me.Label138.Text = "1.2        Pu"
+        '
+        'Label124
+        '
+        Me.Label124.AutoSize = True
+        Me.Label124.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label124.Location = New System.Drawing.Point(305, 133)
+        Me.Label124.Name = "Label124"
+        Me.Label124.Size = New System.Drawing.Size(101, 13)
+        Me.Label124.TabIndex = 83
+        Me.Label124.Text = "DIR COMPLIMIT"
+        '
+        'Label137
+        '
+        Me.Label137.AutoSize = True
+        Me.Label137.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label137.Location = New System.Drawing.Point(183, 39)
+        Me.Label137.Name = "Label137"
+        Me.Label137.Size = New System.Drawing.Size(32, 13)
+        Me.Label137.TabIndex = 68
+        Me.Label137.Text = "Ohm"
+        '
+        'Label129
+        '
+        Me.Label129.AutoSize = True
+        Me.Label129.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label129.Location = New System.Drawing.Point(6, 102)
+        Me.Label129.Name = "Label129"
+        Me.Label129.Size = New System.Drawing.Size(128, 13)
+        Me.Label129.TabIndex = 71
+        Me.Label129.Text = "Ph Dis Z3 Comp Limit"
+        '
+        'Label136
+        '
+        Me.Label136.AutoSize = True
+        Me.Label136.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label136.Location = New System.Drawing.Point(305, 71)
+        Me.Label136.Name = "Label136"
+        Me.Label136.Size = New System.Drawing.Size(75, 13)
+        Me.Label136.TabIndex = 79
+        Me.Label136.Text = "COMPLIMIT"
+        '
+        'Label130
+        '
+        Me.Label130.AutoSize = True
+        Me.Label130.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label130.Location = New System.Drawing.Point(435, 102)
+        Me.Label130.Name = "Label130"
+        Me.Label130.Size = New System.Drawing.Size(94, 13)
+        Me.Label130.TabIndex = 82
+        Me.Label130.Text = "80        Degree"
+        '
+        'Out5A
+        '
+        Me.Out5A.AutoSize = True
+        Me.Out5A.Location = New System.Drawing.Point(140, 39)
+        Me.Out5A.Name = "Out5A"
+        Me.Out5A.Size = New System.Drawing.Size(37, 13)
+        Me.Out5A.TabIndex = 67
+        Me.Out5A.Text = "Out5A"
+        '
+        'Label131
+        '
+        Me.Label131.AutoSize = True
+        Me.Label131.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label131.Location = New System.Drawing.Point(6, 133)
+        Me.Label131.Name = "Label131"
+        Me.Label131.Size = New System.Drawing.Size(99, 13)
+        Me.Label131.TabIndex = 72
+        Me.Label131.Text = "Ph Dis Z3 Delay"
+        '
+        'Label134
+        '
+        Me.Label134.AutoSize = True
+        Me.Label134.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label134.Location = New System.Drawing.Point(435, 71)
+        Me.Label134.Name = "Label134"
+        Me.Label134.Size = New System.Drawing.Size(94, 13)
+        Me.Label134.TabIndex = 80
+        Me.Label134.Text = "90        Degree"
+        '
+        'Label132
+        '
+        Me.Label132.AutoSize = True
+        Me.Label132.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label132.Location = New System.Drawing.Point(305, 102)
+        Me.Label132.Name = "Label132"
+        Me.Label132.Size = New System.Drawing.Size(58, 13)
+        Me.Label132.TabIndex = 81
+        Me.Label132.Text = "DIR RCA"
+        '
+        'Label133
+        '
+        Me.Label133.AutoSize = True
+        Me.Label133.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label133.Location = New System.Drawing.Point(6, 165)
+        Me.Label133.Name = "Label133"
+        Me.Label133.Size = New System.Drawing.Size(96, 13)
+        Me.Label133.TabIndex = 73
+        Me.Label133.Text = "Ph Dis Z3 Supv"
         '
         'TabPage6
         '
@@ -1168,6 +2062,447 @@ Partial Class FormOutputGED60
         Me.TabPage6.Text = "Output6"
         Me.TabPage6.UseVisualStyleBackColor = True
         '
+        'Label135
+        '
+        Me.Label135.AutoSize = True
+        Me.Label135.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label135.Location = New System.Drawing.Point(440, 225)
+        Me.Label135.Name = "Label135"
+        Me.Label135.Size = New System.Drawing.Size(94, 13)
+        Me.Label135.TabIndex = 175
+        Me.Label135.Text = "75        Degree"
+        '
+        'Label140
+        '
+        Me.Label140.AutoSize = True
+        Me.Label140.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label140.Location = New System.Drawing.Point(163, 3)
+        Me.Label140.Name = "Label140"
+        Me.Label140.Size = New System.Drawing.Size(211, 18)
+        Me.Label140.TabIndex = 131
+        Me.Label140.Text = "Ground Distance Z3 QUAD"
+        '
+        'Label183
+        '
+        Me.Label183.AutoSize = True
+        Me.Label183.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label183.Location = New System.Drawing.Point(6, 198)
+        Me.Label183.Name = "Label183"
+        Me.Label183.Size = New System.Drawing.Size(79, 13)
+        Me.Label183.TabIndex = 148
+        Me.Label183.Text = "Z0M/Z1 Ang"
+        '
+        'Label141
+        '
+        Me.Label141.AutoSize = True
+        Me.Label141.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label141.Location = New System.Drawing.Point(288, 225)
+        Me.Label141.Name = "Label141"
+        Me.Label141.Size = New System.Drawing.Size(101, 13)
+        Me.Label141.TabIndex = 174
+        Me.Label141.Text = "DIR COMPLIMIT"
+        '
+        'Label182
+        '
+        Me.Label182.AutoSize = True
+        Me.Label182.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label182.Location = New System.Drawing.Point(6, 223)
+        Me.Label182.Name = "Label182"
+        Me.Label182.Size = New System.Drawing.Size(79, 13)
+        Me.Label182.TabIndex = 150
+        Me.Label182.Text = "Z0M/Z1 Ang"
+        '
+        'Out6C
+        '
+        Me.Out6C.AutoSize = True
+        Me.Out6C.Location = New System.Drawing.Point(140, 108)
+        Me.Out6C.Name = "Out6C"
+        Me.Out6C.Size = New System.Drawing.Size(37, 13)
+        Me.Out6C.TabIndex = 141
+        Me.Out6C.Text = "Out6C"
+        '
+        'Label181
+        '
+        Me.Label181.AutoSize = True
+        Me.Label181.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label181.Location = New System.Drawing.Point(6, 174)
+        Me.Label181.Name = "Label181"
+        Me.Label181.Size = New System.Drawing.Size(69, 13)
+        Me.Label181.TabIndex = 146
+        Me.Label181.Text = "Z0/Z1 Ang"
+        '
+        'Label143
+        '
+        Me.Label143.AutoSize = True
+        Me.Label143.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label143.Location = New System.Drawing.Point(440, 202)
+        Me.Label143.Name = "Label143"
+        Me.Label143.Size = New System.Drawing.Size(94, 13)
+        Me.Label143.TabIndex = 173
+        Me.Label143.Text = "75        Degree"
+        '
+        'Label180
+        '
+        Me.Label180.AutoSize = True
+        Me.Label180.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label180.Location = New System.Drawing.Point(288, 125)
+        Me.Label180.Name = "Label180"
+        Me.Label180.Size = New System.Drawing.Size(32, 13)
+        Me.Label180.TabIndex = 155
+        Me.Label180.Text = "RCA"
+        '
+        'Out6B
+        '
+        Me.Out6B.AutoSize = True
+        Me.Out6B.Location = New System.Drawing.Point(140, 84)
+        Me.Out6B.Name = "Out6B"
+        Me.Out6B.Size = New System.Drawing.Size(37, 13)
+        Me.Out6B.TabIndex = 140
+        Me.Out6B.Text = "Out6B"
+        '
+        'Label179
+        '
+        Me.Label179.AutoSize = True
+        Me.Label179.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label179.Location = New System.Drawing.Point(6, 152)
+        Me.Label179.Name = "Label179"
+        Me.Label179.Size = New System.Drawing.Size(71, 13)
+        Me.Label179.TabIndex = 143
+        Me.Label179.Text = "Z0/Z1 Mag"
+        '
+        'Label145
+        '
+        Me.Label145.AutoSize = True
+        Me.Label145.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label145.Location = New System.Drawing.Point(288, 202)
+        Me.Label145.Name = "Label145"
+        Me.Label145.Size = New System.Drawing.Size(58, 13)
+        Me.Label145.TabIndex = 172
+        Me.Label145.Text = "DIR RCA"
+        '
+        'Label178
+        '
+        Me.Label178.AutoSize = True
+        Me.Label178.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label178.Location = New System.Drawing.Point(6, 39)
+        Me.Label178.Name = "Label178"
+        Me.Label178.Size = New System.Drawing.Size(112, 13)
+        Me.Label178.TabIndex = 134
+        Me.Label178.Text = "Gnd Dis Z3 Reach"
+        '
+        'Label146
+        '
+        Me.Label146.AutoSize = True
+        Me.Label146.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label146.Location = New System.Drawing.Point(136, 62)
+        Me.Label146.Name = "Label146"
+        Me.Label146.Size = New System.Drawing.Size(70, 13)
+        Me.Label146.TabIndex = 139
+        Me.Label146.Text = "FORWARD"
+        '
+        'Label177
+        '
+        Me.Label177.AutoSize = True
+        Me.Label177.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label177.Location = New System.Drawing.Point(197, 174)
+        Me.Label177.Name = "Label177"
+        Me.Label177.Size = New System.Drawing.Size(48, 13)
+        Me.Label177.TabIndex = 156
+        Me.Label177.Text = "Degree"
+        '
+        'Label147
+        '
+        Me.Label147.AutoSize = True
+        Me.Label147.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label147.Location = New System.Drawing.Point(440, 125)
+        Me.Label147.Name = "Label147"
+        Me.Label147.Size = New System.Drawing.Size(94, 13)
+        Me.Label147.TabIndex = 171
+        Me.Label147.Text = "75        Degree"
+        '
+        'Label176
+        '
+        Me.Label176.AutoSize = True
+        Me.Label176.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label176.Location = New System.Drawing.Point(440, 185)
+        Me.Label176.Name = "Label176"
+        Me.Label176.Size = New System.Drawing.Size(94, 13)
+        Me.Label176.TabIndex = 153
+        Me.Label176.Text = "60        Degree"
+        '
+        'Label148
+        '
+        Me.Label148.AutoSize = True
+        Me.Label148.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label148.Location = New System.Drawing.Point(136, 133)
+        Me.Label148.Name = "Label148"
+        Me.Label148.Size = New System.Drawing.Size(68, 13)
+        Me.Label148.TabIndex = 142
+        Me.Label148.Text = "0.2       Pu"
+        '
+        'Label175
+        '
+        Me.Label175.AutoSize = True
+        Me.Label175.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label175.Location = New System.Drawing.Point(136, 223)
+        Me.Label175.Name = "Label175"
+        Me.Label175.Size = New System.Drawing.Size(111, 13)
+        Me.Label175.TabIndex = 157
+        Me.Label175.Text = "0              Degree"
+        '
+        'Label149
+        '
+        Me.Label149.AutoSize = True
+        Me.Label149.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label149.Location = New System.Drawing.Point(486, 107)
+        Me.Label149.Name = "Label149"
+        Me.Label149.Size = New System.Drawing.Size(48, 13)
+        Me.Label149.TabIndex = 170
+        Me.Label149.Text = "Degree"
+        '
+        'Out6E
+        '
+        Me.Out6E.AutoSize = True
+        Me.Out6E.Location = New System.Drawing.Point(140, 174)
+        Me.Out6E.Name = "Out6E"
+        Me.Out6E.Size = New System.Drawing.Size(37, 13)
+        Me.Out6E.TabIndex = 152
+        Me.Out6E.Text = "Out6E"
+        '
+        'Label150
+        '
+        Me.Label150.AutoSize = True
+        Me.Label150.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label150.Location = New System.Drawing.Point(197, 39)
+        Me.Label150.Name = "Label150"
+        Me.Label150.Size = New System.Drawing.Size(32, 13)
+        Me.Label150.TabIndex = 133
+        Me.Label150.Text = "Ohm"
+        '
+        'Label173
+        '
+        Me.Label173.AutoSize = True
+        Me.Label173.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label173.Location = New System.Drawing.Point(136, 198)
+        Me.Label173.Name = "Label173"
+        Me.Label173.Size = New System.Drawing.Size(14, 13)
+        Me.Label173.TabIndex = 158
+        Me.Label173.Text = "0"
+        '
+        'Label151
+        '
+        Me.Label151.AutoSize = True
+        Me.Label151.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label151.Location = New System.Drawing.Point(288, 107)
+        Me.Label151.Name = "Label151"
+        Me.Label151.Size = New System.Drawing.Size(108, 13)
+        Me.Label151.TabIndex = 168
+        Me.Label151.Text = "Left Blinder Angle"
+        '
+        'Label172
+        '
+        Me.Label172.AutoSize = True
+        Me.Label172.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label172.Location = New System.Drawing.Point(6, 62)
+        Me.Label172.Name = "Label172"
+        Me.Label172.Size = New System.Drawing.Size(112, 13)
+        Me.Label172.TabIndex = 135
+        Me.Label172.Text = "Gnd Dis Z3 Reach"
+        '
+        'Label152
+        '
+        Me.Label152.AutoSize = True
+        Me.Label152.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label152.Location = New System.Drawing.Point(288, 147)
+        Me.Label152.Name = "Label152"
+        Me.Label152.Size = New System.Drawing.Size(75, 13)
+        Me.Label152.TabIndex = 144
+        Me.Label152.Text = "COMPLIMIT"
+        '
+        'Label171
+        '
+        Me.Label171.AutoSize = True
+        Me.Label171.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label171.Location = New System.Drawing.Point(486, 39)
+        Me.Label171.Name = "Label171"
+        Me.Label171.Size = New System.Drawing.Size(32, 13)
+        Me.Label171.TabIndex = 160
+        Me.Label171.Text = "Ohm"
+        '
+        'Out6I
+        '
+        Me.Out6I.AutoSize = True
+        Me.Out6I.Location = New System.Drawing.Point(435, 107)
+        Me.Out6I.Name = "Out6I"
+        Me.Out6I.Size = New System.Drawing.Size(33, 13)
+        Me.Out6I.TabIndex = 169
+        Me.Out6I.Text = "Out6I"
+        '
+        'Out6D
+        '
+        Me.Out6D.AutoSize = True
+        Me.Out6D.Location = New System.Drawing.Point(140, 152)
+        Me.Out6D.Name = "Out6D"
+        Me.Out6D.Size = New System.Drawing.Size(38, 13)
+        Me.Out6D.TabIndex = 154
+        Me.Out6D.Text = "Out6D"
+        '
+        'Out6A
+        '
+        Me.Out6A.AutoSize = True
+        Me.Out6A.Location = New System.Drawing.Point(140, 39)
+        Me.Out6A.Name = "Out6A"
+        Me.Out6A.Size = New System.Drawing.Size(37, 13)
+        Me.Out6A.TabIndex = 132
+        Me.Out6A.Text = "Out6A"
+        '
+        'Out6F
+        '
+        Me.Out6F.AutoSize = True
+        Me.Out6F.Location = New System.Drawing.Point(435, 39)
+        Me.Out6F.Name = "Out6F"
+        Me.Out6F.Size = New System.Drawing.Size(36, 13)
+        Me.Out6F.TabIndex = 159
+        Me.Out6F.Text = "Out6F"
+        '
+        'Label155
+        '
+        Me.Label155.AutoSize = True
+        Me.Label155.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label155.Location = New System.Drawing.Point(288, 84)
+        Me.Label155.Name = "Label155"
+        Me.Label155.Size = New System.Drawing.Size(135, 13)
+        Me.Label155.TabIndex = 167
+        Me.Label155.Text = "Left Blinder Magnitude"
+        '
+        'Label168
+        '
+        Me.Label168.AutoSize = True
+        Me.Label168.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label168.Location = New System.Drawing.Point(288, 185)
+        Me.Label168.Name = "Label168"
+        Me.Label168.Size = New System.Drawing.Size(101, 13)
+        Me.Label168.TabIndex = 151
+        Me.Label168.Text = "DIR COMPLIMIT"
+        '
+        'Label156
+        '
+        Me.Label156.AutoSize = True
+        Me.Label156.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label156.Location = New System.Drawing.Point(440, 143)
+        Me.Label156.Name = "Label156"
+        Me.Label156.Size = New System.Drawing.Size(94, 13)
+        Me.Label156.TabIndex = 145
+        Me.Label156.Text = "90        Degree"
+        '
+        'Label167
+        '
+        Me.Label167.AutoSize = True
+        Me.Label167.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label167.Location = New System.Drawing.Point(288, 39)
+        Me.Label167.Name = "Label167"
+        Me.Label167.Size = New System.Drawing.Size(143, 13)
+        Me.Label167.TabIndex = 161
+        Me.Label167.Text = "Right Blinder Magnitude"
+        '
+        'Out6H
+        '
+        Me.Out6H.AutoSize = True
+        Me.Out6H.Location = New System.Drawing.Point(435, 84)
+        Me.Out6H.Name = "Out6H"
+        Me.Out6H.Size = New System.Drawing.Size(38, 13)
+        Me.Out6H.TabIndex = 165
+        Me.Out6H.Text = "Out6H"
+        '
+        'Label166
+        '
+        Me.Label166.AutoSize = True
+        Me.Label166.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label166.Location = New System.Drawing.Point(6, 84)
+        Me.Label166.Name = "Label166"
+        Me.Label166.Size = New System.Drawing.Size(136, 13)
+        Me.Label166.TabIndex = 136
+        Me.Label166.Text = "Gnd Dis Z3 Comp Limit"
+        '
+        'Label158
+        '
+        Me.Label158.AutoSize = True
+        Me.Label158.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label158.Location = New System.Drawing.Point(6, 133)
+        Me.Label158.Name = "Label158"
+        Me.Label158.Size = New System.Drawing.Size(104, 13)
+        Me.Label158.TabIndex = 138
+        Me.Label158.Text = "Gnd Dis Z3 Supv"
+        '
+        'Out6G
+        '
+        Me.Out6G.AutoSize = True
+        Me.Out6G.Location = New System.Drawing.Point(435, 62)
+        Me.Out6G.Name = "Out6G"
+        Me.Out6G.Size = New System.Drawing.Size(38, 13)
+        Me.Out6G.TabIndex = 163
+        Me.Out6G.Text = "Out6G"
+        '
+        'Label159
+        '
+        Me.Label159.AutoSize = True
+        Me.Label159.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label159.Location = New System.Drawing.Point(486, 84)
+        Me.Label159.Name = "Label159"
+        Me.Label159.Size = New System.Drawing.Size(32, 13)
+        Me.Label159.TabIndex = 166
+        Me.Label159.Text = "Ohm"
+        '
+        'Label164
+        '
+        Me.Label164.AutoSize = True
+        Me.Label164.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label164.Location = New System.Drawing.Point(440, 166)
+        Me.Label164.Name = "Label164"
+        Me.Label164.Size = New System.Drawing.Size(94, 13)
+        Me.Label164.TabIndex = 149
+        Me.Label164.Text = "45        Degree"
+        '
+        'Label160
+        '
+        Me.Label160.AutoSize = True
+        Me.Label160.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label160.Location = New System.Drawing.Point(288, 166)
+        Me.Label160.Name = "Label160"
+        Me.Label160.Size = New System.Drawing.Size(58, 13)
+        Me.Label160.TabIndex = 147
+        Me.Label160.Text = "DIR RCA"
+        '
+        'Label163
+        '
+        Me.Label163.AutoSize = True
+        Me.Label163.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label163.Location = New System.Drawing.Point(288, 62)
+        Me.Label163.Name = "Label163"
+        Me.Label163.Size = New System.Drawing.Size(116, 13)
+        Me.Label163.TabIndex = 162
+        Me.Label163.Text = "Right Blinder Angle"
+        '
+        'Label161
+        '
+        Me.Label161.AutoSize = True
+        Me.Label161.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label161.Location = New System.Drawing.Point(486, 62)
+        Me.Label161.Name = "Label161"
+        Me.Label161.Size = New System.Drawing.Size(48, 13)
+        Me.Label161.TabIndex = 164
+        Me.Label161.Text = "Degree"
+        '
+        'Label162
+        '
+        Me.Label162.AutoSize = True
+        Me.Label162.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label162.Location = New System.Drawing.Point(6, 108)
+        Me.Label162.Name = "Label162"
+        Me.Label162.Size = New System.Drawing.Size(107, 13)
+        Me.Label162.TabIndex = 137
+        Me.Label162.Text = "Gnd Dis Z3 Delay"
+        '
         'TabPage7
         '
         Me.TabPage7.Controls.Add(Me.Label185)
@@ -1190,6 +2525,132 @@ Partial Class FormOutputGED60
         Me.TabPage7.TabIndex = 0
         Me.TabPage7.Text = "Output7"
         Me.TabPage7.UseVisualStyleBackColor = True
+        '
+        'Label185
+        '
+        Me.Label185.AutoSize = True
+        Me.Label185.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label185.Location = New System.Drawing.Point(350, 190)
+        Me.Label185.Name = "Label185"
+        Me.Label185.Size = New System.Drawing.Size(23, 13)
+        Me.Label185.TabIndex = 172
+        Me.Label185.Text = "Ms"
+        '
+        'Out7D
+        '
+        Me.Out7D.AutoSize = True
+        Me.Out7D.Location = New System.Drawing.Point(299, 190)
+        Me.Out7D.Name = "Out7D"
+        Me.Out7D.Size = New System.Drawing.Size(38, 13)
+        Me.Out7D.TabIndex = 171
+        Me.Out7D.Text = "Out7D"
+        '
+        'Label187
+        '
+        Me.Label187.AutoSize = True
+        Me.Label187.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label187.Location = New System.Drawing.Point(152, 190)
+        Me.Label187.Name = "Label187"
+        Me.Label187.Size = New System.Drawing.Size(82, 13)
+        Me.Label187.TabIndex = 173
+        Me.Label187.Text = "Delay Pickup"
+        '
+        'Label170
+        '
+        Me.Label170.AutoSize = True
+        Me.Label170.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label170.Location = New System.Drawing.Point(350, 142)
+        Me.Label170.Name = "Label170"
+        Me.Label170.Size = New System.Drawing.Size(32, 13)
+        Me.Label170.TabIndex = 169
+        Me.Label170.Text = "Ohm"
+        '
+        'Out7C
+        '
+        Me.Out7C.AutoSize = True
+        Me.Out7C.Location = New System.Drawing.Point(299, 142)
+        Me.Out7C.Name = "Out7C"
+        Me.Out7C.Size = New System.Drawing.Size(37, 13)
+        Me.Out7C.TabIndex = 168
+        Me.Out7C.Text = "Out7C"
+        '
+        'Label184
+        '
+        Me.Label184.AutoSize = True
+        Me.Label184.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label184.Location = New System.Drawing.Point(152, 142)
+        Me.Label184.Name = "Label184"
+        Me.Label184.Size = New System.Drawing.Size(113, 13)
+        Me.Label184.TabIndex = 170
+        Me.Label184.Text = "Power Swing Inner"
+        '
+        'Label157
+        '
+        Me.Label157.AutoSize = True
+        Me.Label157.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label157.Location = New System.Drawing.Point(350, 97)
+        Me.Label157.Name = "Label157"
+        Me.Label157.Size = New System.Drawing.Size(32, 13)
+        Me.Label157.TabIndex = 166
+        Me.Label157.Text = "Ohm"
+        '
+        'Out7B
+        '
+        Me.Out7B.AutoSize = True
+        Me.Out7B.Location = New System.Drawing.Point(299, 97)
+        Me.Out7B.Name = "Out7B"
+        Me.Out7B.Size = New System.Drawing.Size(37, 13)
+        Me.Out7B.TabIndex = 165
+        Me.Out7B.Text = "Out7B"
+        '
+        'Label169
+        '
+        Me.Label169.AutoSize = True
+        Me.Label169.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label169.Location = New System.Drawing.Point(152, 97)
+        Me.Label169.Name = "Label169"
+        Me.Label169.Size = New System.Drawing.Size(113, 13)
+        Me.Label169.TabIndex = 167
+        Me.Label169.Text = "Power Swing Inner"
+        '
+        'Label144
+        '
+        Me.Label144.AutoSize = True
+        Me.Label144.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label144.Location = New System.Drawing.Point(350, 55)
+        Me.Label144.Name = "Label144"
+        Me.Label144.Size = New System.Drawing.Size(32, 13)
+        Me.Label144.TabIndex = 163
+        Me.Label144.Text = "Ohm"
+        '
+        'Label142
+        '
+        Me.Label142.AutoSize = True
+        Me.Label142.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label142.Location = New System.Drawing.Point(184, 3)
+        Me.Label142.Name = "Label142"
+        Me.Label142.Size = New System.Drawing.Size(172, 18)
+        Me.Label142.TabIndex = 132
+        Me.Label142.Text = "Power Swing Element"
+        '
+        'Out7A
+        '
+        Me.Out7A.AutoSize = True
+        Me.Out7A.Location = New System.Drawing.Point(299, 55)
+        Me.Out7A.Name = "Out7A"
+        Me.Out7A.Size = New System.Drawing.Size(37, 13)
+        Me.Out7A.TabIndex = 162
+        Me.Out7A.Text = "Out7A"
+        '
+        'Label154
+        '
+        Me.Label154.AutoSize = True
+        Me.Label154.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label154.Location = New System.Drawing.Point(152, 55)
+        Me.Label154.Name = "Label154"
+        Me.Label154.Size = New System.Drawing.Size(121, 13)
+        Me.Label154.TabIndex = 164
+        Me.Label154.Text = "Power Swing Reach"
         '
         'GroupBox1
         '
@@ -1451,1471 +2912,21 @@ Partial Class FormOutputGED60
         Me.Button1.Text = "Export To Word"
         Me.Button1.UseVisualStyleBackColor = True
         '
-        'Label42
-        '
-        Me.Label42.AutoSize = True
-        Me.Label42.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label42.Location = New System.Drawing.Point(440, 225)
-        Me.Label42.Name = "Label42"
-        Me.Label42.Size = New System.Drawing.Size(94, 13)
-        Me.Label42.TabIndex = 85
-        Me.Label42.Text = "75        Degree"
-        '
-        'Label70
-        '
-        Me.Label70.AutoSize = True
-        Me.Label70.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label70.Location = New System.Drawing.Point(288, 225)
-        Me.Label70.Name = "Label70"
-        Me.Label70.Size = New System.Drawing.Size(101, 13)
-        Me.Label70.TabIndex = 84
-        Me.Label70.Text = "DIR COMPLIMIT"
-        '
-        'Label71
-        '
-        Me.Label71.AutoSize = True
-        Me.Label71.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label71.Location = New System.Drawing.Point(440, 202)
-        Me.Label71.Name = "Label71"
-        Me.Label71.Size = New System.Drawing.Size(94, 13)
-        Me.Label71.TabIndex = 83
-        Me.Label71.Text = "75        Degree"
-        '
-        'Label72
-        '
-        Me.Label72.AutoSize = True
-        Me.Label72.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label72.Location = New System.Drawing.Point(288, 202)
-        Me.Label72.Name = "Label72"
-        Me.Label72.Size = New System.Drawing.Size(58, 13)
-        Me.Label72.TabIndex = 82
-        Me.Label72.Text = "DIR RCA"
-        '
-        'Label44
-        '
-        Me.Label44.AutoSize = True
-        Me.Label44.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label44.Location = New System.Drawing.Point(481, 39)
-        Me.Label44.Name = "Label44"
-        Me.Label44.Size = New System.Drawing.Size(48, 13)
-        Me.Label44.TabIndex = 65
-        Me.Label44.Text = "Degree"
-        '
-        'Label63
-        '
-        Me.Label63.AutoSize = True
-        Me.Label63.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label63.Location = New System.Drawing.Point(305, 39)
-        Me.Label63.Name = "Label63"
-        Me.Label63.Size = New System.Drawing.Size(32, 13)
-        Me.Label63.TabIndex = 64
-        Me.Label63.Text = "RCA"
-        '
-        'Label66
-        '
-        Me.Label66.AutoSize = True
-        Me.Label66.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label66.Location = New System.Drawing.Point(435, 133)
-        Me.Label66.Name = "Label66"
-        Me.Label66.Size = New System.Drawing.Size(94, 13)
-        Me.Label66.TabIndex = 63
-        Me.Label66.Text = "90        Degree"
-        '
-        'Label68
-        '
-        Me.Label68.AutoSize = True
-        Me.Label68.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label68.Location = New System.Drawing.Point(305, 133)
-        Me.Label68.Name = "Label68"
-        Me.Label68.Size = New System.Drawing.Size(101, 13)
-        Me.Label68.TabIndex = 62
-        Me.Label68.Text = "DIR COMPLIMIT"
-        '
-        'Label73
-        '
-        Me.Label73.AutoSize = True
-        Me.Label73.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label73.Location = New System.Drawing.Point(435, 102)
-        Me.Label73.Name = "Label73"
-        Me.Label73.Size = New System.Drawing.Size(94, 13)
-        Me.Label73.TabIndex = 61
-        Me.Label73.Text = "80        Degree"
-        '
-        'Label74
-        '
-        Me.Label74.AutoSize = True
-        Me.Label74.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label74.Location = New System.Drawing.Point(305, 102)
-        Me.Label74.Name = "Label74"
-        Me.Label74.Size = New System.Drawing.Size(58, 13)
-        Me.Label74.TabIndex = 60
-        Me.Label74.Text = "DIR RCA"
-        '
-        'Label75
-        '
-        Me.Label75.AutoSize = True
-        Me.Label75.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label75.Location = New System.Drawing.Point(435, 71)
-        Me.Label75.Name = "Label75"
-        Me.Label75.Size = New System.Drawing.Size(94, 13)
-        Me.Label75.TabIndex = 59
-        Me.Label75.Text = "90        Degree"
-        '
-        'Label76
-        '
-        Me.Label76.AutoSize = True
-        Me.Label76.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label76.Location = New System.Drawing.Point(305, 71)
-        Me.Label76.Name = "Label76"
-        Me.Label76.Size = New System.Drawing.Size(75, 13)
-        Me.Label76.TabIndex = 58
-        Me.Label76.Text = "COMPLIMIT"
-        '
-        'Label77
-        '
-        Me.Label77.AutoSize = True
-        Me.Label77.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label77.Location = New System.Drawing.Point(136, 165)
-        Me.Label77.Name = "Label77"
-        Me.Label77.Size = New System.Drawing.Size(72, 13)
-        Me.Label77.TabIndex = 57
-        Me.Label77.Text = "1.2        Pu"
-        '
-        'Out3D
-        '
-        Me.Out3D.AutoSize = True
-        Me.Out3D.Location = New System.Drawing.Point(414, 39)
-        Me.Out3D.Name = "Out3D"
-        Me.Out3D.Size = New System.Drawing.Size(38, 13)
-        Me.Out3D.TabIndex = 56
-        Me.Out3D.Text = "Out3D"
-        '
-        'Out3C
-        '
-        Me.Out3C.AutoSize = True
-        Me.Out3C.Location = New System.Drawing.Point(140, 133)
-        Me.Out3C.Name = "Out3C"
-        Me.Out3C.Size = New System.Drawing.Size(37, 13)
-        Me.Out3C.TabIndex = 55
-        Me.Out3C.Text = "Out3C"
-        '
-        'Out3B
-        '
-        Me.Out3B.AutoSize = True
-        Me.Out3B.Location = New System.Drawing.Point(140, 102)
-        Me.Out3B.Name = "Out3B"
-        Me.Out3B.Size = New System.Drawing.Size(37, 13)
-        Me.Out3B.TabIndex = 54
-        Me.Out3B.Text = "Out3B"
-        '
-        'Label81
-        '
-        Me.Label81.AutoSize = True
-        Me.Label81.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label81.Location = New System.Drawing.Point(136, 71)
-        Me.Label81.Name = "Label81"
-        Me.Label81.Size = New System.Drawing.Size(70, 13)
-        Me.Label81.TabIndex = 53
-        Me.Label81.Text = "FORWARD"
-        '
-        'Label82
-        '
-        Me.Label82.AutoSize = True
-        Me.Label82.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label82.Location = New System.Drawing.Point(183, 39)
-        Me.Label82.Name = "Label82"
-        Me.Label82.Size = New System.Drawing.Size(32, 13)
-        Me.Label82.TabIndex = 47
-        Me.Label82.Text = "Ohm"
-        '
-        'Out3A
-        '
-        Me.Out3A.AutoSize = True
-        Me.Out3A.Location = New System.Drawing.Point(140, 39)
-        Me.Out3A.Name = "Out3A"
-        Me.Out3A.Size = New System.Drawing.Size(37, 13)
-        Me.Out3A.TabIndex = 46
-        Me.Out3A.Text = "Out3A"
-        '
-        'Label84
-        '
-        Me.Label84.AutoSize = True
-        Me.Label84.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label84.Location = New System.Drawing.Point(6, 165)
-        Me.Label84.Name = "Label84"
-        Me.Label84.Size = New System.Drawing.Size(96, 13)
-        Me.Label84.TabIndex = 52
-        Me.Label84.Text = "Ph Dis Z2 Supv"
-        '
-        'Label85
-        '
-        Me.Label85.AutoSize = True
-        Me.Label85.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label85.Location = New System.Drawing.Point(6, 133)
-        Me.Label85.Name = "Label85"
-        Me.Label85.Size = New System.Drawing.Size(99, 13)
-        Me.Label85.TabIndex = 51
-        Me.Label85.Text = "Ph Dis Z2 Delay"
-        '
-        'Label86
-        '
-        Me.Label86.AutoSize = True
-        Me.Label86.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label86.Location = New System.Drawing.Point(6, 102)
-        Me.Label86.Name = "Label86"
-        Me.Label86.Size = New System.Drawing.Size(128, 13)
-        Me.Label86.TabIndex = 50
-        Me.Label86.Text = "Ph Dis Z2 Comp Limit"
-        '
-        'Label87
-        '
-        Me.Label87.AutoSize = True
-        Me.Label87.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label87.Location = New System.Drawing.Point(6, 71)
-        Me.Label87.Name = "Label87"
-        Me.Label87.Size = New System.Drawing.Size(118, 13)
-        Me.Label87.TabIndex = 49
-        Me.Label87.Text = "Ph Dis Z2 Direction"
-        '
-        'Label88
-        '
-        Me.Label88.AutoSize = True
-        Me.Label88.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label88.Location = New System.Drawing.Point(6, 39)
-        Me.Label88.Name = "Label88"
-        Me.Label88.Size = New System.Drawing.Size(104, 13)
-        Me.Label88.TabIndex = 48
-        Me.Label88.Text = "Ph Dis Z2 Reach"
-        '
-        'Label89
-        '
-        Me.Label89.AutoSize = True
-        Me.Label89.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label89.Location = New System.Drawing.Point(180, 3)
-        Me.Label89.Name = "Label89"
-        Me.Label89.Size = New System.Drawing.Size(194, 18)
-        Me.Label89.TabIndex = 45
-        Me.Label89.Text = "Phase Distance Z2 MHO"
-        '
-        'Label78
-        '
-        Me.Label78.AutoSize = True
-        Me.Label78.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label78.Location = New System.Drawing.Point(440, 225)
-        Me.Label78.Name = "Label78"
-        Me.Label78.Size = New System.Drawing.Size(94, 13)
-        Me.Label78.TabIndex = 130
-        Me.Label78.Text = "75        Degree"
-        '
-        'Label79
-        '
-        Me.Label79.AutoSize = True
-        Me.Label79.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label79.Location = New System.Drawing.Point(288, 225)
-        Me.Label79.Name = "Label79"
-        Me.Label79.Size = New System.Drawing.Size(101, 13)
-        Me.Label79.TabIndex = 129
-        Me.Label79.Text = "DIR COMPLIMIT"
-        '
-        'Label80
-        '
-        Me.Label80.AutoSize = True
-        Me.Label80.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label80.Location = New System.Drawing.Point(440, 202)
-        Me.Label80.Name = "Label80"
-        Me.Label80.Size = New System.Drawing.Size(94, 13)
-        Me.Label80.TabIndex = 128
-        Me.Label80.Text = "75        Degree"
-        '
-        'Label83
-        '
-        Me.Label83.AutoSize = True
-        Me.Label83.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label83.Location = New System.Drawing.Point(288, 202)
-        Me.Label83.Name = "Label83"
-        Me.Label83.Size = New System.Drawing.Size(58, 13)
-        Me.Label83.TabIndex = 127
-        Me.Label83.Text = "DIR RCA"
-        '
-        'Label90
-        '
-        Me.Label90.AutoSize = True
-        Me.Label90.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label90.Location = New System.Drawing.Point(440, 125)
-        Me.Label90.Name = "Label90"
-        Me.Label90.Size = New System.Drawing.Size(94, 13)
-        Me.Label90.TabIndex = 126
-        Me.Label90.Text = "75        Degree"
-        '
-        'Label91
-        '
-        Me.Label91.AutoSize = True
-        Me.Label91.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label91.Location = New System.Drawing.Point(486, 107)
-        Me.Label91.Name = "Label91"
-        Me.Label91.Size = New System.Drawing.Size(48, 13)
-        Me.Label91.TabIndex = 125
-        Me.Label91.Text = "Degree"
-        '
-        'Label92
-        '
-        Me.Label92.AutoSize = True
-        Me.Label92.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label92.Location = New System.Drawing.Point(288, 107)
-        Me.Label92.Name = "Label92"
-        Me.Label92.Size = New System.Drawing.Size(108, 13)
-        Me.Label92.TabIndex = 123
-        Me.Label92.Text = "Left Blinder Angle"
-        '
-        'Out4I
-        '
-        Me.Out4I.AutoSize = True
-        Me.Out4I.Location = New System.Drawing.Point(435, 107)
-        Me.Out4I.Name = "Out4I"
-        Me.Out4I.Size = New System.Drawing.Size(33, 13)
-        Me.Out4I.TabIndex = 124
-        Me.Out4I.Text = "Out4I"
-        '
-        'Label94
-        '
-        Me.Label94.AutoSize = True
-        Me.Label94.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label94.Location = New System.Drawing.Point(288, 84)
-        Me.Label94.Name = "Label94"
-        Me.Label94.Size = New System.Drawing.Size(135, 13)
-        Me.Label94.TabIndex = 122
-        Me.Label94.Text = "Left Blinder Magnitude"
-        '
-        'Out4H
-        '
-        Me.Out4H.AutoSize = True
-        Me.Out4H.Location = New System.Drawing.Point(435, 84)
-        Me.Out4H.Name = "Out4H"
-        Me.Out4H.Size = New System.Drawing.Size(38, 13)
-        Me.Out4H.TabIndex = 120
-        Me.Out4H.Text = "Out4H"
-        '
-        'Label96
-        '
-        Me.Label96.AutoSize = True
-        Me.Label96.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label96.Location = New System.Drawing.Point(486, 84)
-        Me.Label96.Name = "Label96"
-        Me.Label96.Size = New System.Drawing.Size(32, 13)
-        Me.Label96.TabIndex = 121
-        Me.Label96.Text = "Ohm"
-        '
-        'Label97
-        '
-        Me.Label97.AutoSize = True
-        Me.Label97.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label97.Location = New System.Drawing.Point(486, 62)
-        Me.Label97.Name = "Label97"
-        Me.Label97.Size = New System.Drawing.Size(48, 13)
-        Me.Label97.TabIndex = 119
-        Me.Label97.Text = "Degree"
-        '
-        'Label98
-        '
-        Me.Label98.AutoSize = True
-        Me.Label98.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label98.Location = New System.Drawing.Point(288, 62)
-        Me.Label98.Name = "Label98"
-        Me.Label98.Size = New System.Drawing.Size(116, 13)
-        Me.Label98.TabIndex = 117
-        Me.Label98.Text = "Right Blinder Angle"
-        '
-        'Out4G
-        '
-        Me.Out4G.AutoSize = True
-        Me.Out4G.Location = New System.Drawing.Point(435, 62)
-        Me.Out4G.Name = "Out4G"
-        Me.Out4G.Size = New System.Drawing.Size(38, 13)
-        Me.Out4G.TabIndex = 118
-        Me.Out4G.Text = "Out4G"
-        '
-        'Label100
-        '
-        Me.Label100.AutoSize = True
-        Me.Label100.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label100.Location = New System.Drawing.Point(288, 39)
-        Me.Label100.Name = "Label100"
-        Me.Label100.Size = New System.Drawing.Size(143, 13)
-        Me.Label100.TabIndex = 116
-        Me.Label100.Text = "Right Blinder Magnitude"
-        '
-        'Out4F
-        '
-        Me.Out4F.AutoSize = True
-        Me.Out4F.Location = New System.Drawing.Point(435, 39)
-        Me.Out4F.Name = "Out4F"
-        Me.Out4F.Size = New System.Drawing.Size(36, 13)
-        Me.Out4F.TabIndex = 114
-        Me.Out4F.Text = "Out4F"
-        '
-        'Label102
-        '
-        Me.Label102.AutoSize = True
-        Me.Label102.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label102.Location = New System.Drawing.Point(486, 39)
-        Me.Label102.Name = "Label102"
-        Me.Label102.Size = New System.Drawing.Size(32, 13)
-        Me.Label102.TabIndex = 115
-        Me.Label102.Text = "Ohm"
-        '
-        'Label103
-        '
-        Me.Label103.AutoSize = True
-        Me.Label103.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label103.Location = New System.Drawing.Point(136, 198)
-        Me.Label103.Name = "Label103"
-        Me.Label103.Size = New System.Drawing.Size(14, 13)
-        Me.Label103.TabIndex = 113
-        Me.Label103.Text = "0"
-        '
-        'Label104
-        '
-        Me.Label104.AutoSize = True
-        Me.Label104.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label104.Location = New System.Drawing.Point(136, 223)
-        Me.Label104.Name = "Label104"
-        Me.Label104.Size = New System.Drawing.Size(111, 13)
-        Me.Label104.TabIndex = 112
-        Me.Label104.Text = "0              Degree"
-        '
-        'Label105
-        '
-        Me.Label105.AutoSize = True
-        Me.Label105.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label105.Location = New System.Drawing.Point(197, 174)
-        Me.Label105.Name = "Label105"
-        Me.Label105.Size = New System.Drawing.Size(48, 13)
-        Me.Label105.TabIndex = 111
-        Me.Label105.Text = "Degree"
-        '
-        'Label106
-        '
-        Me.Label106.AutoSize = True
-        Me.Label106.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label106.Location = New System.Drawing.Point(6, 152)
-        Me.Label106.Name = "Label106"
-        Me.Label106.Size = New System.Drawing.Size(71, 13)
-        Me.Label106.TabIndex = 98
-        Me.Label106.Text = "Z0/Z1 Mag"
-        '
-        'Label107
-        '
-        Me.Label107.AutoSize = True
-        Me.Label107.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label107.Location = New System.Drawing.Point(6, 174)
-        Me.Label107.Name = "Label107"
-        Me.Label107.Size = New System.Drawing.Size(69, 13)
-        Me.Label107.TabIndex = 101
-        Me.Label107.Text = "Z0/Z1 Ang"
-        '
-        'Label108
-        '
-        Me.Label108.AutoSize = True
-        Me.Label108.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label108.Location = New System.Drawing.Point(6, 198)
-        Me.Label108.Name = "Label108"
-        Me.Label108.Size = New System.Drawing.Size(79, 13)
-        Me.Label108.TabIndex = 103
-        Me.Label108.Text = "Z0M/Z1 Ang"
-        '
-        'Label109
-        '
-        Me.Label109.AutoSize = True
-        Me.Label109.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label109.Location = New System.Drawing.Point(163, 3)
-        Me.Label109.Name = "Label109"
-        Me.Label109.Size = New System.Drawing.Size(211, 18)
-        Me.Label109.TabIndex = 86
-        Me.Label109.Text = "Ground Distance Z2 QUAD"
-        '
-        'Label110
-        '
-        Me.Label110.AutoSize = True
-        Me.Label110.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label110.Location = New System.Drawing.Point(6, 223)
-        Me.Label110.Name = "Label110"
-        Me.Label110.Size = New System.Drawing.Size(79, 13)
-        Me.Label110.TabIndex = 105
-        Me.Label110.Text = "Z0M/Z1 Ang"
-        '
-        'Label111
-        '
-        Me.Label111.AutoSize = True
-        Me.Label111.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label111.Location = New System.Drawing.Point(288, 125)
-        Me.Label111.Name = "Label111"
-        Me.Label111.Size = New System.Drawing.Size(32, 13)
-        Me.Label111.TabIndex = 110
-        Me.Label111.Text = "RCA"
-        '
-        'Label112
-        '
-        Me.Label112.AutoSize = True
-        Me.Label112.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label112.Location = New System.Drawing.Point(6, 39)
-        Me.Label112.Name = "Label112"
-        Me.Label112.Size = New System.Drawing.Size(112, 13)
-        Me.Label112.TabIndex = 89
-        Me.Label112.Text = "Gnd Dis Z2 Reach"
-        '
-        'Label113
-        '
-        Me.Label113.AutoSize = True
-        Me.Label113.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label113.Location = New System.Drawing.Point(440, 185)
-        Me.Label113.Name = "Label113"
-        Me.Label113.Size = New System.Drawing.Size(94, 13)
-        Me.Label113.TabIndex = 108
-        Me.Label113.Text = "60        Degree"
-        '
-        'Out4E
-        '
-        Me.Out4E.AutoSize = True
-        Me.Out4E.Location = New System.Drawing.Point(140, 174)
-        Me.Out4E.Name = "Out4E"
-        Me.Out4E.Size = New System.Drawing.Size(37, 13)
-        Me.Out4E.TabIndex = 107
-        Me.Out4E.Text = "Out4E"
-        '
-        'Label115
-        '
-        Me.Label115.AutoSize = True
-        Me.Label115.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label115.Location = New System.Drawing.Point(6, 62)
-        Me.Label115.Name = "Label115"
-        Me.Label115.Size = New System.Drawing.Size(112, 13)
-        Me.Label115.TabIndex = 90
-        Me.Label115.Text = "Gnd Dis Z2 Reach"
-        '
-        'Out4D
-        '
-        Me.Out4D.AutoSize = True
-        Me.Out4D.Location = New System.Drawing.Point(140, 152)
-        Me.Out4D.Name = "Out4D"
-        Me.Out4D.Size = New System.Drawing.Size(38, 13)
-        Me.Out4D.TabIndex = 109
-        Me.Out4D.Text = "Out4D"
-        '
-        'Label117
-        '
-        Me.Label117.AutoSize = True
-        Me.Label117.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label117.Location = New System.Drawing.Point(288, 185)
-        Me.Label117.Name = "Label117"
-        Me.Label117.Size = New System.Drawing.Size(101, 13)
-        Me.Label117.TabIndex = 106
-        Me.Label117.Text = "DIR COMPLIMIT"
-        '
-        'Label118
-        '
-        Me.Label118.AutoSize = True
-        Me.Label118.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label118.Location = New System.Drawing.Point(6, 84)
-        Me.Label118.Name = "Label118"
-        Me.Label118.Size = New System.Drawing.Size(136, 13)
-        Me.Label118.TabIndex = 91
-        Me.Label118.Text = "Gnd Dis Z2 Comp Limit"
-        '
-        'Label119
-        '
-        Me.Label119.AutoSize = True
-        Me.Label119.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label119.Location = New System.Drawing.Point(440, 166)
-        Me.Label119.Name = "Label119"
-        Me.Label119.Size = New System.Drawing.Size(94, 13)
-        Me.Label119.TabIndex = 104
-        Me.Label119.Text = "45        Degree"
-        '
-        'Label120
-        '
-        Me.Label120.AutoSize = True
-        Me.Label120.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label120.Location = New System.Drawing.Point(6, 108)
-        Me.Label120.Name = "Label120"
-        Me.Label120.Size = New System.Drawing.Size(107, 13)
-        Me.Label120.TabIndex = 92
-        Me.Label120.Text = "Gnd Dis Z2 Delay"
-        '
-        'Label121
-        '
-        Me.Label121.AutoSize = True
-        Me.Label121.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label121.Location = New System.Drawing.Point(288, 166)
-        Me.Label121.Name = "Label121"
-        Me.Label121.Size = New System.Drawing.Size(58, 13)
-        Me.Label121.TabIndex = 102
-        Me.Label121.Text = "DIR RCA"
-        '
-        'Label122
-        '
-        Me.Label122.AutoSize = True
-        Me.Label122.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label122.Location = New System.Drawing.Point(6, 133)
-        Me.Label122.Name = "Label122"
-        Me.Label122.Size = New System.Drawing.Size(104, 13)
-        Me.Label122.TabIndex = 93
-        Me.Label122.Text = "Gnd Dis Z2 Supv"
-        '
-        'Label123
-        '
-        Me.Label123.AutoSize = True
-        Me.Label123.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label123.Location = New System.Drawing.Point(440, 143)
-        Me.Label123.Name = "Label123"
-        Me.Label123.Size = New System.Drawing.Size(94, 13)
-        Me.Label123.TabIndex = 100
-        Me.Label123.Text = "90        Degree"
-        '
-        'Out4A
-        '
-        Me.Out4A.AutoSize = True
-        Me.Out4A.Location = New System.Drawing.Point(140, 39)
-        Me.Out4A.Name = "Out4A"
-        Me.Out4A.Size = New System.Drawing.Size(37, 13)
-        Me.Out4A.TabIndex = 87
-        Me.Out4A.Text = "Out4A"
-        '
-        'Label125
-        '
-        Me.Label125.AutoSize = True
-        Me.Label125.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label125.Location = New System.Drawing.Point(288, 147)
-        Me.Label125.Name = "Label125"
-        Me.Label125.Size = New System.Drawing.Size(75, 13)
-        Me.Label125.TabIndex = 99
-        Me.Label125.Text = "COMPLIMIT"
-        '
-        'Label126
-        '
-        Me.Label126.AutoSize = True
-        Me.Label126.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label126.Location = New System.Drawing.Point(197, 39)
-        Me.Label126.Name = "Label126"
-        Me.Label126.Size = New System.Drawing.Size(32, 13)
-        Me.Label126.TabIndex = 88
-        Me.Label126.Text = "Ohm"
-        '
-        'Label127
-        '
-        Me.Label127.AutoSize = True
-        Me.Label127.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label127.Location = New System.Drawing.Point(136, 133)
-        Me.Label127.Name = "Label127"
-        Me.Label127.Size = New System.Drawing.Size(68, 13)
-        Me.Label127.TabIndex = 97
-        Me.Label127.Text = "0.2       Pu"
-        '
-        'Label128
-        '
-        Me.Label128.AutoSize = True
-        Me.Label128.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label128.Location = New System.Drawing.Point(136, 62)
-        Me.Label128.Name = "Label128"
-        Me.Label128.Size = New System.Drawing.Size(70, 13)
-        Me.Label128.TabIndex = 94
-        Me.Label128.Text = "FORWARD"
-        '
-        'Out4B
-        '
-        Me.Out4B.AutoSize = True
-        Me.Out4B.Location = New System.Drawing.Point(140, 84)
-        Me.Out4B.Name = "Out4B"
-        Me.Out4B.Size = New System.Drawing.Size(37, 13)
-        Me.Out4B.TabIndex = 95
-        Me.Out4B.Text = "Out4B"
-        '
-        'Out4C
-        '
-        Me.Out4C.AutoSize = True
-        Me.Out4C.Location = New System.Drawing.Point(140, 108)
-        Me.Out4C.Name = "Out4C"
-        Me.Out4C.Size = New System.Drawing.Size(37, 13)
-        Me.Out4C.TabIndex = 96
-        Me.Out4C.Text = "Out4C"
-        '
-        'Label93
-        '
-        Me.Label93.AutoSize = True
-        Me.Label93.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label93.Location = New System.Drawing.Point(481, 39)
-        Me.Label93.Name = "Label93"
-        Me.Label93.Size = New System.Drawing.Size(48, 13)
-        Me.Label93.TabIndex = 86
-        Me.Label93.Text = "Degree"
-        '
-        'Label95
-        '
-        Me.Label95.AutoSize = True
-        Me.Label95.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label95.Location = New System.Drawing.Point(180, 3)
-        Me.Label95.Name = "Label95"
-        Me.Label95.Size = New System.Drawing.Size(194, 18)
-        Me.Label95.TabIndex = 66
-        Me.Label95.Text = "Phase Distance Z3 MHO"
-        '
-        'Label99
-        '
-        Me.Label99.AutoSize = True
-        Me.Label99.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label99.Location = New System.Drawing.Point(305, 39)
-        Me.Label99.Name = "Label99"
-        Me.Label99.Size = New System.Drawing.Size(32, 13)
-        Me.Label99.TabIndex = 85
-        Me.Label99.Text = "RCA"
-        '
-        'Label101
-        '
-        Me.Label101.AutoSize = True
-        Me.Label101.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label101.Location = New System.Drawing.Point(6, 39)
-        Me.Label101.Name = "Label101"
-        Me.Label101.Size = New System.Drawing.Size(104, 13)
-        Me.Label101.TabIndex = 69
-        Me.Label101.Text = "Ph Dis Z3 Reach"
-        '
-        'Label114
-        '
-        Me.Label114.AutoSize = True
-        Me.Label114.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label114.Location = New System.Drawing.Point(435, 133)
-        Me.Label114.Name = "Label114"
-        Me.Label114.Size = New System.Drawing.Size(94, 13)
-        Me.Label114.TabIndex = 84
-        Me.Label114.Text = "90        Degree"
-        '
-        'Label116
-        '
-        Me.Label116.AutoSize = True
-        Me.Label116.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label116.Location = New System.Drawing.Point(6, 71)
-        Me.Label116.Name = "Label116"
-        Me.Label116.Size = New System.Drawing.Size(118, 13)
-        Me.Label116.TabIndex = 70
-        Me.Label116.Text = "Ph Dis Z3 Direction"
-        '
-        'Label124
-        '
-        Me.Label124.AutoSize = True
-        Me.Label124.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label124.Location = New System.Drawing.Point(305, 133)
-        Me.Label124.Name = "Label124"
-        Me.Label124.Size = New System.Drawing.Size(101, 13)
-        Me.Label124.TabIndex = 83
-        Me.Label124.Text = "DIR COMPLIMIT"
-        '
-        'Label129
-        '
-        Me.Label129.AutoSize = True
-        Me.Label129.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label129.Location = New System.Drawing.Point(6, 102)
-        Me.Label129.Name = "Label129"
-        Me.Label129.Size = New System.Drawing.Size(128, 13)
-        Me.Label129.TabIndex = 71
-        Me.Label129.Text = "Ph Dis Z3 Comp Limit"
-        '
-        'Label130
-        '
-        Me.Label130.AutoSize = True
-        Me.Label130.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label130.Location = New System.Drawing.Point(435, 102)
-        Me.Label130.Name = "Label130"
-        Me.Label130.Size = New System.Drawing.Size(94, 13)
-        Me.Label130.TabIndex = 82
-        Me.Label130.Text = "80        Degree"
-        '
-        'Label131
-        '
-        Me.Label131.AutoSize = True
-        Me.Label131.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label131.Location = New System.Drawing.Point(6, 133)
-        Me.Label131.Name = "Label131"
-        Me.Label131.Size = New System.Drawing.Size(99, 13)
-        Me.Label131.TabIndex = 72
-        Me.Label131.Text = "Ph Dis Z3 Delay"
-        '
-        'Label132
-        '
-        Me.Label132.AutoSize = True
-        Me.Label132.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label132.Location = New System.Drawing.Point(305, 102)
-        Me.Label132.Name = "Label132"
-        Me.Label132.Size = New System.Drawing.Size(58, 13)
-        Me.Label132.TabIndex = 81
-        Me.Label132.Text = "DIR RCA"
-        '
-        'Label133
-        '
-        Me.Label133.AutoSize = True
-        Me.Label133.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label133.Location = New System.Drawing.Point(6, 165)
-        Me.Label133.Name = "Label133"
-        Me.Label133.Size = New System.Drawing.Size(96, 13)
-        Me.Label133.TabIndex = 73
-        Me.Label133.Text = "Ph Dis Z3 Supv"
-        '
-        'Label134
-        '
-        Me.Label134.AutoSize = True
-        Me.Label134.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label134.Location = New System.Drawing.Point(435, 71)
-        Me.Label134.Name = "Label134"
-        Me.Label134.Size = New System.Drawing.Size(94, 13)
-        Me.Label134.TabIndex = 80
-        Me.Label134.Text = "90        Degree"
-        '
-        'Out5A
-        '
-        Me.Out5A.AutoSize = True
-        Me.Out5A.Location = New System.Drawing.Point(140, 39)
-        Me.Out5A.Name = "Out5A"
-        Me.Out5A.Size = New System.Drawing.Size(37, 13)
-        Me.Out5A.TabIndex = 67
-        Me.Out5A.Text = "Out5A"
-        '
-        'Label136
-        '
-        Me.Label136.AutoSize = True
-        Me.Label136.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label136.Location = New System.Drawing.Point(305, 71)
-        Me.Label136.Name = "Label136"
-        Me.Label136.Size = New System.Drawing.Size(75, 13)
-        Me.Label136.TabIndex = 79
-        Me.Label136.Text = "COMPLIMIT"
-        '
-        'Label137
-        '
-        Me.Label137.AutoSize = True
-        Me.Label137.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label137.Location = New System.Drawing.Point(183, 39)
-        Me.Label137.Name = "Label137"
-        Me.Label137.Size = New System.Drawing.Size(32, 13)
-        Me.Label137.TabIndex = 68
-        Me.Label137.Text = "Ohm"
-        '
-        'Label138
-        '
-        Me.Label138.AutoSize = True
-        Me.Label138.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label138.Location = New System.Drawing.Point(136, 165)
-        Me.Label138.Name = "Label138"
-        Me.Label138.Size = New System.Drawing.Size(72, 13)
-        Me.Label138.TabIndex = 78
-        Me.Label138.Text = "1.2        Pu"
-        '
-        'Label139
-        '
-        Me.Label139.AutoSize = True
-        Me.Label139.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label139.Location = New System.Drawing.Point(136, 71)
-        Me.Label139.Name = "Label139"
-        Me.Label139.Size = New System.Drawing.Size(70, 13)
-        Me.Label139.TabIndex = 74
-        Me.Label139.Text = "FORWARD"
-        '
-        'Out5D
-        '
-        Me.Out5D.AutoSize = True
-        Me.Out5D.Location = New System.Drawing.Point(414, 39)
-        Me.Out5D.Name = "Out5D"
-        Me.Out5D.Size = New System.Drawing.Size(38, 13)
-        Me.Out5D.TabIndex = 77
-        Me.Out5D.Text = "Out5D"
-        '
-        'Out5B
-        '
-        Me.Out5B.AutoSize = True
-        Me.Out5B.Location = New System.Drawing.Point(140, 102)
-        Me.Out5B.Name = "Out5B"
-        Me.Out5B.Size = New System.Drawing.Size(37, 13)
-        Me.Out5B.TabIndex = 75
-        Me.Out5B.Text = "Out5B"
-        '
-        'Out5C
-        '
-        Me.Out5C.AutoSize = True
-        Me.Out5C.Location = New System.Drawing.Point(140, 133)
-        Me.Out5C.Name = "Out5C"
-        Me.Out5C.Size = New System.Drawing.Size(37, 13)
-        Me.Out5C.TabIndex = 76
-        Me.Out5C.Text = "Out5C"
-        '
-        'Label135
-        '
-        Me.Label135.AutoSize = True
-        Me.Label135.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label135.Location = New System.Drawing.Point(440, 225)
-        Me.Label135.Name = "Label135"
-        Me.Label135.Size = New System.Drawing.Size(94, 13)
-        Me.Label135.TabIndex = 175
-        Me.Label135.Text = "75        Degree"
-        '
-        'Label140
-        '
-        Me.Label140.AutoSize = True
-        Me.Label140.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label140.Location = New System.Drawing.Point(163, 3)
-        Me.Label140.Name = "Label140"
-        Me.Label140.Size = New System.Drawing.Size(211, 18)
-        Me.Label140.TabIndex = 131
-        Me.Label140.Text = "Ground Distance Z3 QUAD"
-        '
-        'Label141
-        '
-        Me.Label141.AutoSize = True
-        Me.Label141.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label141.Location = New System.Drawing.Point(288, 225)
-        Me.Label141.Name = "Label141"
-        Me.Label141.Size = New System.Drawing.Size(101, 13)
-        Me.Label141.TabIndex = 174
-        Me.Label141.Text = "DIR COMPLIMIT"
-        '
-        'Out6C
-        '
-        Me.Out6C.AutoSize = True
-        Me.Out6C.Location = New System.Drawing.Point(140, 108)
-        Me.Out6C.Name = "Out6C"
-        Me.Out6C.Size = New System.Drawing.Size(37, 13)
-        Me.Out6C.TabIndex = 141
-        Me.Out6C.Text = "Out6C"
-        '
-        'Label143
-        '
-        Me.Label143.AutoSize = True
-        Me.Label143.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label143.Location = New System.Drawing.Point(440, 202)
-        Me.Label143.Name = "Label143"
-        Me.Label143.Size = New System.Drawing.Size(94, 13)
-        Me.Label143.TabIndex = 173
-        Me.Label143.Text = "75        Degree"
-        '
-        'Out6B
-        '
-        Me.Out6B.AutoSize = True
-        Me.Out6B.Location = New System.Drawing.Point(140, 84)
-        Me.Out6B.Name = "Out6B"
-        Me.Out6B.Size = New System.Drawing.Size(37, 13)
-        Me.Out6B.TabIndex = 140
-        Me.Out6B.Text = "Out6B"
-        '
-        'Label145
-        '
-        Me.Label145.AutoSize = True
-        Me.Label145.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label145.Location = New System.Drawing.Point(288, 202)
-        Me.Label145.Name = "Label145"
-        Me.Label145.Size = New System.Drawing.Size(58, 13)
-        Me.Label145.TabIndex = 172
-        Me.Label145.Text = "DIR RCA"
-        '
-        'Label146
-        '
-        Me.Label146.AutoSize = True
-        Me.Label146.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label146.Location = New System.Drawing.Point(136, 62)
-        Me.Label146.Name = "Label146"
-        Me.Label146.Size = New System.Drawing.Size(70, 13)
-        Me.Label146.TabIndex = 139
-        Me.Label146.Text = "FORWARD"
-        '
-        'Label147
-        '
-        Me.Label147.AutoSize = True
-        Me.Label147.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label147.Location = New System.Drawing.Point(440, 125)
-        Me.Label147.Name = "Label147"
-        Me.Label147.Size = New System.Drawing.Size(94, 13)
-        Me.Label147.TabIndex = 171
-        Me.Label147.Text = "75        Degree"
-        '
-        'Label148
-        '
-        Me.Label148.AutoSize = True
-        Me.Label148.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label148.Location = New System.Drawing.Point(136, 133)
-        Me.Label148.Name = "Label148"
-        Me.Label148.Size = New System.Drawing.Size(68, 13)
-        Me.Label148.TabIndex = 142
-        Me.Label148.Text = "0.2       Pu"
-        '
-        'Label149
-        '
-        Me.Label149.AutoSize = True
-        Me.Label149.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label149.Location = New System.Drawing.Point(486, 107)
-        Me.Label149.Name = "Label149"
-        Me.Label149.Size = New System.Drawing.Size(48, 13)
-        Me.Label149.TabIndex = 170
-        Me.Label149.Text = "Degree"
-        '
-        'Label150
-        '
-        Me.Label150.AutoSize = True
-        Me.Label150.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label150.Location = New System.Drawing.Point(197, 39)
-        Me.Label150.Name = "Label150"
-        Me.Label150.Size = New System.Drawing.Size(32, 13)
-        Me.Label150.TabIndex = 133
-        Me.Label150.Text = "Ohm"
-        '
-        'Label151
-        '
-        Me.Label151.AutoSize = True
-        Me.Label151.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label151.Location = New System.Drawing.Point(288, 107)
-        Me.Label151.Name = "Label151"
-        Me.Label151.Size = New System.Drawing.Size(108, 13)
-        Me.Label151.TabIndex = 168
-        Me.Label151.Text = "Left Blinder Angle"
-        '
-        'Label152
-        '
-        Me.Label152.AutoSize = True
-        Me.Label152.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label152.Location = New System.Drawing.Point(288, 147)
-        Me.Label152.Name = "Label152"
-        Me.Label152.Size = New System.Drawing.Size(75, 13)
-        Me.Label152.TabIndex = 144
-        Me.Label152.Text = "COMPLIMIT"
-        '
-        'Out6I
-        '
-        Me.Out6I.AutoSize = True
-        Me.Out6I.Location = New System.Drawing.Point(435, 107)
-        Me.Out6I.Name = "Out6I"
-        Me.Out6I.Size = New System.Drawing.Size(33, 13)
-        Me.Out6I.TabIndex = 169
-        Me.Out6I.Text = "Out6I"
-        '
-        'Out6A
-        '
-        Me.Out6A.AutoSize = True
-        Me.Out6A.Location = New System.Drawing.Point(140, 39)
-        Me.Out6A.Name = "Out6A"
-        Me.Out6A.Size = New System.Drawing.Size(37, 13)
-        Me.Out6A.TabIndex = 132
-        Me.Out6A.Text = "Out6A"
-        '
-        'Label155
-        '
-        Me.Label155.AutoSize = True
-        Me.Label155.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label155.Location = New System.Drawing.Point(288, 84)
-        Me.Label155.Name = "Label155"
-        Me.Label155.Size = New System.Drawing.Size(135, 13)
-        Me.Label155.TabIndex = 167
-        Me.Label155.Text = "Left Blinder Magnitude"
-        '
-        'Label156
-        '
-        Me.Label156.AutoSize = True
-        Me.Label156.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label156.Location = New System.Drawing.Point(440, 143)
-        Me.Label156.Name = "Label156"
-        Me.Label156.Size = New System.Drawing.Size(94, 13)
-        Me.Label156.TabIndex = 145
-        Me.Label156.Text = "90        Degree"
-        '
-        'Out6H
-        '
-        Me.Out6H.AutoSize = True
-        Me.Out6H.Location = New System.Drawing.Point(435, 84)
-        Me.Out6H.Name = "Out6H"
-        Me.Out6H.Size = New System.Drawing.Size(38, 13)
-        Me.Out6H.TabIndex = 165
-        Me.Out6H.Text = "Out6H"
-        '
-        'Label158
-        '
-        Me.Label158.AutoSize = True
-        Me.Label158.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label158.Location = New System.Drawing.Point(6, 133)
-        Me.Label158.Name = "Label158"
-        Me.Label158.Size = New System.Drawing.Size(104, 13)
-        Me.Label158.TabIndex = 138
-        Me.Label158.Text = "Gnd Dis Z3 Supv"
-        '
-        'Label159
-        '
-        Me.Label159.AutoSize = True
-        Me.Label159.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label159.Location = New System.Drawing.Point(486, 84)
-        Me.Label159.Name = "Label159"
-        Me.Label159.Size = New System.Drawing.Size(32, 13)
-        Me.Label159.TabIndex = 166
-        Me.Label159.Text = "Ohm"
-        '
-        'Label160
-        '
-        Me.Label160.AutoSize = True
-        Me.Label160.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label160.Location = New System.Drawing.Point(288, 166)
-        Me.Label160.Name = "Label160"
-        Me.Label160.Size = New System.Drawing.Size(58, 13)
-        Me.Label160.TabIndex = 147
-        Me.Label160.Text = "DIR RCA"
-        '
-        'Label161
-        '
-        Me.Label161.AutoSize = True
-        Me.Label161.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label161.Location = New System.Drawing.Point(486, 62)
-        Me.Label161.Name = "Label161"
-        Me.Label161.Size = New System.Drawing.Size(48, 13)
-        Me.Label161.TabIndex = 164
-        Me.Label161.Text = "Degree"
-        '
-        'Label162
-        '
-        Me.Label162.AutoSize = True
-        Me.Label162.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label162.Location = New System.Drawing.Point(6, 108)
-        Me.Label162.Name = "Label162"
-        Me.Label162.Size = New System.Drawing.Size(107, 13)
-        Me.Label162.TabIndex = 137
-        Me.Label162.Text = "Gnd Dis Z3 Delay"
-        '
-        'Label163
-        '
-        Me.Label163.AutoSize = True
-        Me.Label163.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label163.Location = New System.Drawing.Point(288, 62)
-        Me.Label163.Name = "Label163"
-        Me.Label163.Size = New System.Drawing.Size(116, 13)
-        Me.Label163.TabIndex = 162
-        Me.Label163.Text = "Right Blinder Angle"
-        '
-        'Label164
-        '
-        Me.Label164.AutoSize = True
-        Me.Label164.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label164.Location = New System.Drawing.Point(440, 166)
-        Me.Label164.Name = "Label164"
-        Me.Label164.Size = New System.Drawing.Size(94, 13)
-        Me.Label164.TabIndex = 149
-        Me.Label164.Text = "45        Degree"
-        '
-        'Out6G
-        '
-        Me.Out6G.AutoSize = True
-        Me.Out6G.Location = New System.Drawing.Point(435, 62)
-        Me.Out6G.Name = "Out6G"
-        Me.Out6G.Size = New System.Drawing.Size(38, 13)
-        Me.Out6G.TabIndex = 163
-        Me.Out6G.Text = "Out6G"
-        '
-        'Label166
-        '
-        Me.Label166.AutoSize = True
-        Me.Label166.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label166.Location = New System.Drawing.Point(6, 84)
-        Me.Label166.Name = "Label166"
-        Me.Label166.Size = New System.Drawing.Size(136, 13)
-        Me.Label166.TabIndex = 136
-        Me.Label166.Text = "Gnd Dis Z3 Comp Limit"
-        '
-        'Label167
-        '
-        Me.Label167.AutoSize = True
-        Me.Label167.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label167.Location = New System.Drawing.Point(288, 39)
-        Me.Label167.Name = "Label167"
-        Me.Label167.Size = New System.Drawing.Size(143, 13)
-        Me.Label167.TabIndex = 161
-        Me.Label167.Text = "Right Blinder Magnitude"
-        '
-        'Label168
-        '
-        Me.Label168.AutoSize = True
-        Me.Label168.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label168.Location = New System.Drawing.Point(288, 185)
-        Me.Label168.Name = "Label168"
-        Me.Label168.Size = New System.Drawing.Size(101, 13)
-        Me.Label168.TabIndex = 151
-        Me.Label168.Text = "DIR COMPLIMIT"
-        '
-        'Out6F
-        '
-        Me.Out6F.AutoSize = True
-        Me.Out6F.Location = New System.Drawing.Point(435, 39)
-        Me.Out6F.Name = "Out6F"
-        Me.Out6F.Size = New System.Drawing.Size(36, 13)
-        Me.Out6F.TabIndex = 159
-        Me.Out6F.Text = "Out6F"
-        '
-        'Out6D
-        '
-        Me.Out6D.AutoSize = True
-        Me.Out6D.Location = New System.Drawing.Point(140, 152)
-        Me.Out6D.Name = "Out6D"
-        Me.Out6D.Size = New System.Drawing.Size(38, 13)
-        Me.Out6D.TabIndex = 154
-        Me.Out6D.Text = "Out6D"
-        '
-        'Label171
-        '
-        Me.Label171.AutoSize = True
-        Me.Label171.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label171.Location = New System.Drawing.Point(486, 39)
-        Me.Label171.Name = "Label171"
-        Me.Label171.Size = New System.Drawing.Size(32, 13)
-        Me.Label171.TabIndex = 160
-        Me.Label171.Text = "Ohm"
-        '
-        'Label172
-        '
-        Me.Label172.AutoSize = True
-        Me.Label172.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label172.Location = New System.Drawing.Point(6, 62)
-        Me.Label172.Name = "Label172"
-        Me.Label172.Size = New System.Drawing.Size(112, 13)
-        Me.Label172.TabIndex = 135
-        Me.Label172.Text = "Gnd Dis Z3 Reach"
-        '
-        'Label173
-        '
-        Me.Label173.AutoSize = True
-        Me.Label173.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label173.Location = New System.Drawing.Point(136, 198)
-        Me.Label173.Name = "Label173"
-        Me.Label173.Size = New System.Drawing.Size(14, 13)
-        Me.Label173.TabIndex = 158
-        Me.Label173.Text = "0"
-        '
-        'Out6E
-        '
-        Me.Out6E.AutoSize = True
-        Me.Out6E.Location = New System.Drawing.Point(140, 174)
-        Me.Out6E.Name = "Out6E"
-        Me.Out6E.Size = New System.Drawing.Size(37, 13)
-        Me.Out6E.TabIndex = 152
-        Me.Out6E.Text = "Out6E"
-        '
-        'Label175
-        '
-        Me.Label175.AutoSize = True
-        Me.Label175.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label175.Location = New System.Drawing.Point(136, 223)
-        Me.Label175.Name = "Label175"
-        Me.Label175.Size = New System.Drawing.Size(111, 13)
-        Me.Label175.TabIndex = 157
-        Me.Label175.Text = "0              Degree"
-        '
-        'Label176
-        '
-        Me.Label176.AutoSize = True
-        Me.Label176.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label176.Location = New System.Drawing.Point(440, 185)
-        Me.Label176.Name = "Label176"
-        Me.Label176.Size = New System.Drawing.Size(94, 13)
-        Me.Label176.TabIndex = 153
-        Me.Label176.Text = "60        Degree"
-        '
-        'Label177
-        '
-        Me.Label177.AutoSize = True
-        Me.Label177.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label177.Location = New System.Drawing.Point(197, 174)
-        Me.Label177.Name = "Label177"
-        Me.Label177.Size = New System.Drawing.Size(48, 13)
-        Me.Label177.TabIndex = 156
-        Me.Label177.Text = "Degree"
-        '
-        'Label178
-        '
-        Me.Label178.AutoSize = True
-        Me.Label178.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label178.Location = New System.Drawing.Point(6, 39)
-        Me.Label178.Name = "Label178"
-        Me.Label178.Size = New System.Drawing.Size(112, 13)
-        Me.Label178.TabIndex = 134
-        Me.Label178.Text = "Gnd Dis Z3 Reach"
-        '
-        'Label179
-        '
-        Me.Label179.AutoSize = True
-        Me.Label179.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label179.Location = New System.Drawing.Point(6, 152)
-        Me.Label179.Name = "Label179"
-        Me.Label179.Size = New System.Drawing.Size(71, 13)
-        Me.Label179.TabIndex = 143
-        Me.Label179.Text = "Z0/Z1 Mag"
-        '
-        'Label180
-        '
-        Me.Label180.AutoSize = True
-        Me.Label180.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label180.Location = New System.Drawing.Point(288, 125)
-        Me.Label180.Name = "Label180"
-        Me.Label180.Size = New System.Drawing.Size(32, 13)
-        Me.Label180.TabIndex = 155
-        Me.Label180.Text = "RCA"
-        '
-        'Label181
-        '
-        Me.Label181.AutoSize = True
-        Me.Label181.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label181.Location = New System.Drawing.Point(6, 174)
-        Me.Label181.Name = "Label181"
-        Me.Label181.Size = New System.Drawing.Size(69, 13)
-        Me.Label181.TabIndex = 146
-        Me.Label181.Text = "Z0/Z1 Ang"
-        '
-        'Label182
-        '
-        Me.Label182.AutoSize = True
-        Me.Label182.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label182.Location = New System.Drawing.Point(6, 223)
-        Me.Label182.Name = "Label182"
-        Me.Label182.Size = New System.Drawing.Size(79, 13)
-        Me.Label182.TabIndex = 150
-        Me.Label182.Text = "Z0M/Z1 Ang"
-        '
-        'Label183
-        '
-        Me.Label183.AutoSize = True
-        Me.Label183.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label183.Location = New System.Drawing.Point(6, 198)
-        Me.Label183.Name = "Label183"
-        Me.Label183.Size = New System.Drawing.Size(79, 13)
-        Me.Label183.TabIndex = 148
-        Me.Label183.Text = "Z0M/Z1 Ang"
-        '
-        'Label142
-        '
-        Me.Label142.AutoSize = True
-        Me.Label142.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label142.Location = New System.Drawing.Point(184, 3)
-        Me.Label142.Name = "Label142"
-        Me.Label142.Size = New System.Drawing.Size(172, 18)
-        Me.Label142.TabIndex = 132
-        Me.Label142.Text = "Power Swing Element"
-        '
-        'Label144
-        '
-        Me.Label144.AutoSize = True
-        Me.Label144.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label144.Location = New System.Drawing.Point(350, 55)
-        Me.Label144.Name = "Label144"
-        Me.Label144.Size = New System.Drawing.Size(32, 13)
-        Me.Label144.TabIndex = 163
-        Me.Label144.Text = "Ohm"
-        '
-        'Out7A
-        '
-        Me.Out7A.AutoSize = True
-        Me.Out7A.Location = New System.Drawing.Point(299, 55)
-        Me.Out7A.Name = "Out7A"
-        Me.Out7A.Size = New System.Drawing.Size(37, 13)
-        Me.Out7A.TabIndex = 162
-        Me.Out7A.Text = "Out7A"
-        '
-        'Label154
-        '
-        Me.Label154.AutoSize = True
-        Me.Label154.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label154.Location = New System.Drawing.Point(152, 55)
-        Me.Label154.Name = "Label154"
-        Me.Label154.Size = New System.Drawing.Size(121, 13)
-        Me.Label154.TabIndex = 164
-        Me.Label154.Text = "Power Swing Reach"
-        '
-        'Label157
-        '
-        Me.Label157.AutoSize = True
-        Me.Label157.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label157.Location = New System.Drawing.Point(350, 97)
-        Me.Label157.Name = "Label157"
-        Me.Label157.Size = New System.Drawing.Size(32, 13)
-        Me.Label157.TabIndex = 166
-        Me.Label157.Text = "Ohm"
-        '
-        'Out7B
-        '
-        Me.Out7B.AutoSize = True
-        Me.Out7B.Location = New System.Drawing.Point(299, 97)
-        Me.Out7B.Name = "Out7B"
-        Me.Out7B.Size = New System.Drawing.Size(37, 13)
-        Me.Out7B.TabIndex = 165
-        Me.Out7B.Text = "Out7B"
-        '
-        'Label169
-        '
-        Me.Label169.AutoSize = True
-        Me.Label169.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label169.Location = New System.Drawing.Point(152, 97)
-        Me.Label169.Name = "Label169"
-        Me.Label169.Size = New System.Drawing.Size(113, 13)
-        Me.Label169.TabIndex = 167
-        Me.Label169.Text = "Power Swing Inner"
-        '
-        'Label170
-        '
-        Me.Label170.AutoSize = True
-        Me.Label170.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label170.Location = New System.Drawing.Point(350, 142)
-        Me.Label170.Name = "Label170"
-        Me.Label170.Size = New System.Drawing.Size(32, 13)
-        Me.Label170.TabIndex = 169
-        Me.Label170.Text = "Ohm"
-        '
-        'Out7C
-        '
-        Me.Out7C.AutoSize = True
-        Me.Out7C.Location = New System.Drawing.Point(299, 142)
-        Me.Out7C.Name = "Out7C"
-        Me.Out7C.Size = New System.Drawing.Size(37, 13)
-        Me.Out7C.TabIndex = 168
-        Me.Out7C.Text = "Out7C"
-        '
-        'Label184
-        '
-        Me.Label184.AutoSize = True
-        Me.Label184.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label184.Location = New System.Drawing.Point(152, 142)
-        Me.Label184.Name = "Label184"
-        Me.Label184.Size = New System.Drawing.Size(113, 13)
-        Me.Label184.TabIndex = 170
-        Me.Label184.Text = "Power Swing Inner"
-        '
-        'Label185
-        '
-        Me.Label185.AutoSize = True
-        Me.Label185.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label185.Location = New System.Drawing.Point(350, 190)
-        Me.Label185.Name = "Label185"
-        Me.Label185.Size = New System.Drawing.Size(23, 13)
-        Me.Label185.TabIndex = 172
-        Me.Label185.Text = "Ms"
-        '
-        'Out7D
-        '
-        Me.Out7D.AutoSize = True
-        Me.Out7D.Location = New System.Drawing.Point(299, 190)
-        Me.Out7D.Name = "Out7D"
-        Me.Out7D.Size = New System.Drawing.Size(38, 13)
-        Me.Out7D.TabIndex = 171
-        Me.Out7D.Text = "Out7D"
-        '
-        'Label187
-        '
-        Me.Label187.AutoSize = True
-        Me.Label187.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label187.Location = New System.Drawing.Point(152, 190)
-        Me.Label187.Name = "Label187"
-        Me.Label187.Size = New System.Drawing.Size(82, 13)
-        Me.Label187.TabIndex = 173
-        Me.Label187.Text = "Delay Pickup"
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(246, 473)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(90, 23)
+        Me.Button2.TabIndex = 4
+        Me.Button2.Text = "Close"
+        Me.Button2.UseVisualStyleBackColor = True
         '
         'FormOutputGED60
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(577, 540)
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.TabControl1)
@@ -3188,4 +3199,5 @@ Partial Class FormOutputGED60
     Friend WithEvents Label144 As System.Windows.Forms.Label
     Friend WithEvents Out7A As System.Windows.Forms.Label
     Friend WithEvents Label154 As System.Windows.Forms.Label
+    Friend WithEvents Button2 As System.Windows.Forms.Button
 End Class
