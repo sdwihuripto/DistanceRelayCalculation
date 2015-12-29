@@ -259,41 +259,69 @@ Public Class FormOutputGED60
         Table2.Borders.InsideLineStyle = Word.WdLineStyle.wdLineStyleSingle
         oPara2.Format.SpaceAfter = 21
         oPara2.Range.InsertParagraphAfter()
-        'oPara2.Range.InsertBreak(Word.WdBreakType.wdPageBreak)
+        oPara2.Range.InsertBreak(Word.WdBreakType.wdPageBreak)
 
         oPara3 = oDoc.Content.Paragraphs.Add
-        Table3 = oDoc.Content.Tables.Add(oPara3.Range, 10, 3)
+        Table3 = oDoc.Content.Tables.Add(oPara3.Range, 20, 3)
         Table3.Rows(1).Cells.Merge()
-        Table3.Rows(1).Range.Text = "Phase Distance Z1 MHO"
+        Table3.Rows(1).Range.Text = "Ground Distance Z1 QUAD"
         Table3.Rows(1).Range.Font.Bold = True
         Table3.Rows(1).Range.Font.Size = 16
         Table3.Rows(2).Cells.Split()
-        Table3.Cell(2, 1).Range.Text = "Ph Dis Z1 Reach"
-        Table3.Cell(2, 2).Range.Text = tempJ
+        Table3.Cell(2, 1).Range.Text = "Gnd Dis Z1 Reach"
+        Table3.Cell(2, 2).Range.Text = tempN
         Table3.Cell(2, 3).Range.Text = "Ohm"
-        Table3.Cell(3, 1).Range.Text = "Ph Dis Z1 Direction"
+        Table3.Cell(3, 1).Range.Text = "Gnd Dis Z1 Direction"
         Table3.Cell(3, 2).Range.Text = "FORWARD"
-        Table3.Cell(4, 1).Range.Text = "Ph Dis Z1 Comp Limit"
-        Table3.Cell(4, 2).Range.Text = tempK
+        Table3.Cell(4, 1).Range.Text = "Gnd Dis Z1 Comp Limit"
+        Table3.Cell(4, 2).Range.Text = tempO
         Table3.Cell(4, 3).Range.Text = "Degree"
-        Table3.Cell(5, 1).Range.Text = "Ph Dis Z1 Delay"
-        Table3.Cell(5, 2).Range.Text = tempL
+        Table3.Cell(5, 1).Range.Text = "Gnd Dis Z1 Delay"
+        Table3.Cell(5, 2).Range.Text = tempP
         Table3.Cell(5, 3).Range.Text = "Sec"
-        Table3.Cell(6, 1).Range.Text = "Ph Dis Z1 Supv"
-        Table3.Cell(6, 2).Range.Text = "1.2"
-        Table3.Cell(6, 3).Range.Text = "pu"
-        Table3.Cell(7, 1).Range.Text = "RCA"
-        Table3.Cell(7, 2).Range.Text = tempM
-        Table3.Cell(7, 3).Range.Text = "Degree"
-        Table3.Cell(8, 1).Range.Text = "COMPLIMIT"
-        Table3.Cell(8, 2).Range.Text = "90"
+        Table3.Cell(6, 1).Range.Text = "Gnd Diz Z1 Supv"
+        Table3.Cell(6, 2).Range.Text = "0.2"
+        Table3.Cell(6, 3).Range.Text = "Pu"
+        Table3.Cell(7, 1).Range.Text = "Z0/Z1 Mag"
+        Table3.Cell(7, 2).Range.Text = tempQ
+        Table3.Cell(8, 1).Range.Text = "Z0/Z1 Ang"
+        Table3.Cell(8, 2).Range.Text = tempR
         Table3.Cell(8, 3).Range.Text = "Degree"
-        Table3.Cell(9, 1).Range.Text = "DIR RCA"
-        Table3.Cell(9, 2).Range.Text = "80"
-        Table3.Cell(9, 3).Range.Text = "Degree"
-        Table3.Cell(10, 1).Range.Text = "DIR COMPLIMIT"
-        Table3.Cell(10, 2).Range.Text = "90"
+        Table3.Cell(9, 1).Range.Text = "Z0M/Z1 Mag"
+        Table3.Cell(9, 2).Range.Text = "0"
+        Table3.Cell(10, 1).Range.Text = "Z0M/Z1 Ang"
+        Table3.Cell(10, 2).Range.Text = "0"
         Table3.Cell(10, 3).Range.Text = "Degree"
+        Table3.Cell(11, 1).Range.Text = "Right Blinder Magnitude"
+        Table3.Cell(11, 2).Range.Text = tempS
+        Table3.Cell(11, 3).Range.Text = "Ohm"
+        Table3.Cell(12, 1).Range.Text = "Right Blinder Angle"
+        Table3.Cell(12, 2).Range.Text = tempT
+        Table3.Cell(12, 3).Range.Text = "Degree"
+        Table3.Cell(13, 1).Range.Text = "Left Blinder Magnitude"
+        Table3.Cell(13, 2).Range.Text = tempU
+        Table3.Cell(13, 3).Range.Text = "Ohm"
+        Table3.Cell(14, 1).Range.Text = "Left Blinder Angle"
+        Table3.Cell(14, 2).Range.Text = tempV
+        Table3.Cell(14, 3).Range.Text = "Degree"
+        Table3.Cell(15, 1).Range.Text = "RCA"
+        Table3.Cell(15, 2).Range.Text = "75"
+        Table3.Cell(15, 3).Range.Text = "Degree"
+        Table3.Cell(16, 1).Range.Text = "COMPLIMIT"
+        Table3.Cell(16, 2).Range.Text = "90"
+        Table3.Cell(16, 3).Range.Text = "Degree"
+        Table3.Cell(17, 1).Range.Text = "DIR RCA"
+        Table3.Cell(17, 2).Range.Text = "45"
+        Table3.Cell(17, 3).Range.Text = "Degree"
+        Table3.Cell(18, 1).Range.Text = "DIR COMPLIMIT"
+        Table3.Cell(18, 2).Range.Text = "60"
+        Table3.Cell(18, 3).Range.Text = "Degree"
+        Table3.Cell(19, 1).Range.Text = "RIGHT BLINDER RCA"
+        Table3.Cell(19, 2).Range.Text = "75"
+        Table3.Cell(19, 3).Range.Text = "Degree"
+        Table3.Cell(20, 1).Range.Text = "LEFT BLINDER RCA"
+        Table3.Cell(20, 2).Range.Text = "75"
+        Table3.Cell(20, 3).Range.Text = "Degree"
         Table3.Range.ParagraphFormat.Alignment = Word.WdParagraphAlignment.wdAlignParagraphCenter
         Table3.Borders.OutsideColor = Word.WdColor.wdColorBlack
         Table3.Borders.OutsideLineStyle = Word.WdLineStyle.wdLineStyleSingle
@@ -301,8 +329,264 @@ Public Class FormOutputGED60
         Table3.Borders.InsideLineStyle = Word.WdLineStyle.wdLineStyleSingle
         oPara3.Format.SpaceAfter = 21
         oPara3.Range.InsertParagraphAfter()
+        oPara3.Range.InsertBreak(Word.WdBreakType.wdPageBreak)
+
+        oPara4 = oDoc.Content.Paragraphs.Add
+        oPara4.Range.Collapse(Word.WdCollapseDirection.wdCollapseEnd)
+        Table4 = oDoc.Content.Tables.Add(oPara4.Range, 10, 3)
+        Table4.Rows(1).Cells.Merge()
+        Table4.Rows(1).Range.Text = "Phase Distance Z2 MHO"
+        Table4.Rows(1).Range.Font.Bold = True
+        Table4.Rows(1).Range.Font.Size = 16
+        Table4.Rows(2).Cells.Split()
+        Table4.Cell(2, 1).Range.Text = "Ph Dis Z2 Reach"
+        Table4.Cell(2, 2).Range.Text = tempW
+        Table4.Cell(2, 3).Range.Text = "Ohm"
+        Table4.Cell(3, 1).Range.Text = "Ph Dis Z2 Direction"
+        Table4.Cell(3, 2).Range.Text = "FORWARD"
+        Table4.Cell(4, 1).Range.Text = "Ph Dis Z2 Comp Limit"
+        Table4.Cell(4, 2).Range.Text = tempX
+        Table4.Cell(4, 3).Range.Text = "Degree"
+        Table4.Cell(5, 1).Range.Text = "Ph Dis Z2 Delay"
+        Table4.Cell(5, 2).Range.Text = tempY
+        Table4.Cell(5, 3).Range.Text = "Sec"
+        Table4.Cell(6, 1).Range.Text = "Ph Dis Z2 Supv"
+        Table4.Cell(6, 2).Range.Text = "1.2"
+        Table4.Cell(6, 3).Range.Text = "Pu"
+        Table4.Cell(7, 1).Range.Text = "RCA"
+        Table4.Cell(7, 2).Range.Text = tempZ
+        Table4.Cell(7, 3).Range.Text = "Degree"
+        Table4.Cell(8, 1).Range.Text = "COMPLIMIT"
+        Table4.Cell(8, 2).Range.Text = "90"
+        Table4.Cell(8, 3).Range.Text = "Degree"
+        Table4.Cell(9, 1).Range.Text = "DIR RCA"
+        Table4.Cell(9, 2).Range.Text = "80"
+        Table4.Cell(9, 3).Range.Text = "Degree"
+        Table4.Cell(10, 1).Range.Text = "DIR COMPLIMIT"
+        Table4.Cell(10, 2).Range.Text = "90"
+        Table4.Cell(10, 3).Range.Text = "Degree"
+        Table4.Range.ParagraphFormat.Alignment = Word.WdParagraphAlignment.wdAlignParagraphCenter
+        Table4.Borders.OutsideColor = Word.WdColor.wdColorBlack
+        Table4.Borders.OutsideLineStyle = Word.WdLineStyle.wdLineStyleSingle
+        Table4.Borders.InsideColor = Word.WdColor.wdColorBlack
+        Table4.Borders.InsideLineStyle = Word.WdLineStyle.wdLineStyleSingle
+        oPara4.Format.SpaceAfter = 21
+        oPara4.Range.InsertParagraphAfter()
+        oPara4.Range.InsertBreak(Word.WdBreakType.wdPageBreak)
+
+        oPara5 = oDoc.Content.Paragraphs.Add
+        Table5 = oDoc.Content.Tables.Add(oPara5.Range, 20, 3)
+        Table5.Rows(1).Cells.Merge()
+        Table5.Rows(1).Range.Text = "Ground Distance Z2 QUAD"
+        Table5.Rows(1).Range.Font.Bold = True
+        Table5.Rows(1).Range.Font.Size = 16
+        Table5.Rows(2).Cells.Split()
+        Table5.Cell(2, 1).Range.Text = "Gnd Dis Z2 Reach"
+        Table5.Cell(2, 2).Range.Text = tempA1
+        Table5.Cell(2, 3).Range.Text = "Ohm"
+        Table5.Cell(3, 1).Range.Text = "Gnd Dis Z2 Direction"
+        Table5.Cell(3, 2).Range.Text = "FORWARD"
+        Table5.Cell(4, 1).Range.Text = "Gnd Dis Z2 Comp Limit"
+        Table5.Cell(4, 2).Range.Text = tempB1
+        Table5.Cell(4, 3).Range.Text = "Degree"
+        Table5.Cell(5, 1).Range.Text = "Gnd Dis Z2 Delay"
+        Table5.Cell(5, 2).Range.Text = tempC1
+        Table5.Cell(5, 3).Range.Text = "Sec"
+        Table5.Cell(6, 1).Range.Text = "Gnd Diz Z2 Supv"
+        Table5.Cell(6, 2).Range.Text = "0.2"
+        Table5.Cell(6, 3).Range.Text = "Pu"
+        Table5.Cell(7, 1).Range.Text = "Z0/Z1 Mag"
+        Table5.Cell(7, 2).Range.Text = tempD1
+        Table5.Cell(8, 1).Range.Text = "Z0/Z1 Ang"
+        Table5.Cell(8, 2).Range.Text = tempE1
+        Table5.Cell(8, 3).Range.Text = "Degree"
+        Table5.Cell(9, 1).Range.Text = "Z0M/Z1 Mag"
+        Table5.Cell(9, 2).Range.Text = "0"
+        Table5.Cell(10, 1).Range.Text = "Z0M/Z1 Ang"
+        Table5.Cell(10, 2).Range.Text = "0"
+        Table5.Cell(10, 3).Range.Text = "Degree"
+        Table5.Cell(11, 1).Range.Text = "Right Blinder Magnitude"
+        Table5.Cell(11, 2).Range.Text = tempF1
+        Table5.Cell(11, 3).Range.Text = "Ohm"
+        Table5.Cell(12, 1).Range.Text = "Right Blinder Angle"
+        Table5.Cell(12, 2).Range.Text = tempG1
+        Table5.Cell(12, 3).Range.Text = "Degree"
+        Table5.Cell(13, 1).Range.Text = "Left Blinder Magnitude"
+        Table5.Cell(13, 2).Range.Text = tempH1
+        Table5.Cell(13, 3).Range.Text = "Ohm"
+        Table5.Cell(14, 1).Range.Text = "Left Blinder Angle"
+        Table5.Cell(14, 2).Range.Text = tempI1
+        Table5.Cell(14, 3).Range.Text = "Degree"
+        Table5.Cell(15, 1).Range.Text = "RCA"
+        Table5.Cell(15, 2).Range.Text = "75"
+        Table5.Cell(15, 3).Range.Text = "Degree"
+        Table5.Cell(16, 1).Range.Text = "COMPLIMIT"
+        Table5.Cell(16, 2).Range.Text = "90"
+        Table5.Cell(16, 3).Range.Text = "Degree"
+        Table5.Cell(17, 1).Range.Text = "DIR RCA"
+        Table5.Cell(17, 2).Range.Text = "45"
+        Table5.Cell(17, 3).Range.Text = "Degree"
+        Table5.Cell(18, 1).Range.Text = "DIR COMPLIMIT"
+        Table5.Cell(18, 2).Range.Text = "60"
+        Table5.Cell(18, 3).Range.Text = "Degree"
+        Table5.Cell(19, 1).Range.Text = "RIGHT BLINDER RCA"
+        Table5.Cell(19, 2).Range.Text = "75"
+        Table5.Cell(19, 3).Range.Text = "Degree"
+        Table5.Cell(20, 1).Range.Text = "LEFT BLINDER RCA"
+        Table5.Cell(20, 2).Range.Text = "75"
+        Table5.Cell(20, 3).Range.Text = "Degree"
+        Table5.Range.ParagraphFormat.Alignment = Word.WdParagraphAlignment.wdAlignParagraphCenter
+        Table5.Borders.OutsideColor = Word.WdColor.wdColorBlack
+        Table5.Borders.OutsideLineStyle = Word.WdLineStyle.wdLineStyleSingle
+        Table5.Borders.InsideColor = Word.WdColor.wdColorBlack
+        Table5.Borders.InsideLineStyle = Word.WdLineStyle.wdLineStyleSingle
+        oPara5.Format.SpaceAfter = 21
+        oPara5.Range.InsertParagraphAfter()
+        oPara5.Range.InsertBreak(Word.WdBreakType.wdPageBreak)
+
+        oPara6 = oDoc.Content.Paragraphs.Add
+        oPara6.Range.Collapse(Word.WdCollapseDirection.wdCollapseEnd)
+        Table6 = oDoc.Content.Tables.Add(oPara6.Range, 10, 3)
+        Table6.Rows(1).Cells.Merge()
+        Table6.Rows(1).Range.Text = "Phase Distance Z3 MHO"
+        Table6.Rows(1).Range.Font.Bold = True
+        Table6.Rows(1).Range.Font.Size = 16
+        Table6.Rows(2).Cells.Split()
+        Table6.Cell(2, 1).Range.Text = "Ph Dis Z3 Reach"
+        Table6.Cell(2, 2).Range.Text = tempJ1
+        Table6.Cell(2, 3).Range.Text = "Ohm"
+        Table6.Cell(3, 1).Range.Text = "Ph Dis Z3 Direction"
+        Table6.Cell(3, 2).Range.Text = "FORWARD"
+        Table6.Cell(4, 1).Range.Text = "Ph Dis Z3 Comp Limit"
+        Table6.Cell(4, 2).Range.Text = tempK1
+        Table6.Cell(4, 3).Range.Text = "Degree"
+        Table6.Cell(5, 1).Range.Text = "Ph Dis Z3 Delay"
+        Table6.Cell(5, 2).Range.Text = tempL1
+        Table6.Cell(5, 3).Range.Text = "Sec"
+        Table6.Cell(6, 1).Range.Text = "Ph Dis Z3 Supv"
+        Table6.Cell(6, 2).Range.Text = "1.2"
+        Table6.Cell(6, 3).Range.Text = "Pu"
+        Table6.Cell(7, 1).Range.Text = "RCA"
+        Table6.Cell(7, 2).Range.Text = tempM1
+        Table6.Cell(7, 3).Range.Text = "Degree"
+        Table6.Cell(8, 1).Range.Text = "COMPLIMIT"
+        Table6.Cell(8, 2).Range.Text = "90"
+        Table6.Cell(8, 3).Range.Text = "Degree"
+        Table6.Cell(9, 1).Range.Text = "DIR RCA"
+        Table6.Cell(9, 2).Range.Text = "80"
+        Table6.Cell(9, 3).Range.Text = "Degree"
+        Table6.Cell(10, 1).Range.Text = "DIR COMPLIMIT"
+        Table6.Cell(10, 2).Range.Text = "90"
+        Table6.Cell(10, 3).Range.Text = "Degree"
+        Table6.Range.ParagraphFormat.Alignment = Word.WdParagraphAlignment.wdAlignParagraphCenter
+        Table6.Borders.OutsideColor = Word.WdColor.wdColorBlack
+        Table6.Borders.OutsideLineStyle = Word.WdLineStyle.wdLineStyleSingle
+        Table6.Borders.InsideColor = Word.WdColor.wdColorBlack
+        Table6.Borders.InsideLineStyle = Word.WdLineStyle.wdLineStyleSingle
+        oPara6.Format.SpaceAfter = 21
+        oPara6.Range.InsertParagraphAfter()
+        oPara6.Range.InsertBreak(Word.WdBreakType.wdPageBreak)
+
+        oPara7 = oDoc.Content.Paragraphs.Add
+        Table7 = oDoc.Content.Tables.Add(oPara7.Range, 20, 3)
+        Table7.Rows(1).Cells.Merge()
+        Table7.Rows(1).Range.Text = "Ground Distance Z3 QUAD"
+        Table7.Rows(1).Range.Font.Bold = True
+        Table7.Rows(1).Range.Font.Size = 16
+        Table7.Rows(2).Cells.Split()
+        Table7.Cell(2, 1).Range.Text = "Gnd Dis Z3 Reach"
+        Table7.Cell(2, 2).Range.Text = tempN1
+        Table7.Cell(2, 3).Range.Text = "Ohm"
+        Table7.Cell(3, 1).Range.Text = "Gnd Dis Z3 Direction"
+        Table7.Cell(3, 2).Range.Text = "FORWARD"
+        Table7.Cell(4, 1).Range.Text = "Gnd Dis Z3 Comp Limit"
+        Table7.Cell(4, 2).Range.Text = tempO1
+        Table7.Cell(4, 3).Range.Text = "Degree"
+        Table7.Cell(5, 1).Range.Text = "Gnd Dis Z3 Delay"
+        Table7.Cell(5, 2).Range.Text = tempP1
+        Table7.Cell(5, 3).Range.Text = "Sec"
+        Table7.Cell(6, 1).Range.Text = "Gnd Diz Z3 Supv"
+        Table7.Cell(6, 2).Range.Text = "0.2"
+        Table7.Cell(6, 3).Range.Text = "Pu"
+        Table7.Cell(7, 1).Range.Text = "Z0/Z1 Mag"
+        Table7.Cell(7, 2).Range.Text = tempQ1
+        Table7.Cell(8, 1).Range.Text = "Z0/Z1 Ang"
+        Table7.Cell(8, 2).Range.Text = tempR1
+        Table7.Cell(8, 3).Range.Text = "Degree"
+        Table7.Cell(9, 1).Range.Text = "Z0M/Z1 Mag"
+        Table7.Cell(9, 2).Range.Text = "0"
+        Table7.Cell(10, 1).Range.Text = "Z0M/Z1 Ang"
+        Table7.Cell(10, 2).Range.Text = "0"
+        Table7.Cell(10, 3).Range.Text = "Degree"
+        Table7.Cell(11, 1).Range.Text = "Right Blinder Magnitude"
+        Table7.Cell(11, 2).Range.Text = tempS1
+        Table7.Cell(11, 3).Range.Text = "Ohm"
+        Table7.Cell(12, 1).Range.Text = "Right Blinder Angle"
+        Table7.Cell(12, 2).Range.Text = tempT1
+        Table7.Cell(12, 3).Range.Text = "Degree"
+        Table7.Cell(13, 1).Range.Text = "Left Blinder Magnitude"
+        Table7.Cell(13, 2).Range.Text = tempU1
+        Table7.Cell(13, 3).Range.Text = "Ohm"
+        Table7.Cell(14, 1).Range.Text = "Left Blinder Angle"
+        Table7.Cell(14, 2).Range.Text = tempV1
+        Table7.Cell(14, 3).Range.Text = "Degree"
+        Table7.Cell(15, 1).Range.Text = "RCA"
+        Table7.Cell(15, 2).Range.Text = "75"
+        Table7.Cell(15, 3).Range.Text = "Degree"
+        Table7.Cell(16, 1).Range.Text = "COMPLIMIT"
+        Table7.Cell(16, 2).Range.Text = "90"
+        Table7.Cell(16, 3).Range.Text = "Degree"
+        Table7.Cell(17, 1).Range.Text = "DIR RCA"
+        Table7.Cell(17, 2).Range.Text = "45"
+        Table7.Cell(17, 3).Range.Text = "Degree"
+        Table7.Cell(18, 1).Range.Text = "DIR COMPLIMIT"
+        Table7.Cell(18, 2).Range.Text = "60"
+        Table7.Cell(18, 3).Range.Text = "Degree"
+        Table7.Cell(19, 1).Range.Text = "RIGHT BLINDER RCA"
+        Table7.Cell(19, 2).Range.Text = "75"
+        Table7.Cell(19, 3).Range.Text = "Degree"
+        Table7.Cell(20, 1).Range.Text = "LEFT BLINDER RCA"
+        Table7.Cell(20, 2).Range.Text = "75"
+        Table7.Cell(20, 3).Range.Text = "Degree"
+        Table7.Range.ParagraphFormat.Alignment = Word.WdParagraphAlignment.wdAlignParagraphCenter
+        Table7.Borders.OutsideColor = Word.WdColor.wdColorBlack
+        Table7.Borders.OutsideLineStyle = Word.WdLineStyle.wdLineStyleSingle
+        Table7.Borders.InsideColor = Word.WdColor.wdColorBlack
+        Table7.Borders.InsideLineStyle = Word.WdLineStyle.wdLineStyleSingle
+        oPara7.Format.SpaceAfter = 21
+        oPara7.Range.InsertParagraphAfter()
+        oPara7.Range.InsertBreak(Word.WdBreakType.wdPageBreak)
+
+        oPara8 = oDoc.Content.Paragraphs.Add
+        oPara8.Range.Collapse(Word.WdCollapseDirection.wdCollapseEnd)
+        Table8 = oDoc.Content.Tables.Add(oPara6.Range, 5, 3)
+        Table8.Rows(1).Cells.Merge()
+        Table8.Rows(1).Range.Text = "Power Swing Element:"
+        Table8.Rows(1).Range.Font.Bold = True
+        Table8.Rows(1).Range.Font.Size = 16
+        Table8.Rows(2).Cells.Split()
+        Table8.Cell(2, 1).Range.Text = "Power Swing Reach"
+        Table8.Cell(2, 2).Range.Text = tempW1
+        Table8.Cell(2, 3).Range.Text = "Ohm"
+        Table8.Cell(3, 1).Range.Text = "Power Swing Inner"
+        Table8.Cell(3, 2).Range.Text = tempX1
+        Table8.Cell(3, 3).Range.Text = "Ohm"
+        Table8.Cell(4, 1).Range.Text = "Power Swing Reach"
+        Table8.Cell(4, 2).Range.Text = tempY1
+        Table8.Cell(4, 3).Range.Text = "Ohm"
+        Table8.Cell(5, 1).Range.Text = "Delay Pickup"
+        Table8.Cell(5, 2).Range.Text = tempZ1
+        Table8.Cell(5, 3).Range.Text = "ms"
+        Table8.Range.ParagraphFormat.Alignment = Word.WdParagraphAlignment.wdAlignParagraphCenter
+        Table8.Borders.OutsideColor = Word.WdColor.wdColorBlack
+        Table8.Borders.OutsideLineStyle = Word.WdLineStyle.wdLineStyleSingle
+        Table8.Borders.InsideColor = Word.WdColor.wdColorBlack
+        Table8.Borders.InsideLineStyle = Word.WdLineStyle.wdLineStyleSingle
+        oPara8.Format.SpaceAfter = 21
 
         Me.Close()
+        MessageBox.Show("Export to Word Complete", "Distance Relay Calculation",
+                            MessageBoxButtons.OK)
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
