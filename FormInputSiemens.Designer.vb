@@ -25,7 +25,7 @@ Partial Class FormInputSiemens
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FormInputSiemens))
         Me.Label23 = New System.Windows.Forms.Label()
         Me.GroupBox6 = New System.Windows.Forms.GroupBox()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
+        Me.CTs = New System.Windows.Forms.TextBox()
         Me.Label11 = New System.Windows.Forms.Label()
         Me.PTs = New System.Windows.Forms.TextBox()
         Me.PTp = New System.Windows.Forms.TextBox()
@@ -89,15 +89,15 @@ Partial Class FormInputSiemens
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label13 = New System.Windows.Forms.Label()
         Me.Label28 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.ArcBox = New System.Windows.Forms.TextBox()
         Me.Label29 = New System.Windows.Forms.Label()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.ResistanceBox = New System.Windows.Forms.TextBox()
         Me.Label30 = New System.Windows.Forms.Label()
         Me.Label31 = New System.Windows.Forms.Label()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.InfeedBox = New System.Windows.Forms.TextBox()
         Me.Footer2 = New System.Windows.Forms.Label()
         Me.Label15 = New System.Windows.Forms.Label()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.RodBox = New System.Windows.Forms.TextBox()
         Me.Label24 = New System.Windows.Forms.Label()
         Me.GroupBox6.SuspendLayout()
         Me.GroupBox5.SuspendLayout()
@@ -121,7 +121,7 @@ Partial Class FormInputSiemens
         '
         'GroupBox6
         '
-        Me.GroupBox6.Controls.Add(Me.TextBox5)
+        Me.GroupBox6.Controls.Add(Me.CTs)
         Me.GroupBox6.Controls.Add(Me.Label23)
         Me.GroupBox6.Controls.Add(Me.Label11)
         Me.GroupBox6.Controls.Add(Me.PTs)
@@ -137,12 +137,12 @@ Partial Class FormInputSiemens
         Me.GroupBox6.TabStop = False
         Me.GroupBox6.Text = "CT, PT, and Relay Parameter"
         '
-        'TextBox5
+        'CTs
         '
-        Me.TextBox5.Location = New System.Drawing.Point(184, 18)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(50, 21)
-        Me.TextBox5.TabIndex = 91
+        Me.CTs.Location = New System.Drawing.Point(184, 18)
+        Me.CTs.Name = "CTs"
+        Me.CTs.Size = New System.Drawing.Size(50, 21)
+        Me.CTs.TabIndex = 91
         '
         'Label11
         '
@@ -792,28 +792,28 @@ Partial Class FormInputSiemens
         Me.Label28.TabIndex = 153
         Me.Label28.Text = "Foot Resistance of Tower"
         '
-        'TextBox1
+        'ArcBox
         '
-        Me.TextBox1.Location = New System.Drawing.Point(436, 423)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(60, 20)
-        Me.TextBox1.TabIndex = 156
+        Me.ArcBox.Location = New System.Drawing.Point(436, 423)
+        Me.ArcBox.Name = "ArcBox"
+        Me.ArcBox.Size = New System.Drawing.Size(60, 20)
+        Me.ArcBox.TabIndex = 156
         '
         'Label29
         '
         Me.Label29.AutoSize = True
         Me.Label29.Location = New System.Drawing.Point(293, 428)
         Me.Label29.Name = "Label29"
-        Me.Label29.Size = New System.Drawing.Size(71, 13)
+        Me.Label29.Size = New System.Drawing.Size(63, 13)
         Me.Label29.TabIndex = 154
-        Me.Label29.Text = "Load Current "
+        Me.Label29.Text = "Arc Current "
         '
-        'TextBox2
+        'ResistanceBox
         '
-        Me.TextBox2.Location = New System.Drawing.Point(436, 449)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(60, 20)
-        Me.TextBox2.TabIndex = 157
+        Me.ResistanceBox.Location = New System.Drawing.Point(436, 449)
+        Me.ResistanceBox.Name = "ResistanceBox"
+        Me.ResistanceBox.Size = New System.Drawing.Size(60, 20)
+        Me.ResistanceBox.TabIndex = 157
         '
         'Label30
         '
@@ -835,12 +835,12 @@ Partial Class FormInputSiemens
         Me.Label31.TabIndex = 145
         Me.Label31.Text = "Ohm"
         '
-        'TextBox3
+        'InfeedBox
         '
-        Me.TextBox3.Location = New System.Drawing.Point(436, 400)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(60, 20)
-        Me.TextBox3.TabIndex = 155
+        Me.InfeedBox.Location = New System.Drawing.Point(436, 400)
+        Me.InfeedBox.Name = "InfeedBox"
+        Me.InfeedBox.Size = New System.Drawing.Size(60, 20)
+        Me.InfeedBox.TabIndex = 155
         '
         'Footer2
         '
@@ -861,12 +861,12 @@ Partial Class FormInputSiemens
         Me.Label15.TabIndex = 159
         Me.Label15.Text = "Rod insulator length "
         '
-        'TextBox4
+        'RodBox
         '
-        Me.TextBox4.Location = New System.Drawing.Point(435, 369)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(60, 20)
-        Me.TextBox4.TabIndex = 154
+        Me.RodBox.Location = New System.Drawing.Point(435, 369)
+        Me.RodBox.Name = "RodBox"
+        Me.RodBox.Size = New System.Drawing.Size(60, 20)
+        Me.RodBox.TabIndex = 154
         '
         'Label24
         '
@@ -884,19 +884,19 @@ Partial Class FormInputSiemens
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(554, 632)
         Me.Controls.Add(Me.Label24)
-        Me.Controls.Add(Me.TextBox4)
+        Me.Controls.Add(Me.RodBox)
         Me.Controls.Add(Me.Label15)
         Me.Controls.Add(Me.GroupBox6)
         Me.Controls.Add(Me.AddBtn4)
         Me.Controls.Add(Me.AddBtn3)
-        Me.Controls.Add(Me.TextBox3)
+        Me.Controls.Add(Me.InfeedBox)
         Me.Controls.Add(Me.GroupBox5)
         Me.Controls.Add(Me.cmdCalculate)
         Me.Controls.Add(Me.Label31)
         Me.Controls.Add(Me.Label30)
-        Me.Controls.Add(Me.TextBox2)
+        Me.Controls.Add(Me.ResistanceBox)
         Me.Controls.Add(Me.Label29)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.ArcBox)
         Me.Controls.Add(Me.Label28)
         Me.Controls.Add(Me.Label13)
         Me.Controls.Add(Me.PictureBox5)
@@ -1006,15 +1006,15 @@ Partial Class FormInputSiemens
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents Label13 As System.Windows.Forms.Label
     Friend WithEvents Label28 As System.Windows.Forms.Label
-    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
+    Friend WithEvents ArcBox As System.Windows.Forms.TextBox
     Friend WithEvents Label29 As System.Windows.Forms.Label
-    Friend WithEvents TextBox2 As System.Windows.Forms.TextBox
+    Friend WithEvents ResistanceBox As System.Windows.Forms.TextBox
     Friend WithEvents Label30 As System.Windows.Forms.Label
     Friend WithEvents Label31 As System.Windows.Forms.Label
-    Friend WithEvents TextBox3 As System.Windows.Forms.TextBox
+    Friend WithEvents InfeedBox As System.Windows.Forms.TextBox
     Friend WithEvents Footer2 As System.Windows.Forms.Label
     Friend WithEvents Label15 As System.Windows.Forms.Label
-    Friend WithEvents TextBox4 As System.Windows.Forms.TextBox
+    Friend WithEvents RodBox As System.Windows.Forms.TextBox
     Friend WithEvents Label24 As System.Windows.Forms.Label
-    Friend WithEvents TextBox5 As System.Windows.Forms.TextBox
+    Friend WithEvents CTs As System.Windows.Forms.TextBox
 End Class
