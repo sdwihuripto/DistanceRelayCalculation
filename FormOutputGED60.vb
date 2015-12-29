@@ -167,41 +167,139 @@ Public Class FormOutputGED60
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Dim oWord As Word.Application
         Dim oDoc As Word.Document
-        Dim oPara1 As Word.Paragraph, oPara2 As Word.Paragraph, oPara3 As Word.Paragraph
-        Dim oPara4 As Word.Paragraph, oPara5 As Word.Paragraph, oPara6 As Word.Paragraph
-        Dim oPara7 As Word.Paragraph, oPara8 As Word.Paragraph, oPara9 As Word.Paragraph
-        Dim oPara10 As Word.Paragraph, oPara11 As Word.Paragraph, oPara12 As Word.Paragraph
-        Dim oPara13 As Word.Paragraph, oPara14 As Word.Paragraph, oPara15 As Word.Paragraph
-        Dim oPara16 As Word.Paragraph, oPara17 As Word.Paragraph, oPara18 As Word.Paragraph
-        Dim oPara19 As Word.Paragraph, oPara20 As Word.Paragraph, oPara21 As Word.Paragraph
-        Dim oPara22 As Word.Paragraph, oPara23 As Word.Paragraph, oPara24 As Word.Paragraph
-        Dim oPara25 As Word.Paragraph, oPara26 As Word.Paragraph, oPara27 As Word.Paragraph
-        Dim oPara28 As Word.Paragraph, oPara29 As Word.Paragraph, oPara30 As Word.Paragraph
-        Dim oPara31 As Word.Paragraph, oPara32 As Word.Paragraph, oPara33 As Word.Paragraph
-        Dim oPara34 As Word.Paragraph, oPara35 As Word.Paragraph, oPara36 As Word.Paragraph
-        Dim oPara37 As Word.Paragraph, oPara38 As Word.Paragraph, oPara39 As Word.Paragraph
+        Dim oPara1 As Word.Paragraph, oPara2 As Word.Paragraph
+        Dim oPara3 As Word.Paragraph, oPara4 As Word.Paragraph
+        Dim oPara5 As Word.Paragraph, oPara6 As Word.Paragraph
+        Dim oPara7 As Word.Paragraph, oPara8 As Word.Paragraph
+
 
         'Start Word and open the document template.
         oWord = CreateObject("Word.Application")
         oWord.Visible = True
         oDoc = oWord.Documents.Add
+        oDoc = oWord.ActiveDocument
+
+        Dim Table1 As Word.Table
+        Dim Table2 As Word.Table
+        Dim Table3 As Word.Table
+        Dim Table4 As Word.Table
+        Dim Table5 As Word.Table
+        Dim Table6 As Word.Table
+        Dim Table7 As Word.Table
+        Dim Table8 As Word.Table
 
         oPara1 = oDoc.Content.Paragraphs.Add
-        oPara1.Range.Text = "Location    :    " & tempA
-        oPara1.Range.Font.Bold = False
-        oPara1.Format.SpaceAfter = 8
+        oPara1.Range.Collapse(Word.WdCollapseDirection.wdCollapseEnd)
+        Table1 = oDoc.Content.Tables.Add(oPara1.Range, 7, 3)
+        Table1.Columns(1).Cells(1).Range.Text = "Location"
+        Table1.Columns(2).Cells(1).Range.Text = tempA
+        Table1.Columns(1).Cells(2).Range.Text = "Line Bay To"
+        Table1.Columns(2).Cells(2).Range.Text = tempB
+        Table1.Columns(1).Cells(3).Range.Text = "CT Ratio"
+        Table1.Columns(2).Cells(3).Range.Text = tempC & " / " & tempD
+        Table1.Columns(3).Cells(3).Range.Text = "Ampere"
+        Table1.Columns(1).Cells(4).Range.Text = "PT Ratio"
+        Table1.Columns(2).Cells(4).Range.Text = tempE & " / " & tempF
+        Table1.Columns(3).Cells(4).Range.Text = "Voltage"
+        Table1.Columns(1).Cells(5).Range.Text = "Positive Sequence"
+        Table1.Columns(2).Cells(5).Range.Text = tempG
+        Table1.Columns(3).Cells(5).Range.Text = "Ohm/Phase"
+        Table1.Columns(1).Cells(6).Range.Text = "Negative Sequence"
+        Table1.Columns(2).Cells(6).Range.Text = tempH
+        Table1.Columns(3).Cells(6).Range.Text = "Ohm/Phase"
+        Table1.Columns(1).Cells(7).Range.Text = "Line Length"
+        Table1.Columns(2).Cells(7).Range.Text = tempI
+        Table1.Columns(3).Cells(7).Range.Text = "Kilometer"
+        Table1.Range.ParagraphFormat.Alignment = Word.WdParagraphAlignment.wdAlignParagraphCenter
+        Table1.Borders.OutsideColor = Word.WdColor.wdColorBlack
+        Table1.Borders.OutsideLineStyle = Word.WdLineStyle.wdLineStyleSingle
+        Table1.Borders.InsideColor = Word.WdColor.wdColorBlack
+        Table1.Borders.InsideLineStyle = Word.WdLineStyle.wdLineStyleSingle
+        oPara1.Format.SpaceAfter = 21
         oPara1.Range.InsertParagraphAfter()
 
         oPara2 = oDoc.Content.Paragraphs.Add
-        oPara2.Range.Text = "Line Bay To :    " & tempB
-        oPara2.Range.Font.Bold = False
-        oPara2.Format.SpaceAfter = 8
+        oPara2.Range.Collapse(Word.WdCollapseDirection.wdCollapseEnd)
+        Table2 = oDoc.Content.Tables.Add(oPara2.Range, 10, 3)
+        Table2.Rows(1).Cells.Merge()
+        Table2.Rows(1).Range.Text = "Phase Distance Z1 MHO"
+        Table2.Rows(1).Range.Font.Bold = True
+        Table2.Rows(1).Range.Font.Size = 16
+        Table2.Rows(2).Cells.Split()
+        Table2.Cell(2, 1).Range.Text = "Ph Dis Z1 Reach"
+        Table2.Cell(2, 2).Range.Text = tempJ
+        Table2.Cell(2, 3).Range.Text = "Ohm"
+        Table2.Cell(3, 1).Range.Text = "Ph Dis Z1 Direction"
+        Table2.Cell(3, 2).Range.Text = "FORWARD"
+        Table2.Cell(4, 1).Range.Text = "Ph Dis Z1 Comp Limit"
+        Table2.Cell(4, 2).Range.Text = tempK
+        Table2.Cell(4, 3).Range.Text = "Degree"
+        Table2.Cell(5, 1).Range.Text = "Ph Dis Z1 Delay"
+        Table2.Cell(5, 2).Range.Text = tempL
+        Table2.Cell(5, 3).Range.Text = "Sec"
+        Table2.Cell(6, 1).Range.Text = "Ph Dis Z1 Supv"
+        Table2.Cell(6, 2).Range.Text = "1.2"
+        Table2.Cell(6, 3).Range.Text = "pu"
+        Table2.Cell(7, 1).Range.Text = "RCA"
+        Table2.Cell(7, 2).Range.Text = tempM
+        Table2.Cell(7, 3).Range.Text = "Degree"
+        Table2.Cell(8, 1).Range.Text = "COMPLIMIT"
+        Table2.Cell(8, 2).Range.Text = "90"
+        Table2.Cell(8, 3).Range.Text = "Degree"
+        Table2.Cell(9, 1).Range.Text = "DIR RCA"
+        Table2.Cell(9, 2).Range.Text = "80"
+        Table2.Cell(9, 3).Range.Text = "Degree"
+        Table2.Cell(10, 1).Range.Text = "DIR COMPLIMIT"
+        Table2.Cell(10, 2).Range.Text = "90"
+        Table2.Cell(10, 3).Range.Text = "Degree"
+        Table2.Range.ParagraphFormat.Alignment = Word.WdParagraphAlignment.wdAlignParagraphCenter
+        Table2.Borders.OutsideColor = Word.WdColor.wdColorBlack
+        Table2.Borders.OutsideLineStyle = Word.WdLineStyle.wdLineStyleSingle
+        Table2.Borders.InsideColor = Word.WdColor.wdColorBlack
+        Table2.Borders.InsideLineStyle = Word.WdLineStyle.wdLineStyleSingle
+        oPara2.Format.SpaceAfter = 21
         oPara2.Range.InsertParagraphAfter()
+        'oPara2.Range.InsertBreak(Word.WdBreakType.wdPageBreak)
 
         oPara3 = oDoc.Content.Paragraphs.Add
-        oPara3.Range.Text = "CT Ratio    :    " & tempC & "    A"
-        oPara3.Range.Font.Bold = False
-        oPara3.Format.SpaceAfter = 8
+        Table3 = oDoc.Content.Tables.Add(oPara3.Range, 10, 3)
+        Table3.Rows(1).Cells.Merge()
+        Table3.Rows(1).Range.Text = "Phase Distance Z1 MHO"
+        Table3.Rows(1).Range.Font.Bold = True
+        Table3.Rows(1).Range.Font.Size = 16
+        Table3.Rows(2).Cells.Split()
+        Table3.Cell(2, 1).Range.Text = "Ph Dis Z1 Reach"
+        Table3.Cell(2, 2).Range.Text = tempJ
+        Table3.Cell(2, 3).Range.Text = "Ohm"
+        Table3.Cell(3, 1).Range.Text = "Ph Dis Z1 Direction"
+        Table3.Cell(3, 2).Range.Text = "FORWARD"
+        Table3.Cell(4, 1).Range.Text = "Ph Dis Z1 Comp Limit"
+        Table3.Cell(4, 2).Range.Text = tempK
+        Table3.Cell(4, 3).Range.Text = "Degree"
+        Table3.Cell(5, 1).Range.Text = "Ph Dis Z1 Delay"
+        Table3.Cell(5, 2).Range.Text = tempL
+        Table3.Cell(5, 3).Range.Text = "Sec"
+        Table3.Cell(6, 1).Range.Text = "Ph Dis Z1 Supv"
+        Table3.Cell(6, 2).Range.Text = "1.2"
+        Table3.Cell(6, 3).Range.Text = "pu"
+        Table3.Cell(7, 1).Range.Text = "RCA"
+        Table3.Cell(7, 2).Range.Text = tempM
+        Table3.Cell(7, 3).Range.Text = "Degree"
+        Table3.Cell(8, 1).Range.Text = "COMPLIMIT"
+        Table3.Cell(8, 2).Range.Text = "90"
+        Table3.Cell(8, 3).Range.Text = "Degree"
+        Table3.Cell(9, 1).Range.Text = "DIR RCA"
+        Table3.Cell(9, 2).Range.Text = "80"
+        Table3.Cell(9, 3).Range.Text = "Degree"
+        Table3.Cell(10, 1).Range.Text = "DIR COMPLIMIT"
+        Table3.Cell(10, 2).Range.Text = "90"
+        Table3.Cell(10, 3).Range.Text = "Degree"
+        Table3.Range.ParagraphFormat.Alignment = Word.WdParagraphAlignment.wdAlignParagraphCenter
+        Table3.Borders.OutsideColor = Word.WdColor.wdColorBlack
+        Table3.Borders.OutsideLineStyle = Word.WdLineStyle.wdLineStyleSingle
+        Table3.Borders.InsideColor = Word.WdColor.wdColorBlack
+        Table3.Borders.InsideLineStyle = Word.WdLineStyle.wdLineStyleSingle
+        oPara3.Format.SpaceAfter = 21
         oPara3.Range.InsertParagraphAfter()
 
         Me.Close()

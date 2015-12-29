@@ -142,7 +142,7 @@ Partial Class FormInputSiemens
         Me.TextBox5.Location = New System.Drawing.Point(184, 18)
         Me.TextBox5.Name = "TextBox5"
         Me.TextBox5.Size = New System.Drawing.Size(50, 21)
-        Me.TextBox5.TabIndex = 96
+        Me.TextBox5.TabIndex = 91
         '
         'Label11
         '
@@ -866,7 +866,7 @@ Partial Class FormInputSiemens
         Me.TextBox4.Location = New System.Drawing.Point(435, 369)
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(60, 20)
-        Me.TextBox4.TabIndex = 160
+        Me.TextBox4.TabIndex = 154
         '
         'Label24
         '

@@ -793,7 +793,7 @@ Partial Class FormInputAlstom
         Me.iLoadBox.Location = New System.Drawing.Point(434, 425)
         Me.iLoadBox.Name = "iLoadBox"
         Me.iLoadBox.Size = New System.Drawing.Size(60, 20)
-        Me.iLoadBox.TabIndex = 121
+        Me.iLoadBox.TabIndex = 122
         '
         'Label27
         '
@@ -810,7 +810,7 @@ Partial Class FormInputAlstom
         Me.ResistTower.Location = New System.Drawing.Point(433, 398)
         Me.ResistTower.Name = "ResistTower"
         Me.ResistTower.Size = New System.Drawing.Size(60, 20)
-        Me.ResistTower.TabIndex = 122
+        Me.ResistTower.TabIndex = 121
         '
         'infeed
         '
