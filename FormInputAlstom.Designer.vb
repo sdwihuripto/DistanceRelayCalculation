@@ -89,9 +89,9 @@ Partial Class FormInputAlstom
         Me.Label24 = New System.Windows.Forms.Label()
         Me.Label25 = New System.Windows.Forms.Label()
         Me.Label26 = New System.Windows.Forms.Label()
-        Me.iLoadBox = New System.Windows.Forms.TextBox()
+        Me.shortCircuitBox = New System.Windows.Forms.TextBox()
         Me.Label27 = New System.Windows.Forms.Label()
-        Me.ResistTower = New System.Windows.Forms.TextBox()
+        Me.PhaseBox = New System.Windows.Forms.TextBox()
         Me.infeed = New System.Windows.Forms.TextBox()
         Me.cmdCalculate = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
@@ -765,18 +765,18 @@ Partial Class FormInputAlstom
         Me.Label24.AutoSize = True
         Me.Label24.Location = New System.Drawing.Point(291, 403)
         Me.Label24.Name = "Label24"
-        Me.Label24.Size = New System.Drawing.Size(117, 13)
+        Me.Label24.Size = New System.Drawing.Size(134, 13)
         Me.Label24.TabIndex = 106
-        Me.Label24.Text = "Tower Leg Resistance "
+        Me.Label24.Text = "Phase Conductor Distance"
         '
         'Label25
         '
         Me.Label25.AutoSize = True
         Me.Label25.Location = New System.Drawing.Point(291, 431)
         Me.Label25.Name = "Label25"
-        Me.Label25.Size = New System.Drawing.Size(71, 13)
+        Me.Label25.Size = New System.Drawing.Size(143, 13)
         Me.Label25.TabIndex = 107
-        Me.Label25.Text = "Load Current "
+        Me.Label25.Text = "3-Phase Short Circuit Current"
         '
         'Label26
         '
@@ -788,12 +788,12 @@ Partial Class FormInputAlstom
         Me.Label26.TabIndex = 103
         Me.Label26.Text = "A"
         '
-        'iLoadBox
+        'shortCircuitBox
         '
-        Me.iLoadBox.Location = New System.Drawing.Point(434, 425)
-        Me.iLoadBox.Name = "iLoadBox"
-        Me.iLoadBox.Size = New System.Drawing.Size(60, 20)
-        Me.iLoadBox.TabIndex = 122
+        Me.shortCircuitBox.Location = New System.Drawing.Point(434, 425)
+        Me.shortCircuitBox.Name = "shortCircuitBox"
+        Me.shortCircuitBox.Size = New System.Drawing.Size(60, 20)
+        Me.shortCircuitBox.TabIndex = 122
         '
         'Label27
         '
@@ -801,16 +801,16 @@ Partial Class FormInputAlstom
         Me.Label27.Font = New System.Drawing.Font("Microsoft Tai Le", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label27.Location = New System.Drawing.Point(501, 402)
         Me.Label27.Name = "Label27"
-        Me.Label27.Size = New System.Drawing.Size(35, 16)
+        Me.Label27.Size = New System.Drawing.Size(19, 16)
         Me.Label27.TabIndex = 101
-        Me.Label27.Text = "Ohm"
+        Me.Label27.Text = "m"
         '
-        'ResistTower
+        'PhaseBox
         '
-        Me.ResistTower.Location = New System.Drawing.Point(433, 398)
-        Me.ResistTower.Name = "ResistTower"
-        Me.ResistTower.Size = New System.Drawing.Size(60, 20)
-        Me.ResistTower.TabIndex = 121
+        Me.PhaseBox.Location = New System.Drawing.Point(433, 398)
+        Me.PhaseBox.Name = "PhaseBox"
+        Me.PhaseBox.Size = New System.Drawing.Size(60, 20)
+        Me.PhaseBox.TabIndex = 121
         '
         'infeed
         '
@@ -859,9 +859,9 @@ Partial Class FormInputAlstom
         Me.Controls.Add(Me.infeed)
         Me.Controls.Add(Me.Label27)
         Me.Controls.Add(Me.Label26)
-        Me.Controls.Add(Me.ResistTower)
+        Me.Controls.Add(Me.PhaseBox)
         Me.Controls.Add(Me.Label25)
-        Me.Controls.Add(Me.iLoadBox)
+        Me.Controls.Add(Me.shortCircuitBox)
         Me.Controls.Add(Me.Label24)
         Me.Controls.Add(Me.Label15)
         Me.Controls.Add(Me.Footer2)
@@ -969,9 +969,9 @@ Partial Class FormInputAlstom
     Friend WithEvents Label24 As System.Windows.Forms.Label
     Friend WithEvents Label25 As System.Windows.Forms.Label
     Friend WithEvents Label26 As System.Windows.Forms.Label
-    Friend WithEvents iLoadBox As System.Windows.Forms.TextBox
+    Friend WithEvents shortCircuitBox As System.Windows.Forms.TextBox
     Friend WithEvents Label27 As System.Windows.Forms.Label
-    Friend WithEvents ResistTower As System.Windows.Forms.TextBox
+    Friend WithEvents PhaseBox As System.Windows.Forms.TextBox
     Friend WithEvents infeed As System.Windows.Forms.TextBox
     Friend WithEvents cmdCalculate As System.Windows.Forms.Button
     Friend WithEvents Label23 As System.Windows.Forms.Label
