@@ -10,7 +10,6 @@ c:\users\satriodwih\documents\visual studio 2013\Projects\DistanceRelayCalculati
 c:\users\satriodwih\documents\visual studio 2013\Projects\DistanceRelayCalculation\DistanceRelayCalculation\obj\Debug\DistanceRelayCalculation.pdb
 c:\users\satriodwih\documents\visual studio 2013\Projects\DistanceRelayCalculation\DistanceRelayCalculation\obj\Debug\DistanceRelayCalculation.FormInputGED60.resources
 c:\users\satriodwih\documents\visual studio 2013\Projects\DistanceRelayCalculation\DistanceRelayCalculation\obj\Debug\DistanceRelayCalculation.FormAddInfo.resources
-c:\users\satriodwih\documents\visual studio 2013\Projects\DistanceRelayCalculation\DistanceRelayCalculation\obj\Debug\DistanceRelayCalculation.FormInputGEL90.resources
 C:\Users\Jouvy Alif Pradewo\Documents\OJT\DistanceRelayCalculation\bin\Debug\DistanceRelayCalculation.exe.config
 C:\Users\Jouvy Alif Pradewo\Documents\OJT\DistanceRelayCalculation\obj\Debug\DistanceRelayCalculation.exe
 C:\Users\Jouvy Alif Pradewo\Documents\OJT\DistanceRelayCalculation\obj\Debug\DistanceRelayCalculation.xml
@@ -23,7 +22,6 @@ C:\Users\Jouvy Alif Pradewo\Documents\OJT\DistanceRelayCalculation\obj\Debug\Dis
 C:\Users\Jouvy Alif Pradewo\Documents\OJT\DistanceRelayCalculation\obj\Debug\DistanceRelayCalculation.HomePage.resources
 C:\Users\Jouvy Alif Pradewo\Documents\OJT\DistanceRelayCalculation\obj\Debug\DistanceRelayCalculation.Resources.resources
 C:\Users\Jouvy Alif Pradewo\Documents\OJT\DistanceRelayCalculation\obj\Debug\DistanceRelayCalculation.vbproj.GenerateResource.Cache
-C:\Users\satriodwih\Documents\Visual Studio 2013\Projects\DistanceRelayCalculation\DistanceRelayCalculation\obj\Debug\DistanceRelayCalculation.ResultPage.resources
 C:\Users\satriodwih\Documents\Visual Studio 2013\Projects\DistanceRelayCalculation\DistanceRelayCalculation\obj\Debug\DistanceRelayCalculation.FormInputSiemens.resources
 C:\Users\satriodwih\Documents\Visual Studio 2013\Projects\DistanceRelayCalculation\DistanceRelayCalculation\obj\Debug\DistanceRelayCalculation.FormInputAlstom.resources
 C:\Users\satriodwih\Documents\Visual Studio 2013\Projects\DistanceRelayCalculation\DistanceRelayCalculation\obj\Debug\DistanceRelayCalculation.vbproj.ResolveComReference.cache
