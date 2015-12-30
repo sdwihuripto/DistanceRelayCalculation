@@ -95,6 +95,12 @@
     <Compile Include="FormInputGED60.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="FormOutputAlstom.Designer.vb">
+      <DependentUpon>FormOutputAlstom.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormOutputAlstom.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FormOutputGED60.Designer.vb">
       <DependentUpon>FormOutputGED60.vb</DependentUpon>
     </Compile>
@@ -142,6 +148,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormInputSiemens.resx">
       <DependentUpon>FormInputSiemens.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormOutputAlstom.resx">
+      <DependentUpon>FormOutputAlstom.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormOutputGED60.resx">
       <DependentUpon>FormOutputGED60.vb</DependentUpon>
