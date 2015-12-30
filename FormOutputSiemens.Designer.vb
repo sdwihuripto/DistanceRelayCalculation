@@ -50,10 +50,20 @@ Partial Class FormOutputSiemens
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.TabPage5 = New System.Windows.Forms.TabPage()
+        Me.Label103 = New System.Windows.Forms.Label()
+        Me.Label102 = New System.Windows.Forms.Label()
+        Me.Label100 = New System.Windows.Forms.Label()
+        Me.Label99 = New System.Windows.Forms.Label()
+        Me.Out5E = New System.Windows.Forms.Label()
+        Me.Label79 = New System.Windows.Forms.Label()
         Me.Label95 = New System.Windows.Forms.Label()
+        Me.Label80 = New System.Windows.Forms.Label()
         Me.Out5C = New System.Windows.Forms.Label()
+        Me.Label91 = New System.Windows.Forms.Label()
         Me.Out5B = New System.Windows.Forms.Label()
+        Me.Label93 = New System.Windows.Forms.Label()
         Me.Label101 = New System.Windows.Forms.Label()
+        Me.Label94 = New System.Windows.Forms.Label()
         Me.Out5D = New System.Windows.Forms.Label()
         Me.Label116 = New System.Windows.Forms.Label()
         Me.Label137 = New System.Windows.Forms.Label()
@@ -242,16 +252,6 @@ Partial Class FormOutputSiemens
         Me.Label71 = New System.Windows.Forms.Label()
         Me.Label70 = New System.Windows.Forms.Label()
         Me.Label42 = New System.Windows.Forms.Label()
-        Me.Label79 = New System.Windows.Forms.Label()
-        Me.Label80 = New System.Windows.Forms.Label()
-        Me.Label91 = New System.Windows.Forms.Label()
-        Me.Label93 = New System.Windows.Forms.Label()
-        Me.Label94 = New System.Windows.Forms.Label()
-        Me.Out5E = New System.Windows.Forms.Label()
-        Me.Label99 = New System.Windows.Forms.Label()
-        Me.Label100 = New System.Windows.Forms.Label()
-        Me.Label102 = New System.Windows.Forms.Label()
-        Me.Label103 = New System.Windows.Forms.Label()
         Me.GroupBox1.SuspendLayout()
         Me.TabPage5.SuspendLayout()
         Me.TabPage4.SuspendLayout()
@@ -579,6 +579,65 @@ Partial Class FormOutputSiemens
         Me.TabPage5.Text = "Output5"
         Me.TabPage5.UseVisualStyleBackColor = True
         '
+        'Label103
+        '
+        Me.Label103.AutoSize = True
+        Me.Label103.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label103.Location = New System.Drawing.Point(374, 133)
+        Me.Label103.Name = "Label103"
+        Me.Label103.Size = New System.Drawing.Size(29, 13)
+        Me.Label103.TabIndex = 81
+        Me.Label103.Text = "Sec"
+        '
+        'Label102
+        '
+        Me.Label102.AutoSize = True
+        Me.Label102.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label102.Location = New System.Drawing.Point(374, 165)
+        Me.Label102.Name = "Label102"
+        Me.Label102.Size = New System.Drawing.Size(29, 13)
+        Me.Label102.TabIndex = 81
+        Me.Label102.Text = "Sec"
+        '
+        'Label100
+        '
+        Me.Label100.AutoSize = True
+        Me.Label100.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label100.Location = New System.Drawing.Point(374, 102)
+        Me.Label100.Name = "Label100"
+        Me.Label100.Size = New System.Drawing.Size(29, 13)
+        Me.Label100.TabIndex = 80
+        Me.Label100.Text = "Sec"
+        '
+        'Label99
+        '
+        Me.Label99.AutoSize = True
+        Me.Label99.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label99.Location = New System.Drawing.Point(374, 71)
+        Me.Label99.Name = "Label99"
+        Me.Label99.Size = New System.Drawing.Size(29, 13)
+        Me.Label99.TabIndex = 79
+        Me.Label99.Text = "Sec"
+        '
+        'Out5E
+        '
+        Me.Out5E.AutoSize = True
+        Me.Out5E.Location = New System.Drawing.Point(331, 165)
+        Me.Out5E.Name = "Out5E"
+        Me.Out5E.Size = New System.Drawing.Size(37, 13)
+        Me.Out5E.TabIndex = 78
+        Me.Out5E.Text = "Out5E"
+        '
+        'Label79
+        '
+        Me.Label79.AutoSize = True
+        Me.Label79.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label79.Location = New System.Drawing.Point(133, 165)
+        Me.Label79.Name = "Label79"
+        Me.Label79.Size = New System.Drawing.Size(35, 13)
+        Me.Label79.TabIndex = 60
+        Me.Label79.Text = "1325"
+        '
         'Label95
         '
         Me.Label95.AutoSize = True
@@ -589,6 +648,16 @@ Partial Class FormOutputSiemens
         Me.Label95.TabIndex = 66
         Me.Label95.Text = "21 Distance Protection, time delays"
         '
+        'Label80
+        '
+        Me.Label80.AutoSize = True
+        Me.Label80.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label80.Location = New System.Drawing.Point(133, 133)
+        Me.Label80.Name = "Label80"
+        Me.Label80.Size = New System.Drawing.Size(35, 13)
+        Me.Label80.TabIndex = 59
+        Me.Label80.Text = "1316"
+        '
         'Out5C
         '
         Me.Out5C.AutoSize = True
@@ -597,6 +666,16 @@ Partial Class FormOutputSiemens
         Me.Out5C.Size = New System.Drawing.Size(37, 13)
         Me.Out5C.TabIndex = 76
         Me.Out5C.Text = "Out5C"
+        '
+        'Label91
+        '
+        Me.Label91.AutoSize = True
+        Me.Label91.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label91.Location = New System.Drawing.Point(133, 102)
+        Me.Label91.Name = "Label91"
+        Me.Label91.Size = New System.Drawing.Size(35, 13)
+        Me.Label91.TabIndex = 58
+        Me.Label91.Text = "1315"
         '
         'Out5B
         '
@@ -607,6 +686,16 @@ Partial Class FormOutputSiemens
         Me.Out5B.TabIndex = 75
         Me.Out5B.Text = "Out5B"
         '
+        'Label93
+        '
+        Me.Label93.AutoSize = True
+        Me.Label93.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label93.Location = New System.Drawing.Point(133, 71)
+        Me.Label93.Name = "Label93"
+        Me.Label93.Size = New System.Drawing.Size(35, 13)
+        Me.Label93.TabIndex = 57
+        Me.Label93.Text = "1306"
+        '
         'Label101
         '
         Me.Label101.AutoSize = True
@@ -616,6 +705,16 @@ Partial Class FormOutputSiemens
         Me.Label101.Size = New System.Drawing.Size(67, 13)
         Me.Label101.TabIndex = 69
         Me.Label101.Text = "T1-1phase"
+        '
+        'Label94
+        '
+        Me.Label94.AutoSize = True
+        Me.Label94.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label94.Location = New System.Drawing.Point(133, 39)
+        Me.Label94.Name = "Label94"
+        Me.Label94.Size = New System.Drawing.Size(35, 13)
+        Me.Label94.TabIndex = 56
+        Me.Label94.Text = "1305"
         '
         'Out5D
         '
@@ -2566,105 +2665,6 @@ Partial Class FormOutputSiemens
         Me.Label42.Name = "Label42"
         Me.Label42.Size = New System.Drawing.Size(0, 13)
         Me.Label42.TabIndex = 85
-        '
-        'Label79
-        '
-        Me.Label79.AutoSize = True
-        Me.Label79.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label79.Location = New System.Drawing.Point(133, 165)
-        Me.Label79.Name = "Label79"
-        Me.Label79.Size = New System.Drawing.Size(35, 13)
-        Me.Label79.TabIndex = 60
-        Me.Label79.Text = "1325"
-        '
-        'Label80
-        '
-        Me.Label80.AutoSize = True
-        Me.Label80.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label80.Location = New System.Drawing.Point(133, 133)
-        Me.Label80.Name = "Label80"
-        Me.Label80.Size = New System.Drawing.Size(35, 13)
-        Me.Label80.TabIndex = 59
-        Me.Label80.Text = "1316"
-        '
-        'Label91
-        '
-        Me.Label91.AutoSize = True
-        Me.Label91.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label91.Location = New System.Drawing.Point(133, 102)
-        Me.Label91.Name = "Label91"
-        Me.Label91.Size = New System.Drawing.Size(35, 13)
-        Me.Label91.TabIndex = 58
-        Me.Label91.Text = "1315"
-        '
-        'Label93
-        '
-        Me.Label93.AutoSize = True
-        Me.Label93.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label93.Location = New System.Drawing.Point(133, 71)
-        Me.Label93.Name = "Label93"
-        Me.Label93.Size = New System.Drawing.Size(35, 13)
-        Me.Label93.TabIndex = 57
-        Me.Label93.Text = "1306"
-        '
-        'Label94
-        '
-        Me.Label94.AutoSize = True
-        Me.Label94.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label94.Location = New System.Drawing.Point(133, 39)
-        Me.Label94.Name = "Label94"
-        Me.Label94.Size = New System.Drawing.Size(35, 13)
-        Me.Label94.TabIndex = 56
-        Me.Label94.Text = "1305"
-        '
-        'Out5E
-        '
-        Me.Out5E.AutoSize = True
-        Me.Out5E.Location = New System.Drawing.Point(331, 165)
-        Me.Out5E.Name = "Out5E"
-        Me.Out5E.Size = New System.Drawing.Size(37, 13)
-        Me.Out5E.TabIndex = 78
-        Me.Out5E.Text = "Out5E"
-        '
-        'Label99
-        '
-        Me.Label99.AutoSize = True
-        Me.Label99.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label99.Location = New System.Drawing.Point(374, 71)
-        Me.Label99.Name = "Label99"
-        Me.Label99.Size = New System.Drawing.Size(29, 13)
-        Me.Label99.TabIndex = 79
-        Me.Label99.Text = "Sec"
-        '
-        'Label100
-        '
-        Me.Label100.AutoSize = True
-        Me.Label100.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label100.Location = New System.Drawing.Point(374, 102)
-        Me.Label100.Name = "Label100"
-        Me.Label100.Size = New System.Drawing.Size(29, 13)
-        Me.Label100.TabIndex = 80
-        Me.Label100.Text = "Sec"
-        '
-        'Label102
-        '
-        Me.Label102.AutoSize = True
-        Me.Label102.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label102.Location = New System.Drawing.Point(374, 165)
-        Me.Label102.Name = "Label102"
-        Me.Label102.Size = New System.Drawing.Size(29, 13)
-        Me.Label102.TabIndex = 81
-        Me.Label102.Text = "Sec"
-        '
-        'Label103
-        '
-        Me.Label103.AutoSize = True
-        Me.Label103.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label103.Location = New System.Drawing.Point(374, 133)
-        Me.Label103.Name = "Label103"
-        Me.Label103.Size = New System.Drawing.Size(29, 13)
-        Me.Label103.TabIndex = 81
-        Me.Label103.Text = "Sec"
         '
         'FormOutputSiemens
         '
