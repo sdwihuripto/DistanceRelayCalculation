@@ -4,15 +4,89 @@
         Dim GIA As String = FromL1.Text
         Dim GIB As String = ToL1.Text
 
-        Dim RL1 As Double = Double.Parse(txtResistansiL1.Text) * Double.Parse(txtPanjangL1.Text)
-        Dim RL2 As Double = Double.Parse(txtResistansiL2.Text) * Double.Parse(txtPanjangL2.Text)
-        Dim RL3 As Double = Double.Parse(txtResistansiL3.Text) * Double.Parse(txtPanjangL3.Text)
-        Dim RL4 As Double = Double.Parse(txtResistansiL4.Text) * Double.Parse(txtPanjangL4.Text)
+        Dim R1 As Double
+        Dim R2 As Double
+        Dim R3 As Double
+        Dim R4 As Double
 
-        Dim XL1 As Double = Double.Parse(txtReaktansiL1.Text) * Double.Parse(txtPanjangL1.Text)
-        Dim XL2 As Double = Double.Parse(txtReaktansiL2.Text) * Double.Parse(txtPanjangL2.Text)
-        Dim XL3 As Double = Double.Parse(txtReaktansiL3.Text) * Double.Parse(txtPanjangL3.Text)
-        Dim XL4 As Double = Double.Parse(txtReaktansiL4.Text) * Double.Parse(txtPanjangL4.Text)
+        Dim X1 As Double
+        Dim X2 As Double
+        Dim X3 As Double
+        Dim X4 As Double
+
+        Dim L1 As Double
+        Dim L2 As Double
+        Dim L3 As Double
+        Dim L4 As Double
+
+        R1 = Double.Parse(txtResistansiL1.Text)
+        Try
+            R2 = Double.Parse(txtResistansiL2.Text)
+        Catch ex As Exception
+            R2 = 0
+        End Try
+        Try
+            R3 = Double.Parse(txtResistansiL3.Text)
+        Catch ex As Exception
+            R3 = 0
+        End Try
+        Try
+            R4 = Double.Parse(txtResistansiL4.Text)
+        Catch ex As Exception
+            R4 = 0
+        End Try
+
+        Try
+            X1 = Double.Parse(txtReaktansiL1.Text)
+        Catch ex As Exception
+            X1 = 0
+        End Try
+        Try
+            X2 = Double.Parse(txtReaktansiL2.Text)
+        Catch ex As Exception
+            X2 = 0
+        End Try
+        Try
+            X3 = Double.Parse(txtReaktansiL3.Text)
+        Catch ex As Exception
+            X3 = 0
+        End Try
+        Try
+            X4 = Double.Parse(txtReaktansiL4.Text)
+        Catch ex As Exception
+            X4 = 0
+        End Try
+
+        Try
+            L1 = Double.Parse(txtPanjangL1.Text)
+        Catch ex As Exception
+            L1 = 0
+        End Try
+        Try
+            L2 = Double.Parse(txtPanjangL2.Text)
+        Catch ex As Exception
+            L2 = 0
+        End Try
+        Try
+            L3 = Double.Parse(txtPanjangL3.Text)
+        Catch ex As Exception
+            L3 = 0
+        End Try
+        Try
+            L4 = Double.Parse(txtPanjangL4.Text)
+        Catch ex As Exception
+            L4 = 0
+        End Try
+
+        Dim RL1 As Double = R1 * L1
+        Dim RL2 As Double = R2 * L2
+        Dim RL3 As Double = R3 * L3
+        Dim RL4 As Double = R4 * L4
+
+        Dim XL1 As Double = X1 * L1
+        Dim XL2 As Double = X2 * L2
+        Dim XL3 As Double = X3 * L3
+        Dim XL4 As Double = X4 * L4
 
         Dim ZL1Abs As Double
         Dim ZL2Abs As Double
@@ -50,15 +124,15 @@
         ThetaPH3 = Math.Atan(XL3 / RL3) * (180 / Math.PI)
         ThetaPH4 = Math.Atan(XL4 / RL4) * (180 / Math.PI)
 
-        RL10 = (Double.Parse(txtResistansiL1.Text) + 0.15) * Double.Parse(txtPanjangL1.Text)
-        RL20 = (Double.Parse(txtResistansiL2.Text) + 0.15) * Double.Parse(txtPanjangL2.Text)
-        RL30 = (Double.Parse(txtResistansiL3.Text) + 0.15) * Double.Parse(txtPanjangL3.Text)
-        RL40 = (Double.Parse(txtResistansiL4.Text) + 0.15) * Double.Parse(txtPanjangL4.Text)
+        RL10 = (R1 + 0.15) * L1
+        RL20 = (R2 + 0.15) * L2
+        RL30 = (R3 + 0.15) * L3
+        RL40 = (R4 + 0.15) * L4
 
-        XL10 = 3 * Double.Parse(txtReaktansiL1.Text) * Double.Parse(txtPanjangL1.Text)
-        XL20 = 3 * Double.Parse(txtReaktansiL2.Text) * Double.Parse(txtPanjangL2.Text)
-        XL30 = 3 * Double.Parse(txtReaktansiL3.Text) * Double.Parse(txtPanjangL3.Text)
-        XL40 = 3 * Double.Parse(txtReaktansiL4.Text) * Double.Parse(txtPanjangL4.Text)
+        XL10 = 3 * X1 * L1
+        XL20 = 3 * X2 * L2
+        XL30 = 3 * X3 * L3
+        XL40 = 3 * X4 * L4
 
         ZL10Abs = Math.Sqrt(Math.Pow(RL10, 2) + Math.Pow(XL10, 2))
         ZL20Abs = Math.Sqrt(Math.Pow(RL20, 2) + Math.Pow(XL20, 2))
@@ -184,6 +258,14 @@
         Dim Thetald As Double = 30
         Dim ZB As Double = Zld * Math.Cos(30) * 0.51
 
-        My.Application.Log.WriteEntry("YES BERHASIL")
+        ' OPEN RESULT PAGE
+        Dim resultPage As New FormOutputAlstom(GIA, GIB, CTp.Text, CTs.Text, PTp.Text, PTs.Text,
+                                                Double.Parse(txtPanjangL1.Text), ZL, ThetaPH1,
+                                                kZ0, ThetakZ0,
+                                                Z1SAbs, T1, Z2SAbs, T2, Z3SAbs, T3,
+                                                Rphmin, Rgmin, R3ph, R3g, R2ph, R2g, R1ph, R1g,
+                                                ZB)
+
+        resultPage.ShowDialog()
     End Sub
 End Class

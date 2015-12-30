@@ -47,3 +47,6 @@ Temporary Items
 .apdisk
 bin/Debug/DistanceRelayCalculation.exe
 obj/Debug/DistanceRelayCalculation.pdb
+bin/Debug/DistanceRelayCalculation.exe
+obj/Debug/DistanceRelayCalculation.vbproj.GenerateResource.Cache
+bin/Debug/DistanceRelayCalculation.pdb
