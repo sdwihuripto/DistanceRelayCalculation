@@ -73,13 +73,13 @@ Partial Class HomePage
         'AboutToolStripMenuItem
         '
         Me.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem"
-        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(115, 22)
+        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(116, 22)
         Me.AboutToolStripMenuItem.Text = "About"
         '
         'HowToToolStripMenuItem
         '
         Me.HowToToolStripMenuItem.Name = "HowToToolStripMenuItem"
-        Me.HowToToolStripMenuItem.Size = New System.Drawing.Size(115, 22)
+        Me.HowToToolStripMenuItem.Size = New System.Drawing.Size(116, 22)
         Me.HowToToolStripMenuItem.Text = "How To"
         '
         'PickDistanceButton
@@ -180,7 +180,7 @@ Partial Class HomePage
         Me.Controls.Add(Me.MenuStrip1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
         Me.MainMenuStrip = Me.MenuStrip1
-        Me.MinimizeBox = False
+        Me.MaximizeBox = False
         Me.Name = "HomePage"
         Me.Text = "Distance Relay Setting Calculation"
         Me.MenuStrip1.ResumeLayout(False)
