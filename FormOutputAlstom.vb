@@ -83,7 +83,7 @@ Public Class FormOutputAlstom
         Out17.Text = tempW
         Out18.Text = tempX
         Out19.Text = tempY
-        Out10.Text = tempZ
+        Out20.Text = tempZ
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
