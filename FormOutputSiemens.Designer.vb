@@ -355,9 +355,9 @@ Partial Class FormOutputSiemens
         Me.Label16.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label16.Location = New System.Drawing.Point(231, 97)
         Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(119, 13)
+        Me.Label16.Size = New System.Drawing.Size(94, 13)
         Me.Label16.TabIndex = 20
-        Me.Label16.Text = "Negative Sequence"
+        Me.Label16.Text = "Zero Sequence"
         '
         'Label17
         '

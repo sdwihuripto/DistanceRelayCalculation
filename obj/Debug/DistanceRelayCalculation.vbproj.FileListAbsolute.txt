@@ -17,7 +17,6 @@ C:\Users\Jouvy Alif Pradewo\Documents\OJT\DistanceRelayCalculation\obj\Debug\Dis
 C:\Users\Jouvy Alif Pradewo\Documents\OJT\DistanceRelayCalculation\bin\Debug\DistanceRelayCalculation.exe
 C:\Users\Jouvy Alif Pradewo\Documents\OJT\DistanceRelayCalculation\bin\Debug\DistanceRelayCalculation.pdb
 C:\Users\Jouvy Alif Pradewo\Documents\OJT\DistanceRelayCalculation\bin\Debug\DistanceRelayCalculation.xml
-C:\Users\Jouvy Alif Pradewo\Documents\OJT\DistanceRelayCalculation\obj\Debug\DistanceRelayCalculation.FormAddInfo.resources
 C:\Users\Jouvy Alif Pradewo\Documents\OJT\DistanceRelayCalculation\obj\Debug\DistanceRelayCalculation.FormInputGED60.resources
 C:\Users\Jouvy Alif Pradewo\Documents\OJT\DistanceRelayCalculation\obj\Debug\DistanceRelayCalculation.HomePage.resources
 C:\Users\Jouvy Alif Pradewo\Documents\OJT\DistanceRelayCalculation\obj\Debug\DistanceRelayCalculation.Resources.resources
