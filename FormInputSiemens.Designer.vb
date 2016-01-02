@@ -37,8 +37,6 @@ Partial Class FormInputSiemens
         Me.Label22 = New System.Windows.Forms.Label()
         Me.Label21 = New System.Windows.Forms.Label()
         Me.Label20 = New System.Windows.Forms.Label()
-        Me.AddBtn4 = New System.Windows.Forms.Button()
-        Me.AddBtn3 = New System.Windows.Forms.Button()
         Me.voltageLevel = New System.Windows.Forms.TextBox()
         Me.mvaRating = New System.Windows.Forms.TextBox()
         Me.impedanceBox = New System.Windows.Forms.TextBox()
@@ -49,8 +47,6 @@ Partial Class FormInputSiemens
         Me.cmdCalculate = New System.Windows.Forms.Button()
         Me.PictureBox5 = New System.Windows.Forms.PictureBox()
         Me.Label14 = New System.Windows.Forms.Label()
-        Me.AddBtn2 = New System.Windows.Forms.Button()
-        Me.AddBtn1 = New System.Windows.Forms.Button()
         Me.CCCL1 = New System.Windows.Forms.TextBox()
         Me.GroupBox4 = New System.Windows.Forms.GroupBox()
         Me.txtPanjangL4 = New System.Windows.Forms.TextBox()
@@ -89,16 +85,10 @@ Partial Class FormInputSiemens
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label13 = New System.Windows.Forms.Label()
         Me.Label28 = New System.Windows.Forms.Label()
-        Me.ArcBox = New System.Windows.Forms.TextBox()
-        Me.Label29 = New System.Windows.Forms.Label()
         Me.ResistanceBox = New System.Windows.Forms.TextBox()
-        Me.Label30 = New System.Windows.Forms.Label()
         Me.Label31 = New System.Windows.Forms.Label()
         Me.InfeedBox = New System.Windows.Forms.TextBox()
         Me.Footer2 = New System.Windows.Forms.Label()
-        Me.Label15 = New System.Windows.Forms.Label()
-        Me.RodBox = New System.Windows.Forms.TextBox()
-        Me.Label24 = New System.Windows.Forms.Label()
         Me.GroupBox6.SuspendLayout()
         Me.GroupBox5.SuspendLayout()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -243,24 +233,6 @@ Partial Class FormInputSiemens
         Me.Label20.TabIndex = 94
         Me.Label20.Text = "MVA"
         '
-        'AddBtn4
-        '
-        Me.AddBtn4.Location = New System.Drawing.Point(433, 326)
-        Me.AddBtn4.Name = "AddBtn4"
-        Me.AddBtn4.Size = New System.Drawing.Size(99, 23)
-        Me.AddBtn4.TabIndex = 144
-        Me.AddBtn4.Text = "Additional L4"
-        Me.AddBtn4.UseVisualStyleBackColor = True
-        '
-        'AddBtn3
-        '
-        Me.AddBtn3.Location = New System.Drawing.Point(295, 326)
-        Me.AddBtn3.Name = "AddBtn3"
-        Me.AddBtn3.Size = New System.Drawing.Size(99, 23)
-        Me.AddBtn3.TabIndex = 143
-        Me.AddBtn3.Text = "Additional L3"
-        Me.AddBtn3.UseVisualStyleBackColor = True
-        '
         'voltageLevel
         '
         Me.voltageLevel.Location = New System.Drawing.Point(131, 73)
@@ -363,24 +335,6 @@ Partial Class FormInputSiemens
         Me.Label14.TabIndex = 147
         Me.Label14.Text = "PT. PLN (PERSERO) P3B JAWA BALI"
         '
-        'AddBtn2
-        '
-        Me.AddBtn2.Location = New System.Drawing.Point(158, 326)
-        Me.AddBtn2.Name = "AddBtn2"
-        Me.AddBtn2.Size = New System.Drawing.Size(99, 23)
-        Me.AddBtn2.TabIndex = 142
-        Me.AddBtn2.Text = "Additional L2"
-        Me.AddBtn2.UseVisualStyleBackColor = True
-        '
-        'AddBtn1
-        '
-        Me.AddBtn1.Location = New System.Drawing.Point(19, 326)
-        Me.AddBtn1.Name = "AddBtn1"
-        Me.AddBtn1.Size = New System.Drawing.Size(99, 23)
-        Me.AddBtn1.TabIndex = 141
-        Me.AddBtn1.Text = "Additional L1"
-        Me.AddBtn1.UseVisualStyleBackColor = True
-        '
         'CCCL1
         '
         Me.CCCL1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -423,7 +377,7 @@ Partial Class FormInputSiemens
         Me.TextBox17.Name = "TextBox17"
         Me.TextBox17.Size = New System.Drawing.Size(118, 21)
         Me.TextBox17.TabIndex = 16
-        Me.TextBox17.Text = "From Substantion"
+        Me.TextBox17.Text = "From Substation"
         Me.TextBox17.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox15
@@ -432,7 +386,7 @@ Partial Class FormInputSiemens
         Me.TextBox15.Name = "TextBox15"
         Me.TextBox15.Size = New System.Drawing.Size(118, 21)
         Me.TextBox15.TabIndex = 17
-        Me.TextBox15.Text = "To Substantion"
+        Me.TextBox15.Text = "To Substation"
         Me.TextBox15.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'txtResistansiL4
@@ -488,7 +442,7 @@ Partial Class FormInputSiemens
         Me.TextBox12.Name = "TextBox12"
         Me.TextBox12.Size = New System.Drawing.Size(118, 21)
         Me.TextBox12.TabIndex = 11
-        Me.TextBox12.Text = "From Substantion"
+        Me.TextBox12.Text = "From Substation"
         Me.TextBox12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox10
@@ -497,7 +451,7 @@ Partial Class FormInputSiemens
         Me.TextBox10.Name = "TextBox10"
         Me.TextBox10.Size = New System.Drawing.Size(118, 21)
         Me.TextBox10.TabIndex = 12
-        Me.TextBox10.Text = "To Substantion"
+        Me.TextBox10.Text = "To Substation"
         Me.TextBox10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'txtResistansiL3
@@ -574,7 +528,7 @@ Partial Class FormInputSiemens
         Me.TextBox7.Name = "TextBox7"
         Me.TextBox7.Size = New System.Drawing.Size(118, 21)
         Me.TextBox7.TabIndex = 7
-        Me.TextBox7.Text = "To Substantion"
+        Me.TextBox7.Text = "To Substation"
         Me.TextBox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'txtReaktansiL2
@@ -594,7 +548,7 @@ Partial Class FormInputSiemens
         Me.TextBox8.Name = "TextBox8"
         Me.TextBox8.Size = New System.Drawing.Size(118, 21)
         Me.TextBox8.TabIndex = 6
-        Me.TextBox8.Text = "From Substantion"
+        Me.TextBox8.Text = "From Substation"
         Me.TextBox8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'txtResistansiL2
@@ -641,7 +595,7 @@ Partial Class FormInputSiemens
         Me.ToL1.Name = "ToL1"
         Me.ToL1.Size = New System.Drawing.Size(116, 21)
         Me.ToL1.TabIndex = 1
-        Me.ToL1.Text = "To Substantion"
+        Me.ToL1.Text = "To Substation"
         Me.ToL1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'FromL1
@@ -650,7 +604,7 @@ Partial Class FormInputSiemens
         Me.FromL1.Name = "FromL1"
         Me.FromL1.Size = New System.Drawing.Size(117, 21)
         Me.FromL1.TabIndex = 0
-        Me.FromL1.Text = "From Substantion"
+        Me.FromL1.Text = "From Substation"
         Me.FromL1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label10
@@ -695,7 +649,7 @@ Partial Class FormInputSiemens
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(62, 26)
         Me.Label7.TabIndex = 133
-        Me.Label7.Text = "Substansi" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "GIC"
+        Me.Label7.Text = "Substansi" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "GI-3"
         Me.Label7.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         '
         'Label6
@@ -706,7 +660,7 @@ Partial Class FormInputSiemens
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(62, 26)
         Me.Label6.TabIndex = 132
-        Me.Label6.Text = "Substansi" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "GIB"
+        Me.Label6.Text = "Substansi" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "GI-2"
         Me.Label6.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         '
         'Label5
@@ -717,7 +671,7 @@ Partial Class FormInputSiemens
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(62, 26)
         Me.Label5.TabIndex = 131
-        Me.Label5.Text = "Substansi" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "GIA"
+        Me.Label5.Text = "Substansi" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "GI-1"
         Me.Label5.TextAlign = System.Drawing.ContentAlignment.BottomLeft
         '
         'Label4
@@ -792,38 +746,12 @@ Partial Class FormInputSiemens
         Me.Label28.TabIndex = 153
         Me.Label28.Text = "Foot Resistance of Tower"
         '
-        'ArcBox
-        '
-        Me.ArcBox.Location = New System.Drawing.Point(436, 423)
-        Me.ArcBox.Name = "ArcBox"
-        Me.ArcBox.Size = New System.Drawing.Size(60, 20)
-        Me.ArcBox.TabIndex = 156
-        '
-        'Label29
-        '
-        Me.Label29.AutoSize = True
-        Me.Label29.Location = New System.Drawing.Point(293, 428)
-        Me.Label29.Name = "Label29"
-        Me.Label29.Size = New System.Drawing.Size(63, 13)
-        Me.Label29.TabIndex = 154
-        Me.Label29.Text = "Arc Current "
-        '
         'ResistanceBox
         '
         Me.ResistanceBox.Location = New System.Drawing.Point(436, 449)
         Me.ResistanceBox.Name = "ResistanceBox"
         Me.ResistanceBox.Size = New System.Drawing.Size(60, 20)
         Me.ResistanceBox.TabIndex = 157
-        '
-        'Label30
-        '
-        Me.Label30.AutoSize = True
-        Me.Label30.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label30.Location = New System.Drawing.Point(502, 423)
-        Me.Label30.Name = "Label30"
-        Me.Label30.Size = New System.Drawing.Size(14, 15)
-        Me.Label30.TabIndex = 150
-        Me.Label30.Text = "A"
         '
         'Label31
         '
@@ -852,58 +780,22 @@ Partial Class FormInputSiemens
         Me.Footer2.TabIndex = 149
         Me.Footer2.Text = "AREA PELAKSANA PEMELIHARAAN BOGOR"
         '
-        'Label15
-        '
-        Me.Label15.AutoSize = True
-        Me.Label15.Location = New System.Drawing.Point(292, 374)
-        Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(104, 13)
-        Me.Label15.TabIndex = 159
-        Me.Label15.Text = "Rod insulator length "
-        '
-        'RodBox
-        '
-        Me.RodBox.Location = New System.Drawing.Point(435, 369)
-        Me.RodBox.Name = "RodBox"
-        Me.RodBox.Size = New System.Drawing.Size(60, 20)
-        Me.RodBox.TabIndex = 154
-        '
-        'Label24
-        '
-        Me.Label24.AutoSize = True
-        Me.Label24.Font = New System.Drawing.Font("Microsoft Tai Le", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label24.Location = New System.Drawing.Point(501, 372)
-        Me.Label24.Name = "Label24"
-        Me.Label24.Size = New System.Drawing.Size(39, 16)
-        Me.Label24.TabIndex = 161
-        Me.Label24.Text = "Meter"
-        '
         'FormInputSiemens
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(554, 632)
-        Me.Controls.Add(Me.Label24)
-        Me.Controls.Add(Me.RodBox)
-        Me.Controls.Add(Me.Label15)
         Me.Controls.Add(Me.GroupBox6)
-        Me.Controls.Add(Me.AddBtn4)
-        Me.Controls.Add(Me.AddBtn3)
         Me.Controls.Add(Me.InfeedBox)
         Me.Controls.Add(Me.GroupBox5)
         Me.Controls.Add(Me.cmdCalculate)
         Me.Controls.Add(Me.Label31)
-        Me.Controls.Add(Me.Label30)
         Me.Controls.Add(Me.ResistanceBox)
-        Me.Controls.Add(Me.Label29)
-        Me.Controls.Add(Me.ArcBox)
         Me.Controls.Add(Me.Label28)
         Me.Controls.Add(Me.Label13)
         Me.Controls.Add(Me.PictureBox5)
         Me.Controls.Add(Me.Footer2)
         Me.Controls.Add(Me.Label14)
-        Me.Controls.Add(Me.AddBtn2)
-        Me.Controls.Add(Me.AddBtn1)
         Me.Controls.Add(Me.GroupBox4)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
@@ -954,8 +846,6 @@ Partial Class FormInputSiemens
     Friend WithEvents Label22 As System.Windows.Forms.Label
     Friend WithEvents Label21 As System.Windows.Forms.Label
     Friend WithEvents Label20 As System.Windows.Forms.Label
-    Friend WithEvents AddBtn4 As System.Windows.Forms.Button
-    Friend WithEvents AddBtn3 As System.Windows.Forms.Button
     Friend WithEvents voltageLevel As System.Windows.Forms.TextBox
     Friend WithEvents mvaRating As System.Windows.Forms.TextBox
     Friend WithEvents impedanceBox As System.Windows.Forms.TextBox
@@ -966,8 +856,6 @@ Partial Class FormInputSiemens
     Friend WithEvents cmdCalculate As System.Windows.Forms.Button
     Friend WithEvents PictureBox5 As System.Windows.Forms.PictureBox
     Friend WithEvents Label14 As System.Windows.Forms.Label
-    Friend WithEvents AddBtn2 As System.Windows.Forms.Button
-    Friend WithEvents AddBtn1 As System.Windows.Forms.Button
     Friend WithEvents CCCL1 As System.Windows.Forms.TextBox
     Friend WithEvents GroupBox4 As System.Windows.Forms.GroupBox
     Friend WithEvents txtPanjangL4 As System.Windows.Forms.TextBox
@@ -1006,15 +894,9 @@ Partial Class FormInputSiemens
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents Label13 As System.Windows.Forms.Label
     Friend WithEvents Label28 As System.Windows.Forms.Label
-    Friend WithEvents ArcBox As System.Windows.Forms.TextBox
-    Friend WithEvents Label29 As System.Windows.Forms.Label
     Friend WithEvents ResistanceBox As System.Windows.Forms.TextBox
-    Friend WithEvents Label30 As System.Windows.Forms.Label
     Friend WithEvents Label31 As System.Windows.Forms.Label
     Friend WithEvents InfeedBox As System.Windows.Forms.TextBox
     Friend WithEvents Footer2 As System.Windows.Forms.Label
-    Friend WithEvents Label15 As System.Windows.Forms.Label
-    Friend WithEvents RodBox As System.Windows.Forms.TextBox
-    Friend WithEvents Label24 As System.Windows.Forms.Label
     Friend WithEvents CTs As System.Windows.Forms.TextBox
 End Class
