@@ -29,13 +29,17 @@ Partial Class FormAddInfo
         Me.AddInfo1 = New System.Windows.Forms.GroupBox()
         Me.Save = New System.Windows.Forms.Button()
         Me.Back = New System.Windows.Forms.Button()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
         Me.AddInfo1.SuspendLayout()
         Me.SuspendLayout()
         '
         'txtPanjang1
         '
         Me.txtPanjang1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPanjang1.Location = New System.Drawing.Point(6, 101)
+        Me.txtPanjang1.Location = New System.Drawing.Point(153, 101)
         Me.txtPanjang1.Name = "txtPanjang1"
         Me.txtPanjang1.Size = New System.Drawing.Size(118, 21)
         Me.txtPanjang1.TabIndex = 98
@@ -45,7 +49,7 @@ Partial Class FormAddInfo
         'txtReaktansi1
         '
         Me.txtReaktansi1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtReaktansi1.Location = New System.Drawing.Point(4, 74)
+        Me.txtReaktansi1.Location = New System.Drawing.Point(151, 74)
         Me.txtReaktansi1.Name = "txtReaktansi1"
         Me.txtReaktansi1.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal
         Me.txtReaktansi1.Size = New System.Drawing.Size(120, 21)
@@ -56,7 +60,7 @@ Partial Class FormAddInfo
         'txtCCC1
         '
         Me.txtCCC1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtCCC1.Location = New System.Drawing.Point(6, 20)
+        Me.txtCCC1.Location = New System.Drawing.Point(153, 20)
         Me.txtCCC1.Name = "txtCCC1"
         Me.txtCCC1.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal
         Me.txtCCC1.Size = New System.Drawing.Size(118, 21)
@@ -67,7 +71,7 @@ Partial Class FormAddInfo
         'txtResistansi1
         '
         Me.txtResistansi1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtResistansi1.Location = New System.Drawing.Point(5, 47)
+        Me.txtResistansi1.Location = New System.Drawing.Point(152, 47)
         Me.txtResistansi1.Name = "txtResistansi1"
         Me.txtResistansi1.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal
         Me.txtResistansi1.Size = New System.Drawing.Size(119, 21)
@@ -77,14 +81,18 @@ Partial Class FormAddInfo
         '
         'AddInfo1
         '
+        Me.AddInfo1.Controls.Add(Me.Label4)
+        Me.AddInfo1.Controls.Add(Me.Label3)
+        Me.AddInfo1.Controls.Add(Me.Label2)
+        Me.AddInfo1.Controls.Add(Me.Label1)
         Me.AddInfo1.Controls.Add(Me.txtPanjang1)
         Me.AddInfo1.Controls.Add(Me.txtReaktansi1)
         Me.AddInfo1.Controls.Add(Me.txtCCC1)
         Me.AddInfo1.Controls.Add(Me.txtResistansi1)
         Me.AddInfo1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.AddInfo1.Location = New System.Drawing.Point(96, 12)
+        Me.AddInfo1.Location = New System.Drawing.Point(12, 12)
         Me.AddInfo1.Name = "AddInfo1"
-        Me.AddInfo1.Size = New System.Drawing.Size(132, 132)
+        Me.AddInfo1.Size = New System.Drawing.Size(288, 132)
         Me.AddInfo1.TabIndex = 94
         Me.AddInfo1.TabStop = False
         '
@@ -105,6 +113,42 @@ Partial Class FormAddInfo
         Me.Back.TabIndex = 102
         Me.Back.Text = "Back"
         Me.Back.UseVisualStyleBackColor = True
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(5, 23)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(147, 15)
+        Me.Label1.TabIndex = 99
+        Me.Label1.Text = "Current Carrying Capacity "
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(5, 50)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(143, 15)
+        Me.Label2.TabIndex = 100
+        Me.Label2.Text = "Resistance of Conductor "
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(5, 77)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(141, 15)
+        Me.Label3.TabIndex = 101
+        Me.Label3.Text = "Reactance of Conductor "
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Location = New System.Drawing.Point(5, 104)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(144, 15)
+        Me.Label4.TabIndex = 103
+        Me.Label4.Text = "Line Length of Conductor"
         '
         'FormAddInfo
         '
@@ -130,4 +174,8 @@ Partial Class FormAddInfo
     Friend WithEvents AddInfo1 As System.Windows.Forms.GroupBox
     Friend WithEvents Save As System.Windows.Forms.Button
     Friend WithEvents Back As System.Windows.Forms.Button
+    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents Label4 As System.Windows.Forms.Label
+    Friend WithEvents Label3 As System.Windows.Forms.Label
+    Friend WithEvents Label2 As System.Windows.Forms.Label
 End Class
