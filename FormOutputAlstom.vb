@@ -14,7 +14,6 @@ Public Class FormOutputAlstom
     Dim tempS As Double, tempT As Double
     Dim tempU As Double, tempV As Double
     Dim tempW As Double, tempX As Double
-    Dim tempY As Double, tempZ As Double
 
     Public Sub New(ByVal a As String, ByVal b As String,
                      ByVal c As Double, ByVal d As Double,
@@ -27,8 +26,7 @@ Public Class FormOutputAlstom
                      ByVal q As Double, ByVal r As Double,
                      ByVal s As Double, ByVal t As Double,
                      ByVal u As Double, ByVal v As Double,
-                     ByVal w As Double, ByVal x As Double,
-                     ByVal y As Double, ByVal z As Double)
+                     ByVal w As Double, ByVal x As Double)
         Me.InitializeComponent()
 
         tempA = a
@@ -55,8 +53,6 @@ Public Class FormOutputAlstom
         tempV = Math.Round(v, 2)
         tempW = Math.Round(w, 2)
         tempX = Math.Round(x, 2)
-        tempY = Math.Round(y, 2)
-        tempZ = Math.Round(z, 2)
 
         OutSum1.Text = tempA
         OutSum2.Text = tempB
@@ -76,14 +72,12 @@ Public Class FormOutputAlstom
         Out10.Text = tempP
         Out11.Text = tempQ
         Out12.Text = tempR
-        Out13.Text = tempS
-        Out14.Text = tempT
-        Out15.Text = tempU
-        Out16.Text = tempV
-        Out17.Text = tempW
-        Out18.Text = tempX
-        Out19.Text = tempY
-        Out20.Text = tempZ
+        Out15.Text = tempS
+        Out16.Text = tempT
+        Out17.Text = tempU
+        Out18.Text = tempV
+        Out19.Text = tempW
+        Out20.Text = tempX
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
@@ -223,36 +217,36 @@ Public Class FormOutputAlstom
 
         oPara4 = oDoc.Content.Paragraphs.Add
         oPara4.Range.Collapse(Word.WdCollapseDirection.wdCollapseEnd)
-        Table4 = oDoc.Content.Tables.Add(oPara4.Range, 9, 3)
+        Table4 = oDoc.Content.Tables.Add(oPara4.Range, 7, 3)
         Table4.Rows(1).Cells.Merge()
         Table4.Rows(1).Range.Text = "Setting Resistive Reach"
         Table4.Rows(1).Range.Font.Bold = True
         Table4.Rows(1).Range.Font.Size = 16
         Table4.Rows(2).Cells.Split()
-        Table4.Cell(2, 1).Range.Text = "Rphmin"
+        'Table4.Cell(2, 1).Range.Text = "Rphmin"
+        'Table4.Cell(2, 2).Range.Text = tempR
+        'Table4.Cell(2, 3).Range.Text = "Ohm"
+        'Table4.Cell(3, 1).Range.Text = "Rgmin"
+        'Table4.Cell(3, 2).Range.Text = tempS
+        'Table4.Cell(3, 3).Range.Text = "Ohm"
+        Table4.Cell(2, 1).Range.Text = "R3ph"
         Table4.Cell(2, 2).Range.Text = tempR
         Table4.Cell(2, 3).Range.Text = "Ohm"
-        Table4.Cell(3, 1).Range.Text = "Rgmin"
+        Table4.Cell(3, 1).Range.Text = "R3g"
         Table4.Cell(3, 2).Range.Text = tempS
         Table4.Cell(3, 3).Range.Text = "Ohm"
-        Table4.Cell(4, 1).Range.Text = "R3ph"
+        Table4.Cell(4, 1).Range.Text = "R2ph"
         Table4.Cell(4, 2).Range.Text = tempT
         Table4.Cell(4, 3).Range.Text = "Ohm"
-        Table4.Cell(5, 1).Range.Text = "R3g"
+        Table4.Cell(5, 1).Range.Text = "R2g"
         Table4.Cell(5, 2).Range.Text = tempU
         Table4.Cell(5, 3).Range.Text = "Ohm"
-        Table4.Cell(6, 1).Range.Text = "R2ph"
+        Table4.Cell(6, 1).Range.Text = "R1ph"
         Table4.Cell(6, 2).Range.Text = tempV
         Table4.Cell(6, 3).Range.Text = "Ohm"
-        Table4.Cell(7, 1).Range.Text = "R2g"
+        Table4.Cell(7, 1).Range.Text = "R1g"
         Table4.Cell(7, 2).Range.Text = tempW
         Table4.Cell(7, 3).Range.Text = "Ohm"
-        Table4.Cell(8, 1).Range.Text = "R1ph"
-        Table4.Cell(8, 2).Range.Text = tempX
-        Table4.Cell(8, 3).Range.Text = "Ohm"
-        Table4.Cell(9, 1).Range.Text = "R1g"
-        Table4.Cell(9, 2).Range.Text = tempY
-        Table4.Cell(9, 3).Range.Text = "Ohm"
         Table4.Range.ParagraphFormat.Alignment = Word.WdParagraphAlignment.wdAlignParagraphCenter
         Table4.Borders.OutsideColor = Word.WdColor.wdColorBlack
         Table4.Borders.OutsideLineStyle = Word.WdLineStyle.wdLineStyleSingle
@@ -271,7 +265,7 @@ Public Class FormOutputAlstom
         Table5.Rows(1).Range.Font.Size = 16
         Table5.Rows(2).Cells.Split()
         Table5.Cell(2, 1).Range.Text = "ZB"
-        Table5.Cell(2, 2).Range.Text = tempZ
+        Table5.Cell(2, 2).Range.Text = tempX
         Table5.Cell(2, 3).Range.Text = "Ohm"
         Table5.Range.ParagraphFormat.Alignment = Word.WdParagraphAlignment.wdAlignParagraphCenter
         Table5.Borders.OutsideColor = Word.WdColor.wdColorBlack

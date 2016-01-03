@@ -96,14 +96,8 @@ Partial Class FormOutputAlstom
         Me.Label46 = New System.Windows.Forms.Label()
         Me.Label47 = New System.Windows.Forms.Label()
         Me.Label28 = New System.Windows.Forms.Label()
-        Me.Label14 = New System.Windows.Forms.Label()
         Me.Out15 = New System.Windows.Forms.Label()
-        Me.Out14 = New System.Windows.Forms.Label()
-        Me.Out13 = New System.Windows.Forms.Label()
         Me.Label39 = New System.Windows.Forms.Label()
-        Me.Label40 = New System.Windows.Forms.Label()
-        Me.Label42 = New System.Windows.Forms.Label()
-        Me.Rphmin = New System.Windows.Forms.Label()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
@@ -727,14 +721,8 @@ Partial Class FormOutputAlstom
         Me.GroupBox8.Controls.Add(Me.Label46)
         Me.GroupBox8.Controls.Add(Me.Label47)
         Me.GroupBox8.Controls.Add(Me.Label28)
-        Me.GroupBox8.Controls.Add(Me.Label14)
         Me.GroupBox8.Controls.Add(Me.Out15)
-        Me.GroupBox8.Controls.Add(Me.Out14)
-        Me.GroupBox8.Controls.Add(Me.Out13)
         Me.GroupBox8.Controls.Add(Me.Label39)
-        Me.GroupBox8.Controls.Add(Me.Label40)
-        Me.GroupBox8.Controls.Add(Me.Label42)
-        Me.GroupBox8.Controls.Add(Me.Rphmin)
         Me.GroupBox8.Location = New System.Drawing.Point(230, 291)
         Me.GroupBox8.Name = "GroupBox8"
         Me.GroupBox8.Size = New System.Drawing.Size(332, 120)
@@ -897,16 +885,6 @@ Partial Class FormOutputAlstom
         Me.Label28.TabIndex = 51
         Me.Label28.Text = "Ohm"
         '
-        'Label14
-        '
-        Me.Label14.AutoSize = True
-        Me.Label14.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label14.Location = New System.Drawing.Point(118, 28)
-        Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(32, 13)
-        Me.Label14.TabIndex = 50
-        Me.Label14.Text = "Ohm"
-        '
         'Out15
         '
         Me.Out15.AutoSize = True
@@ -915,24 +893,6 @@ Partial Class FormOutputAlstom
         Me.Out15.Size = New System.Drawing.Size(36, 13)
         Me.Out15.TabIndex = 49
         Me.Out15.Text = "Out15"
-        '
-        'Out14
-        '
-        Me.Out14.AutoSize = True
-        Me.Out14.Location = New System.Drawing.Point(70, 53)
-        Me.Out14.Name = "Out14"
-        Me.Out14.Size = New System.Drawing.Size(36, 13)
-        Me.Out14.TabIndex = 48
-        Me.Out14.Text = "Out14"
-        '
-        'Out13
-        '
-        Me.Out13.AutoSize = True
-        Me.Out13.Location = New System.Drawing.Point(70, 28)
-        Me.Out13.Name = "Out13"
-        Me.Out13.Size = New System.Drawing.Size(36, 13)
-        Me.Out13.TabIndex = 15
-        Me.Out13.Text = "Out13"
         '
         'Label39
         '
@@ -943,36 +903,6 @@ Partial Class FormOutputAlstom
         Me.Label39.Size = New System.Drawing.Size(37, 13)
         Me.Label39.TabIndex = 17
         Me.Label39.Text = "R3ph"
-        '
-        'Label40
-        '
-        Me.Label40.AutoSize = True
-        Me.Label40.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label40.Location = New System.Drawing.Point(10, 53)
-        Me.Label40.Name = "Label40"
-        Me.Label40.Size = New System.Drawing.Size(42, 13)
-        Me.Label40.TabIndex = 16
-        Me.Label40.Text = "Rgmin"
-        '
-        'Label42
-        '
-        Me.Label42.AutoSize = True
-        Me.Label42.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label42.Location = New System.Drawing.Point(118, 53)
-        Me.Label42.Name = "Label42"
-        Me.Label42.Size = New System.Drawing.Size(32, 13)
-        Me.Label42.TabIndex = 46
-        Me.Label42.Text = "Ohm"
-        '
-        'Rphmin
-        '
-        Me.Rphmin.AutoSize = True
-        Me.Rphmin.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Rphmin.Location = New System.Drawing.Point(10, 28)
-        Me.Rphmin.Name = "Rphmin"
-        Me.Rphmin.Size = New System.Drawing.Size(49, 13)
-        Me.Rphmin.TabIndex = 15
-        Me.Rphmin.Text = "Rphmin"
         '
         'Button2
         '
@@ -1089,13 +1019,7 @@ Partial Class FormOutputAlstom
     Friend WithEvents Label36 As System.Windows.Forms.Label
     Friend WithEvents GroupBox8 As System.Windows.Forms.GroupBox
     Friend WithEvents Out15 As System.Windows.Forms.Label
-    Friend WithEvents Out14 As System.Windows.Forms.Label
-    Friend WithEvents Out13 As System.Windows.Forms.Label
     Friend WithEvents Label39 As System.Windows.Forms.Label
-    Friend WithEvents Label40 As System.Windows.Forms.Label
-    Friend WithEvents Label42 As System.Windows.Forms.Label
-    Friend WithEvents Rphmin As System.Windows.Forms.Label
-    Friend WithEvents Label14 As System.Windows.Forms.Label
     Friend WithEvents Label51 As System.Windows.Forms.Label
     Friend WithEvents Out20 As System.Windows.Forms.Label
     Friend WithEvents Label53 As System.Windows.Forms.Label
