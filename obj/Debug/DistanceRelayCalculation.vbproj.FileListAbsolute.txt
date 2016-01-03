@@ -9,7 +9,6 @@ c:\users\satriodwih\documents\visual studio 2013\Projects\DistanceRelayCalculati
 c:\users\satriodwih\documents\visual studio 2013\Projects\DistanceRelayCalculation\DistanceRelayCalculation\obj\Debug\DistanceRelayCalculation.xml
 c:\users\satriodwih\documents\visual studio 2013\Projects\DistanceRelayCalculation\DistanceRelayCalculation\obj\Debug\DistanceRelayCalculation.pdb
 c:\users\satriodwih\documents\visual studio 2013\Projects\DistanceRelayCalculation\DistanceRelayCalculation\obj\Debug\DistanceRelayCalculation.FormInputGED60.resources
-c:\users\satriodwih\documents\visual studio 2013\Projects\DistanceRelayCalculation\DistanceRelayCalculation\obj\Debug\DistanceRelayCalculation.FormAddInfo.resources
 C:\Users\Jouvy Alif Pradewo\Documents\OJT\DistanceRelayCalculation\bin\Debug\DistanceRelayCalculation.exe.config
 C:\Users\Jouvy Alif Pradewo\Documents\OJT\DistanceRelayCalculation\obj\Debug\DistanceRelayCalculation.exe
 C:\Users\Jouvy Alif Pradewo\Documents\OJT\DistanceRelayCalculation\obj\Debug\DistanceRelayCalculation.xml

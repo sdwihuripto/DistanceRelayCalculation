@@ -73,11 +73,6 @@ Partial Class FormInputSiemens
         Me.ToL1 = New System.Windows.Forms.TextBox()
         Me.FromL1 = New System.Windows.Forms.TextBox()
         Me.Label10 = New System.Windows.Forms.Label()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.Label9 = New System.Windows.Forms.Label()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
@@ -89,6 +84,11 @@ Partial Class FormInputSiemens
         Me.Label31 = New System.Windows.Forms.Label()
         Me.InfeedBox = New System.Windows.Forms.TextBox()
         Me.Footer2 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
         Me.GroupBox6.SuspendLayout()
         Me.GroupBox5.SuspendLayout()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -120,7 +120,7 @@ Partial Class FormInputSiemens
         Me.GroupBox6.Controls.Add(Me.Label18)
         Me.GroupBox6.Controls.Add(Me.Label19)
         Me.GroupBox6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox6.Location = New System.Drawing.Point(11, 487)
+        Me.GroupBox6.Location = New System.Drawing.Point(279, 335)
         Me.GroupBox6.Name = "GroupBox6"
         Me.GroupBox6.Size = New System.Drawing.Size(255, 83)
         Me.GroupBox6.TabIndex = 148
@@ -298,7 +298,7 @@ Partial Class FormInputSiemens
         Me.GroupBox5.Controls.Add(Me.MVA)
         Me.GroupBox5.Controls.Add(Me.Label17)
         Me.GroupBox5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox5.Location = New System.Drawing.Point(10, 355)
+        Me.GroupBox5.Location = New System.Drawing.Point(10, 335)
         Me.GroupBox5.Name = "GroupBox5"
         Me.GroupBox5.Size = New System.Drawing.Size(256, 126)
         Me.GroupBox5.TabIndex = 146
@@ -308,7 +308,7 @@ Partial Class FormInputSiemens
         'cmdCalculate
         '
         Me.cmdCalculate.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cmdCalculate.Location = New System.Drawing.Point(327, 487)
+        Me.cmdCalculate.Location = New System.Drawing.Point(201, 498)
         Me.cmdCalculate.Name = "cmdCalculate"
         Me.cmdCalculate.Size = New System.Drawing.Size(140, 35)
         Me.cmdCalculate.TabIndex = 158
@@ -318,7 +318,7 @@ Partial Class FormInputSiemens
         'PictureBox5
         '
         Me.PictureBox5.Image = CType(resources.GetObject("PictureBox5.Image"), System.Drawing.Image)
-        Me.PictureBox5.Location = New System.Drawing.Point(9, 576)
+        Me.PictureBox5.Location = New System.Drawing.Point(9, 556)
         Me.PictureBox5.Name = "PictureBox5"
         Me.PictureBox5.Size = New System.Drawing.Size(38, 37)
         Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -329,7 +329,7 @@ Partial Class FormInputSiemens
         '
         Me.Label14.AutoSize = True
         Me.Label14.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label14.Location = New System.Drawing.Point(55, 578)
+        Me.Label14.Location = New System.Drawing.Point(55, 558)
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(241, 15)
         Me.Label14.TabIndex = 147
@@ -617,63 +617,6 @@ Partial Class FormInputSiemens
         Me.Label10.TabIndex = 136
         Me.Label10.Text = "Trafo"
         '
-        'Label8
-        '
-        Me.Label8.AutoSize = True
-        Me.Label8.BackColor = System.Drawing.Color.White
-        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(415, 32)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(62, 26)
-        Me.Label8.TabIndex = 134
-        Me.Label8.Text = "Substansi" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "GID"
-        Me.Label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label9
-        '
-        Me.Label9.AutoSize = True
-        Me.Label9.BackColor = System.Drawing.Color.White
-        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(481, 33)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(62, 26)
-        Me.Label9.TabIndex = 135
-        Me.Label9.Text = "Substansi" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "GIE"
-        Me.Label9.TextAlign = System.Drawing.ContentAlignment.BottomRight
-        '
-        'Label7
-        '
-        Me.Label7.AutoSize = True
-        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(301, 0)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(62, 26)
-        Me.Label7.TabIndex = 133
-        Me.Label7.Text = "Substansi" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "GI-3"
-        Me.Label7.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        '
-        'Label6
-        '
-        Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(138, 0)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(62, 26)
-        Me.Label6.TabIndex = 132
-        Me.Label6.Text = "Substansi" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "GI-2"
-        Me.Label6.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(0, 0)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(62, 26)
-        Me.Label5.TabIndex = 131
-        Me.Label5.Text = "Substansi" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "GI-1"
-        Me.Label5.TextAlign = System.Drawing.ContentAlignment.BottomLeft
-        '
         'Label4
         '
         Me.Label4.AutoSize = True
@@ -731,7 +674,7 @@ Partial Class FormInputSiemens
         'Label13
         '
         Me.Label13.AutoSize = True
-        Me.Label13.Location = New System.Drawing.Point(293, 402)
+        Me.Label13.Location = New System.Drawing.Point(288, 434)
         Me.Label13.Name = "Label13"
         Me.Label13.Size = New System.Drawing.Size(70, 13)
         Me.Label13.TabIndex = 152
@@ -740,7 +683,7 @@ Partial Class FormInputSiemens
         'Label28
         '
         Me.Label28.AutoSize = True
-        Me.Label28.Location = New System.Drawing.Point(293, 454)
+        Me.Label28.Location = New System.Drawing.Point(288, 460)
         Me.Label28.Name = "Label28"
         Me.Label28.Size = New System.Drawing.Size(129, 13)
         Me.Label28.TabIndex = 153
@@ -748,7 +691,7 @@ Partial Class FormInputSiemens
         '
         'ResistanceBox
         '
-        Me.ResistanceBox.Location = New System.Drawing.Point(436, 449)
+        Me.ResistanceBox.Location = New System.Drawing.Point(431, 455)
         Me.ResistanceBox.Name = "ResistanceBox"
         Me.ResistanceBox.Size = New System.Drawing.Size(60, 20)
         Me.ResistanceBox.TabIndex = 157
@@ -757,7 +700,7 @@ Partial Class FormInputSiemens
         '
         Me.Label31.AutoSize = True
         Me.Label31.Font = New System.Drawing.Font("Microsoft Tai Le", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label31.Location = New System.Drawing.Point(503, 453)
+        Me.Label31.Location = New System.Drawing.Point(498, 459)
         Me.Label31.Name = "Label31"
         Me.Label31.Size = New System.Drawing.Size(35, 16)
         Me.Label31.TabIndex = 145
@@ -765,7 +708,7 @@ Partial Class FormInputSiemens
         '
         'InfeedBox
         '
-        Me.InfeedBox.Location = New System.Drawing.Point(436, 400)
+        Me.InfeedBox.Location = New System.Drawing.Point(431, 432)
         Me.InfeedBox.Name = "InfeedBox"
         Me.InfeedBox.Size = New System.Drawing.Size(60, 20)
         Me.InfeedBox.TabIndex = 155
@@ -774,17 +717,79 @@ Partial Class FormInputSiemens
         '
         Me.Footer2.AutoSize = True
         Me.Footer2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Footer2.Location = New System.Drawing.Point(55, 597)
+        Me.Footer2.Location = New System.Drawing.Point(55, 577)
         Me.Footer2.Name = "Footer2"
         Me.Footer2.Size = New System.Drawing.Size(286, 15)
         Me.Footer2.TabIndex = 149
         Me.Footer2.Text = "AREA PELAKSANA PEMELIHARAAN BOGOR"
         '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.BackColor = System.Drawing.Color.White
+        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Location = New System.Drawing.Point(431, 41)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(31, 26)
+        Me.Label8.TabIndex = 162
+        Me.Label8.Text = "" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "GI-4"
+        Me.Label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.BackColor = System.Drawing.Color.White
+        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.Location = New System.Drawing.Point(511, 41)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(31, 26)
+        Me.Label9.TabIndex = 163
+        Me.Label9.Text = "" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "GI-5"
+        Me.Label9.TextAlign = System.Drawing.ContentAlignment.BottomRight
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Location = New System.Drawing.Point(314, 13)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(31, 13)
+        Me.Label7.TabIndex = 161
+        Me.Label7.Text = "GI-3"
+        Me.Label7.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Location = New System.Drawing.Point(161, 13)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(31, 13)
+        Me.Label6.TabIndex = 160
+        Me.Label6.Text = "GI-2"
+        Me.Label6.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Location = New System.Drawing.Point(0, 13)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(31, 13)
+        Me.Label5.TabIndex = 159
+        Me.Label5.Text = "GI-1"
+        Me.Label5.TextAlign = System.Drawing.ContentAlignment.BottomLeft
+        '
         'FormInputSiemens
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(554, 632)
+        Me.ClientSize = New System.Drawing.Size(554, 610)
+        Me.Controls.Add(Me.Label8)
+        Me.Controls.Add(Me.Label9)
+        Me.Controls.Add(Me.Label7)
+        Me.Controls.Add(Me.Label6)
+        Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.GroupBox6)
         Me.Controls.Add(Me.InfeedBox)
         Me.Controls.Add(Me.GroupBox5)
@@ -801,11 +806,6 @@ Partial Class FormInputSiemens
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.GroupBox3)
         Me.Controls.Add(Me.Label10)
-        Me.Controls.Add(Me.Label8)
-        Me.Controls.Add(Me.Label9)
-        Me.Controls.Add(Me.Label7)
-        Me.Controls.Add(Me.Label6)
-        Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
@@ -882,11 +882,6 @@ Partial Class FormInputSiemens
     Friend WithEvents ToL1 As System.Windows.Forms.TextBox
     Friend WithEvents FromL1 As System.Windows.Forms.TextBox
     Friend WithEvents Label10 As System.Windows.Forms.Label
-    Friend WithEvents Label8 As System.Windows.Forms.Label
-    Friend WithEvents Label9 As System.Windows.Forms.Label
-    Friend WithEvents Label7 As System.Windows.Forms.Label
-    Friend WithEvents Label6 As System.Windows.Forms.Label
-    Friend WithEvents Label5 As System.Windows.Forms.Label
     Friend WithEvents Label4 As System.Windows.Forms.Label
     Friend WithEvents Label3 As System.Windows.Forms.Label
     Friend WithEvents Label2 As System.Windows.Forms.Label
@@ -899,4 +894,9 @@ Partial Class FormInputSiemens
     Friend WithEvents InfeedBox As System.Windows.Forms.TextBox
     Friend WithEvents Footer2 As System.Windows.Forms.Label
     Friend WithEvents CTs As System.Windows.Forms.TextBox
+    Friend WithEvents Label8 As System.Windows.Forms.Label
+    Friend WithEvents Label9 As System.Windows.Forms.Label
+    Friend WithEvents Label7 As System.Windows.Forms.Label
+    Friend WithEvents Label6 As System.Windows.Forms.Label
+    Friend WithEvents Label5 As System.Windows.Forms.Label
 End Class

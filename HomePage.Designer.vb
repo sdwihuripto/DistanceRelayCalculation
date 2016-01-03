@@ -24,10 +24,6 @@ Partial Class HomePage
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(HomePage))
         Me.MainLabelHome = New System.Windows.Forms.Label()
-        Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
-        Me.HelpToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.AboutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.HowToToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PickDistanceButton = New System.Windows.Forms.Button()
         Me.DistanceRelay = New System.Windows.Forms.ComboBox()
         Me.PictureBox4 = New System.Windows.Forms.PictureBox()
@@ -36,7 +32,6 @@ Partial Class HomePage
         Me.PictureBox5 = New System.Windows.Forms.PictureBox()
         Me.Footer2 = New System.Windows.Forms.Label()
         Me.Footer1 = New System.Windows.Forms.Label()
-        Me.MenuStrip1.SuspendLayout()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -53,34 +48,6 @@ Partial Class HomePage
         Me.MainLabelHome.TabIndex = 1
         Me.MainLabelHome.Text = "DISTANCE RELAY SETTING " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "CALCULATION"
         Me.MainLabelHome.TextAlign = System.Drawing.ContentAlignment.TopCenter
-        '
-        'MenuStrip1
-        '
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.HelpToolStripMenuItem})
-        Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
-        Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(450, 24)
-        Me.MenuStrip1.TabIndex = 2
-        Me.MenuStrip1.Text = "MenuStrip1"
-        '
-        'HelpToolStripMenuItem
-        '
-        Me.HelpToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AboutToolStripMenuItem, Me.HowToToolStripMenuItem})
-        Me.HelpToolStripMenuItem.Name = "HelpToolStripMenuItem"
-        Me.HelpToolStripMenuItem.Size = New System.Drawing.Size(44, 20)
-        Me.HelpToolStripMenuItem.Text = "Help"
-        '
-        'AboutToolStripMenuItem
-        '
-        Me.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem"
-        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(116, 22)
-        Me.AboutToolStripMenuItem.Text = "About"
-        '
-        'HowToToolStripMenuItem
-        '
-        Me.HowToToolStripMenuItem.Name = "HowToToolStripMenuItem"
-        Me.HowToToolStripMenuItem.Size = New System.Drawing.Size(116, 22)
-        Me.HowToToolStripMenuItem.Text = "How To"
         '
         'PickDistanceButton
         '
@@ -177,14 +144,10 @@ Partial Class HomePage
         Me.Controls.Add(Me.PickDistanceButton)
         Me.Controls.Add(Me.DistanceRelay)
         Me.Controls.Add(Me.MainLabelHome)
-        Me.Controls.Add(Me.MenuStrip1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
-        Me.MainMenuStrip = Me.MenuStrip1
         Me.MaximizeBox = False
         Me.Name = "HomePage"
         Me.Text = "Distance Relay Setting Calculation"
-        Me.MenuStrip1.ResumeLayout(False)
-        Me.MenuStrip1.PerformLayout()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
@@ -194,10 +157,6 @@ Partial Class HomePage
 
     End Sub
     Friend WithEvents MainLabelHome As System.Windows.Forms.Label
-    Friend WithEvents MenuStrip1 As System.Windows.Forms.MenuStrip
-    Friend WithEvents HelpToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents AboutToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents HowToToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents PickDistanceButton As System.Windows.Forms.Button
     Friend WithEvents DistanceRelay As System.Windows.Forms.ComboBox
     Friend WithEvents PictureBox4 As System.Windows.Forms.PictureBox

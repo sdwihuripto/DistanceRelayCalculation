@@ -4,16 +4,16 @@
     End Sub
 
     Private Sub cmdCalculate_Click(sender As Object, e As EventArgs) Handles cmdCalculate.Click
-        If FromL1.Text = String.Empty Or FromL1.Text = "From Substantion" Then
-            MessageBox.Show("Please insert line parameter", "Invalid From Substantion",
+        If FromL1.Text = String.Empty Or FromL1.Text = "From Substation" Then
+            MessageBox.Show("Please insert line parameter", "Invalid From Substation",
                             MessageBoxButtons.OK, MessageBoxIcon.Error)
             FromL1.BackColor = Color.Red
             With FromL1.Focus()
             End With
         Else
             FromL1.BackColor = Color.White
-            If ToL1.Text = String.Empty Or ToL1.Text = "To Substantion" Then
-                MessageBox.Show("Please insert line parameter", "Invalid To Substantion",
+            If ToL1.Text = String.Empty Or ToL1.Text = "To Substation" Then
+                MessageBox.Show("Please insert line parameter", "Invalid To Substation",
                             MessageBoxButtons.OK, MessageBoxIcon.Error)
                 ToL1.BackColor = Color.Red
                 With ToL1.Focus()
@@ -117,7 +117,7 @@
                                                             End With
                                                         Else
                                                             infeed.BackColor = Color.White
-                                                            
+
                                                             Dim GIA As String = FromL1.Text
                                                             Dim GIB As String = ToL1.Text
 
@@ -337,15 +337,23 @@
 
                                                             Dim Zld As Double = (kV * 1000 * n) / (Double.Parse(CCCL1.Text) * Math.Sqrt(3))
                                                             Dim Thetald As Double = 30
-                                                            Dim ZB As Double = Zld * Math.Cos(30) * 0.51
+                                                            Dim ZB As Double = Zld * 0.866 * 0.51
+                                                            Dim ZBdeg As Double = Zld * Math.Cos(30 * (180 / Math.PI)) * 0.51
+
+                                                            ' WRITE RESULT TO CONSOLE
+                                                            My.Application.Log.WriteEntry("kV: " & kV)
+                                                            My.Application.Log.WriteEntry("CCCL1: " & Double.Parse(CCCL1.Text))
+                                                            My.Application.Log.WriteEntry("Zld: " & Zld)
+                                                            My.Application.Log.WriteEntry("Cos 30: " & Math.Cos(30))
+                                                            My.Application.Log.WriteEntry("ZB: " & ZB)
+                                                            My.Application.Log.WriteEntry("ZBdeg: " & ZBdeg)
 
                                                             ' OPEN RESULT PAGE
                                                             Dim resultPage As New FormOutputAlstom(GIA, GIB, CTp.Text, CTs.Text, PTp.Text, PTs.Text,
                                                                                                     Double.Parse(txtPanjangL1.Text), ZL, ThetaPH1,
-                                                                                                    kZ0, ThetakZ0,
+                                                                                                    kZ0, ThetakZ0, ZB,
                                                                                                     Z1SAbs, T1, Z2SAbs, T2, Z3SAbs, T3,
-                                                                                                    R3ph, R3g, R2ph, R2g, R1ph, R1g,
-                                                                                                    ZB)
+                                                                                                    R3ph, R3g, R2ph, R2g, R1ph, R1g)
 
                                                             resultPage.ShowDialog()
                                                         End If

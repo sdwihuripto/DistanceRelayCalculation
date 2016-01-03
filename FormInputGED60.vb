@@ -5,16 +5,16 @@
     End Sub
 
     Private Sub cmdCalculate_Click(sender As Object, e As EventArgs) Handles cmdCalculate.Click
-        If FromL1.Text = String.Empty Or FromL1.Text = "From Substantion" Then
-            MessageBox.Show("Please insert line parameter", "Invalid From Substantion",
+        If FromL1.Text = String.Empty Or FromL1.Text = "From Substation" Then
+            MessageBox.Show("Please insert line parameter", "Invalid From Substation",
                             MessageBoxButtons.OK, MessageBoxIcon.Error)
             FromL1.BackColor = Color.Red
             With FromL1.Focus()
             End With
         Else
             FromL1.BackColor = Color.White
-            If ToL1.Text = String.Empty Or ToL1.Text = "To Substantion" Then
-                MessageBox.Show("Please insert line parameter", "Invalid To Substantion",
+            If ToL1.Text = String.Empty Or ToL1.Text = "To Substation" Then
+                MessageBox.Show("Please insert line parameter", "Invalid To Substation",
                             MessageBoxButtons.OK, MessageBoxIcon.Error)
                 ToL1.BackColor = Color.Red
                 With ToL1.Focus()
